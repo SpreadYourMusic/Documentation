@@ -1,5 +1,4 @@
-===
-Requisitos funcionales
+### Requisitos funcionales
 
 | C&oacute;digo | Descripci&oacute;n |
 | :-------------: |:-------------|
@@ -10,8 +9,7 @@ Requisitos funcionales
 | RF-5 | ... |
 | RF-6 | ... |
 
-===
-Requisitos no funcionales
+### Requisitos no funcionales
 
 
 | C&oacute;digo | Descripci&oacute;n |
