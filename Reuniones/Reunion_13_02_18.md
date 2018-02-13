@@ -37,6 +37,7 @@ Requisitos:
    1. Foto de perfil
    1. Reproducciones/Me gustas del usuario
    1. Board del usuario (spreads y canciones subidas)
+   1. País
 1. Verificación de cuentas
 1. Permite guardar música en el móvil, pero no en la web
 1. Reproducción sincronizada/ pasar continuar desde cualquier dispositivo
