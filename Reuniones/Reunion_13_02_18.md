@@ -4,7 +4,7 @@ Fecha: 13/02/18
 
 Tiempo: 2h
 
-Asistentes: Abel, Angel, Yasmina
+Asistentes: Abel, Angel, Yasmina, Jorge Aznar
 
 ## Pre-Acta:
 
