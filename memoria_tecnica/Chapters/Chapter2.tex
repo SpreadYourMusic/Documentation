@@ -49,14 +49,15 @@ A continuación se detalla el total de los requisitos.
 \item El acceso al servidor se realiza a través de una API REST.
 \end{itemize}
 
+\subsection{Prototipo pantallas Android}
 % ______________________
 % Aqui comienza la tabla
 \begin{tabular}{ p{6cm} p{6cm}}
 \hline
 \\
-\includegraphics[width=6cm]{Figures/pantalla1.png}
+\includegraphics[width=6cm]{Figures/android/Login.png}
 &
-\includegraphics[width=6cm]{Figures/pantalla2.png} \\
+\includegraphics[width=6cm]{Figures/android/home.png} \\
 \hline
 \\
 Pantalla de autentificación, en la que se permite tanto el acceso desde un usuario y contraseña de la aplicación así como desde una cuenta de Google. Esta es la primera pantalla que se abre en el caso de que el usuario no esté conectado
@@ -70,9 +71,9 @@ En la pantalla explorar se mostrarían diversas listas de reproducción generada
 \begin{tabular}{ p{6cm} p{6cm}}
 \hline
 \\
-\includegraphics[width=6cm]{Figures/pantalla3.png}
+\includegraphics[width=6cm]{Figures/android/Home-NavigationDrawer.png}
 &
-\includegraphics[width=6cm]{Figures/pantalla4.png} \\
+\includegraphics[width=6cm]{Figures/android/lista-reproductor.png} \\
 \hline
 \\
 La forma de ir de una pantalla a otra en la aplicación sería mediante un panel lateral.
@@ -84,9 +85,9 @@ Desde cualquier pantalla se puede reproducir música, no es necesario que se est
 \begin{tabular}{ p{6cm} p{6cm}}
 \hline
 \\
-\includegraphics[width=6cm]{Figures/pantalla5.png}
+\includegraphics[width=6cm]{Figures/android/lista-no-personal.png}
 &
-\includegraphics[width=6cm]{Figures/pantalla6.png} \\
+\includegraphics[width=6cm]{Figures/android/lista-personal.png} \\
 \hline
 \\
 Lista de canciones, artistas o playlists. Este esquema de pantalla sería el que se produce al realizar una búsqueda o al acceder a las distintas categorías de mi biblioteca (playlist a las que sigues, canciones que te han gustado, artistas a los que sigues y canciones descargadas).
@@ -99,9 +100,9 @@ Difiere del anterior en que permite añadir más elementos desde la pantalla. \\
 \begin{tabular}{ p{6cm} p{6cm}}
 \hline
 \\
-\includegraphics[width=6cm]{Figures/pantalla7.png}
+\includegraphics[width=6cm]{Figures/android/lista-reproductor.png}
 &
-\includegraphics[width=6cm]{Figures/pantalla8.png} \\
+\includegraphics[width=6cm]{Figures/android/Reproductor.png} \\
 \hline
 \\
 Desde cualquier pantalla se puede reproducir música, no es necesario que se esté en la pantalla del reproductor, en este caso se está reproduciendo desde una lista de canciones.
@@ -114,9 +115,9 @@ Esta pantalla se abre cuando se pulsa sobre una canción. \\
 \begin{tabular}{ p{6cm} p{6cm}}
 \hline
 \\
-\includegraphics[width=6cm]{Figures/pantalla9.png}
+\includegraphics[width=6cm]{Figures/android/PlayList.png}
 &
-\includegraphics[width=6cm]{Figures/pantalla10.png} \\
+\includegraphics[width=6cm]{Figures/android/artista.png} \\
 \hline
 \\
 Pantalla que aparece al pulsar sobre una playlist, desde la que se pueden ver las canciones que hay en dicha lista de reproducción, el creador de esta, así como suscribirse a ella.
@@ -132,3 +133,58 @@ En esta pantalla también aparecerían estadísticas del usuario como pueden ser
 \vspace{1cm}
 Las pantallas relacionadas con la subida de canciones y registro de usuario no se han incluido debido a que serían formularios.
 La pantalla mi perfil no se ha incluido, aunque esta estaría compuesta por la información personal así como estadísticas de la cuenta (número de reproducciones totales recibidos, número de me gusta totales recibidos). También se daría la opción de editar la información personal.
+
+\subsection{Prototipo pantallas Web}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+	\hline
+	\\
+	\includegraphics[width=6cm]{Figures/web/Login-web.png}
+	&
+	\includegraphics[width=6cm]{Figures/web/Lista-web.png} \\
+	\hline
+	\\
+	Esta pantalla corresponde al inicio de sesión en la web y si es nuevo usuario, al registro del mismo.
+	Se puede acceder mediante cuenta propia de la aplicación web (email o usuario) o mediante una cuenta de Google Plus.
+	&
+	Esta pantalla correspondería con la ventana principal en la aplicación, a traves de la cual se puede revisar la mejor música del momento recomendada para el usuario o acceder al resto de opciones (colección de álbunes, listas o pistas personales, búsquedas personalizadas o el propio perfil del usuario y su configuración).
+	La aplicación permite al usuario reproducir la pista que desee haciendo click en sobre esta misma, procediendo así la aplicacíon a abrir en la parte inferior de la ventana la información de la pista y su estado actual (segundo de reproducción, si el usuario la ha marcado como favorita, etcétera).
+	\\
+	\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+	\hline
+	\\
+	\includegraphics[width=6cm]{Figures/web/Main-web.png}
+	&
+	\includegraphics[width=6cm]{Figures/web/Reproduction-web.png} \\
+	\hline
+	\\
+	Esta pantalla correspondería con tu colección de música en la aplicación, a traves de la cual se puede revisar la colección de álbunes, listas o pistas personales, así como las canciones que le gustan al usuario y sus canciones favoritas, ordenarlas o filtrarlas de manera personalizada.
+	En este caso el usuario vería sus listas personales.
+	La aplicación permite al usuario reproducir la pista que desee haciendo click en sobre esta misma, procediendo así la aplicacíon a abrir en la parte inferior de la ventana la información de la pista y su estado actual (segundo de reproducción, si el usuario la ha marcado como favorita, etcétera).
+	&
+	Esta pantalla correspondería con tu colección de música en la aplicación, donde a diferencia  de la anterior el usuario ha seleccionado visualizar las canciones que le gustan.
+	La aplicación permite al usuario reproducir la pista que desee haciendo click en sobre esta misma, procediendo así la aplicacíon a abrir en la parte inferior de la ventana la información de la pista y su estado actual (segundo de reproducción, si el usuario la ha marcado como favorita, etcétera).
+	\\
+	\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+	\hline
+	\\
+	\includegraphics[width=6cm]{Figures/web/Artist-web.png}
+	&
+	\includegraphics[width=6cm]{Figures/web/search-web.png} \\
+	\hline
+	\\
+	Esta pantalla se correspondería con la vista general de un usuario donde este puede editar su foto de perfil si es el dueño de la cuenta o si es otro usuario suscribirse a las listas/pistas del usuario deseado.
+	Se puede realizar scroll tanto en las canciones como listas o albunes del usuario.
+	La aplicación permite al usuario reproducir la pista que desee haciendo click en sobre esta misma, procediendo así la aplicacíon a abrir en la parte inferior de la ventana la información de la pista y su estado actual (segundo de reproducción, si el usuario la ha marcado como favorita, etcétera).
+	&
+	Esta pantalla se correspondería con la obtención de resultados tras la búsqueda personalizada de un usuario que desea que le muestren toda la información disponible a cerca de las palabras clave seleccionadas, también se podría filtrar por pistas, listas, albunes o artistas disponibles.
+	La aplicación permite al usuario reproducir la pista que desee haciendo click en sobre esta misma, procediendo así la aplicacíon a abrir en la parte inferior de la ventana la información de la pista y su estado actual (segundo de reproducción, si el usuario la ha marcado como favorita, etcétera).
+	\\
+	\hline
+\end{tabular}

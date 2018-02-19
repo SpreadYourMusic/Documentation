@@ -24,4 +24,4 @@ El servicio de almacenamiento ser\'a un conjunto de 4 m\'aquinas, 3 ceph-nodes q
 Las comunicaciones con el cliente se realizar\'an siempre mediante HTTP con una interfaz RESTfull. El cliente se comunicar\'a con la aplicaci\'on Tomcat en caso de necesitar consultar valores o actualizar la base de datos y en cambio se comunicar\'a directamente con el servidor RADOS para obtener las canciones, esta separaci\'on permite no sobrecargar al servidor de Tomcat ni a su red con descargas de datos pesados.
 Para soportar la integridad de los datos, el servicio de almacenamiento con 3 m\'aquinas permite una ca\'ida de 1 m\'aquina simultanea sin p\'erdida de servicio.
 
-\includegraphics[width=6cm]{Figures/deployment.png}
+\includegraphics[width=\textwidth]{Figures/deployment.png}
