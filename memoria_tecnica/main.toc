@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Resumen Ejecutivo}{1}{chapter.4}
+\contentsline {section}{\numberline {1.1}Resumen}{1}{section.5}
+\contentsline {chapter}{\numberline {2}Objetivos del sistema}{2}{chapter.6}
+\contentsline {section}{\numberline {2.1}Objetivos}{2}{section.7}
+\contentsline {subsection}{\numberline {2.1.1}An\'alisis de requisitos preliminar}{2}{subsection.8}
+\contentsline {chapter}{\numberline {3}Descripci\'on t\'ecnica}{9}{chapter.9}
+\contentsline {section}{\numberline {3.1}Descripci\'on t\'ecnica}{9}{section.10}
+\contentsline {chapter}{\numberline {4}Plan de trabajo}{10}{chapter.11}
+\contentsline {section}{\numberline {4.1}Plan de trabajo}{10}{section.12}
+\contentsline {chapter}{\numberline {5}Equipo t\'ecnico encargado del trabajo}{11}{chapter.13}
+\contentsline {section}{\numberline {5.1}Equipo t\'ecnico}{11}{section.14}
+\contentsline {chapter}{\numberline {6}Presupuesto}{12}{chapter.15}
+\contentsline {section}{\numberline {6.1}Presupuesto}{12}{section.16}
+\contentsline {chapter}{\numberline {A}Dedicaci\'on}{13}{appendix.17}
+\contentsline {section}{\numberline {A.1}Dedicaci\'on}{13}{section.18}
