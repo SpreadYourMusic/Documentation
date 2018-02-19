@@ -10,8 +10,126 @@
 
 \section{Objetivos}
 
-Descripción breve de las necesidades que el sistema debe abordar y la funcionalidad que se desarrollará para para cubrir estas necesidades.
+Para la creación de contenido se permite el registro. Se contará con tanto con 3 perfiles de usuario: sin registro, con registro y administrador.
+La aplicación cuenta a su vez con una version de Web y una version movil para Android con reproducción sincronizada entre ambos.
+Los usuarios registrados tienen la posibilidad de administrar listas de reproducción públicas o privadas y a su vez el sistema genera listas de recomendaciones generales y para cada ususario.
+A continuación se detalla el total de los requisitos.
 
 \subsection{An\'alisis de requisitos preliminar}
 
-Desgranar el punto anterior en forma de requisitos. No tiene que ser el análisis de requisitos totalmente completo y detallado, que se lleva a cabo una vez se confirma que el proyecto se va a llevar a cabo, pero es un compromiso con el cliente y debe incluir todo lo importante y estar adecuadamente redactado (con precisión, sin ambigüedades obvias, etc.). Además de texto, se pueden incluir algunos bocetos de la GUI (suelen ser importantes para determinar cómo va a ser una aplicación).
+\begin{itemize}
+\item La aplicación permite reproducir canciones almacenadas en el repositorio.
+\item La aplicación tendrá una versión para Android y otra para Web.
+\item Existen 3 perfiles de usuario: registrados, no registrados y administrador.
+\item Los usuarios registrados pueden generar y consumir contenido (canciones).
+\item Los usuario no registrados solo pueden consumir contenido en la Web.
+\item El sistema permite gestionar listas de reproducción públicas y privadas.
+\item Se permite el login con la cuenta de usuario o con una cuenta Google mediante OAuth.
+######## pagina perfil
+\item Verificación de cuenta. Esto supone un indicador gráfico en el perfil de usuario que anteriormente a verificado su identidad. La finalidad es garantizar la verdadera identidad del usuario.
+\item En la versión movil, se permite almacenar la música en el dispositivo para poder acceder a esta sin conexión a internet.
+\item La reproducción actual de un usuario se sincroniza en todos los dispositivos.
+\item Integración con redes sociales, con la finalidad de compartir música, listas o perfiles en las RRSS.
+\item Permite al usuario registrado generar sus propias listas de reproducción.
+
+\item Un usuario registrado puede seleccionar 'Me gusta' en una canción.
+\item Un usuario registrado puede suscribirse a otro usuario.
+\item El sistema genera listas de reproducción segun las siguientes categorias: Género, Éxitos, Situación/Mood, País.
+\item El sistema genera listas de reproduccion propias para cada usuario con recomendaciones según sus intereses.
+\item El sistema genera listas de reproduccion con recomendaciones según geolocalización.
+\item El sistema permite gestionar una lista privada de favoritos.
+\item El sistema permite la búsqueda de canciones, albumes, listas y artistas.
+\item El usuario administrador se utiliza para verificar, añadir o eliminar cuentas de usuarios.
+
+\item Existe un servidor para el almacenamiento de canciones.
+\item Los datos que se recogen en el formulario de registro son los siguientes: Nombre, Nick, Correo, Contraseña, Fecha de nacimiento, Biografía, Redes Sociales, Foto de perfil(opcional), País
+\item Las canciones contienen los siguientes metadatos: Título, Idioma (opcional), número de reproducciones, número de 'Me gusta'.
+\item La aplicación movil soportará Android 5.0
+\item El sistema soporta los ficheros MP3, WAV, OGG.
+\item La aplicación movil soporta la última versión de Firefox y Chrome.
+\item El acceso al servidor se realiza a través de una API REST.
+\end{itemize}
+
+% ______________________
+% Aqui comienza la tabla
+\begin{tabular}{ p{6cm} p{6cm}}
+\hline
+\\
+\includegraphics[width=6cm]{Figures/pantalla1.png}
+&
+\includegraphics[width=6cm]{Figures/pantalla2.png} \\
+\hline
+\\
+Pantalla de autentificación, en la que se permite tanto el acceso desde un usuario y contraseña de la aplicación así como desde una cuenta de Google. Esta es la primera pantalla que se abre en el caso de que el usuario no esté conectado
+&
+Pantalla principal de la aplicación en la cual se mostrarían diversos elementos de interés para el usuario, como pueden ser recomendaciones, novedades así como nuevas publicaciones que han producido artistas a los que se está suscrito.
+Este esquema de pantalla también lo comparte una pantalla llamada explorar, la pantalla de novedades y la pantalla de recomendaciones.
+En la pantalla explorar se mostrarían diversas listas de reproducción generadas por el sistema ( listas basadas en la ubicación del usuario, basadas en lo que escucha el usuario, basadas en lo que escucha el conjunto total de usuarios) así como los diferentes géneros musicales.  \\
+\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+\hline
+\\
+\includegraphics[width=6cm]{Figures/pantalla3.png}
+&
+\includegraphics[width=6cm]{Figures/pantalla4.png} \\
+\hline
+\\
+La forma de ir de una pantalla a otra en la aplicación sería mediante un panel lateral.
+&
+Desde cualquier pantalla se puede reproducir música, no es necesario que se esté en la pantalla del reproductor \\
+\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+\hline
+\\
+\includegraphics[width=6cm]{Figures/pantalla5.png}
+&
+\includegraphics[width=6cm]{Figures/pantalla6.png} \\
+\hline
+\\
+Lista de canciones, artistas o playlists. Este esquema de pantalla sería el que se produce al realizar una búsqueda o al acceder a las distintas categorías de mi biblioteca (playlist a las que sigues, canciones que te han gustado, artistas a los que sigues y canciones descargadas).
+&
+Este esquema de pantalla sería el que se produce al acceder a “Mis canciones” o “Mis playlists”.
+Difiere del anterior en que permite añadir más elementos desde la pantalla. \\
+\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+\hline
+\\
+\includegraphics[width=6cm]{Figures/pantalla7.png}
+&
+\includegraphics[width=6cm]{Figures/pantalla8.png} \\
+\hline
+\\
+Desde cualquier pantalla se puede reproducir música, no es necesario que se esté en la pantalla del reproductor, en este caso se está reproduciendo desde una lista de canciones.
+&
+Pantalla del reproductor de música desde la que de puede descargar una canción, añadirla a favoritos ( opción de “me gusta”) . Desde esta pantalla también se podría compartirla en redes sociales. 
+Esta pantalla se abre cuando se pulsa sobre una canción. \\
+\hline
+\end{tabular}
+
+\begin{tabular}{ p{6cm} p{6cm}}
+\hline
+\\
+\includegraphics[width=6cm]{Figures/pantalla9.png}
+&
+\includegraphics[width=6cm]{Figures/pantalla10.png} \\
+\hline
+\\
+Pantalla que aparece al pulsar sobre una playlist, desde la que se pueden ver las canciones que hay en dicha lista de reproducción, el creador de esta, así como suscribirse a ella.
+&
+Pantalla de perfil de usuario (perfil de artista), en la cual aparecen las canciones de un usuario clasificadas por álbumes, así como las listas de reproducción creadas por este usuario. También aparecen enlaces con redes sociales y la posibilidad de suscribirte a este usuario.
+En esta pantalla también aparecerían estadísticas del usuario como pueden ser numero de seguidores o el número de visitas o “me gusta” que poseen sus canciones.  
+\\
+\hline
+\end{tabular}
+% ______________________
+% Aqui termina la tabla
+
+\vspace{1cm}
+Las pantallas relacionadas con la subida de canciones y registro de usuario no se han incluido debido a que serían formularios.
+La pantalla mi perfil no se ha incluido, aunque esta estaría compuesta por la información personal así como estadísticas de la cuenta (número de reproducciones totales recibidos, número de me gusta totales recibidos). También se daría la opción de editar la información personal.
