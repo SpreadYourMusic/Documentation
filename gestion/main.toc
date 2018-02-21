@@ -1,0 +1,30 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\contentsline {chapter}{Declaraci\'on de autor\'ia}{\es@scroman {i}}{section*.1}
+\contentsline {chapter}{Resumen}{\es@scroman {iii}}{section*.2}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.7}
+\contentsline {section}{\numberline {1.1}Resumen}{1}{section.8}
+\contentsline {section}{\numberline {1.2}Objetivos}{1}{section.9}
+\contentsline {chapter}{\numberline {2}Organizaci\'on del proyecto}{2}{chapter.10}
+\contentsline {section}{\numberline {2.1}Equipo}{2}{section.11}
+\contentsline {chapter}{\numberline {3}Plan de gesti\IeC {\'o}n del proyecto}{3}{chapter.12}
+\contentsline {section}{\numberline {3.1}Procesos}{3}{section.13}
+\contentsline {subsection}{\numberline {3.1.1}Procesos de inicio de proyecto}{3}{subsection.14}
+\contentsline {subsection}{\numberline {3.1.2}Procesos de ejecuci\IeC {\'o}n y control del proyecto}{3}{subsection.15}
+\contentsline {subsection}{\numberline {3.1.3}Procesos t\IeC {\'e}cnicos}{3}{subsection.16}
+\contentsline {section}{\numberline {3.2}Planes}{4}{section.17}
+\contentsline {subsection}{\numberline {3.2.1}Plan de gesti\IeC {\'o}n de configuraciones}{4}{subsection.18}
+\contentsline {subsection}{\numberline {3.2.2}Plan de construcci\IeC {\'o}n y despliegue del software}{4}{subsection.19}
+\contentsline {subsection}{\numberline {3.2.3}Plan de aseguramiento de la calidad}{4}{subsection.20}
+\contentsline {subsection}{\numberline {3.2.4}Calendario del proyecto y divisi\IeC {\'o}n del trabajo}{4}{subsection.21}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y dise\IeC {\~n}o del sistema}{6}{chapter.22}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lisis de requisitos}{6}{section.23}
+\contentsline {section}{\numberline {4.2}Dise\IeC {\~n}o del sistema}{6}{section.24}
+\contentsline {chapter}{\numberline {5}Memoria del proyecto}{7}{chapter.25}
+\contentsline {section}{\numberline {5.1}Inicio del proyecto}{7}{section.26}
+\contentsline {section}{\numberline {5.2}Ejecuci\IeC {\'o}n y control del proyecto}{7}{section.27}
+\contentsline {section}{\numberline {5.3}Cierre del proyecto}{7}{section.28}
+\contentsline {chapter}{\numberline {6}Conclusiones}{9}{chapter.29}
+\contentsline {chapter}{\numberline {A}Dedicaci\'on}{10}{appendix.30}
+\contentsline {section}{\numberline {A.1}Dedicaci\'on}{10}{section.31}
