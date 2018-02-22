@@ -1,0 +1,118 @@
+---
+layout: general
+---
+
+<script src="/resources/js/bars.js"></script>
+<script src="/resources/js/search.js"></script>
+
+<h3>B&uacute;squeda de productos</h3>
+
+<form class="form-horizontal" action="busqueda.html" method="get">
+    <div id="search-container" class="form-group has-feedback">
+        <label for="keywords-search" class="col-sm-2 control-label">B&uacute;squeda</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" id="keywords-search" name="keywordsSearch"
+                   placeholder="Ordenador, RAM, PC...">
+            <span id="keywords-search-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+        </div>
+    </div>
+    <!--Tipo de producto
+    <select name="type">
+      <option value="camara">Cámaras</option>
+      <option value="teclado">Teclados</option>
+      <option value="laptop">Portátiles</option>
+      <option value="desktop">Sobremesas</option>
+    </select><br>-->
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-4">
+            <button type="button" id="search-button" class="register-button register-button-block">Buscar</button>
+        </div>
+        <div class="col-sm-offset-1 col-sm-4">
+            <button type="reset" id="reset-search-button" class="register-button register-button-block">Borrar campos
+            </button>
+        </div>
+    </div>
+</form>
+
+<div id="search-loading-icon" class="hidden" align="center"><img width="100" height="100"
+                                                                 src="/resources/imgs/loading.gif"></div>
+<div id="search-alert" class="hidden alert"></div>
+
+<div class="container">
+    <div class="row">
+        <h4>Resultado de la b&uacute;squeda</h4>
+        <div id="search_result">
+            <!--
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <tbody>
+                            <tr>
+                                <th rowspan="4" width="10%" class="text-center">
+                                    <img src="/resources/imgs/user.png" alt="User logo" width="75%" height="75%"
+                                         max-height="100px"
+                                         max-width="100px"/><br/>
+                                    <span>{USERNAME}</span>
+                                </th>
+                                <th>{TITLE}</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="9">{COMMENT}</td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr>
+                                <td rowspan="4" class="text-center">
+                                    <div id="bars">
+                                        <div id="public_rate" class="bar" data-percent="{RATING}">
+                                            <canvas class="bar-circle" width="75%" height="75%"></canvas>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr>
+                                <td class="text-center">{DATE}</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-offset-3 col-sm-6">
+                            <table id="vendors-3" class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th width="40%">Vendor</th>
+                                    <th width="10%">Price</th>
+                                    <th width="5%" class="text-center">Buy</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="valign-middle search-vendor">{VENDOR}</td>
+                                    <td class="valign-middle">
+                                        Precio total:
+                                        <div class="blockquote-lvl1 search-price">
+                                            {PRICE} &euro;
+                                        </div>
+                                    </td>
+                                    <td class="valign-middle text-center"><a href="{VENDOR_URL}"><i
+                                            class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <hr class="separator">
+            </div>
+            -->
+        </div>
+    </div>
+</div>

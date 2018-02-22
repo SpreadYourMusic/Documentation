@@ -1,0 +1,54 @@
+---
+layout: users
+title: Mi perfl
+---
+<!-- La info del user se carga con JS -->
+<form class="myprofile" action="myprofile.html" method="get">
+  <!-- Habrá que cambiarlo por un post a la API -->
+  Perfil público <input type="checkbox" name="public"><br>
+  Nombre de usuario <input type="text" name="user" value="MiNombre123"><br>
+  Nombre real <input type="text" name="name" value="Javier Cárdenas"><br>
+  Email <input type="email" name="mail" value="soygracioso@fake.com"><br>
+  Email visible para otros usuarios <input type="checkbox" name="visible"> <br>
+  Descripción personal <input type="text" name="description" value="Soy encantador"><br>
+  <input type="submit" value="Actualizar">
+</form>
+
+<p>Tus intereacciones recientes</p>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Fecha</th>
+      <th>Producto</th>
+      <th>Puntuación</th>
+      <th>Comentario</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- Filas serán creadas por un script JS que pedirá la info a la API -->
+    <tr>
+      <td><button type="button" name="delete">Borrar</button></td>
+      <td>7 marzo 2017</td>
+      <td><a href="/producto">Producto</a></td>
+      <td>5.6</td>
+      <td>Meh</td>
+    </tr>
+    <tr>
+      <td><button type="button" name="delete">Borrar</button></td>
+      <td>5 marzo 2017</td>
+      <td><a href="/producto">Producto mejor</a></td>
+      <td>9.8</td>
+      <td>Esto es crema</td>
+    </tr>
+    <tr>
+      <td><button type="button" name="delete">Borrar</button></td>
+      <td>1 marzo 2017</td>
+      <td><a href="/producto">Producto peor</a></td>
+      <td>3.1</td>
+      <td>Vaya cagarro</td>
+    </tr>
+  </tbody>
+</table>

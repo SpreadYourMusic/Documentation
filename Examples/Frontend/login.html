@@ -1,0 +1,90 @@
+---
+layout: general
+title: Login
+---
+
+<script src="/resources/js/login.js"></script>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#login">Login</a></li>
+        <li><a data-toggle="tab" href="#signup">SignUp</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="login" class="tab-pane fade in active">
+          <h3>Login</h3>
+            <div id="loading-icon-login" class="hidden" align="center"><img width="100" height="100" src="/resources/imgs/loading.gif"></div>
+          <div id="login-alert" class="hidden alert"></div>
+          <form class="form-horizontal" action="myprofile.html" method="post">
+            <div id="user-login-container" class="form-group has-feedback">
+              <!-- Esto habrá que cambiarlo por un POST al autentificador -->
+              <label for="user-login" class="col-sm-3 control-label">Usuario</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="text" id="user-login" name="userLogin" placeholder="Nombre de usuario">
+                <span id="user-login-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+            <div id="pass-login-container" class="form-group has-feedback">
+              <label for="pass-login" class="col-sm-3 control-label">Contrase&ntilde;a</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="password" id="pass-login" name="passLogin" placeholder="Contrase&ntilde;a">
+                <span id="pass-login-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <!--<button id="login-button" type="button" class="btn btn-default">Login</button>-->
+                <button type="button" id="login-button" class="register-button register-button-block">LogIn</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="signup" class="tab-pane fade">
+          <h3>SignUp</h3>
+            <div id="loading-icon-signup" class="hidden" align="center"><img width="100" height="100" src="/resources/imgs/loading.gif"></div>
+          <div id="signup-alert" class="hidden alert"></div>
+          <form class="form-horizontal" action="">
+            <div id="user-signup-container" class="form-group has-feedback">
+              <!-- Esto habrá que cambiarlo por un POST al autentificador -->
+              <label for="user-signup" class="col-sm-3 control-label">Usuario</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="text" id="user-signup" name="userSignUp" placeholder="Nombre de usuario">
+                  <span id="user-signup-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+              <div id="mail-signup-container" class="form-group has-feedback">
+              <label for="mail-signup" class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="email" id="mail-signup" name="mailSignUp" placeholder="Email">
+                  <span id="mail-signup-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+              <div id="pass1-signup-container" class="form-group has-feedback">
+              <label for="pass1-signup" class="col-sm-3 control-label">Contrase&ntilde;a</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="password" id="pass1-signup" name="passSignUp" placeholder="Contrase&ntilde;a">
+                  <span id="pass1-signup-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+              <div id="pass2-signup-container" class="form-group has-feedback">
+              <label for="pass2-signup" class="col-sm-3 control-label">Contrase&ntilde;a (repetir)</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="password" id="pass2-signup" name="pass2SignUp" placeholder="Contrase&ntilde;a">
+                  <span id="pass2-signup-icon" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <!--<button id="register-button" type="submit" class="btn btn-default">SignUp</button>-->
+                <button type="button" id="register-button" class="register-button register-button-block">Register</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

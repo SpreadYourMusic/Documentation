@@ -1,0 +1,78 @@
+---
+layout: general
+title: Producto
+---
+
+<script src="/resources/js/product.js"></script>
+<script src="/resources/js/bars.js"></script>
+<script>
+window.onload = function() {
+//    test_profile();
+      load_product(getURLParameter("id"));
+};
+</script>
+
+<div class="container">
+  
+  <div class="row">
+    <h3 id="product_name"></h3>
+  </div>
+  
+  <div class="row">
+    <small id="product_tags"><span class="label label-default">{CATEGORY0}</span>&nbsp;<span class="label label-default">{CATEGORY1}</span></small>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 col-xs-5 col-sm-5 col-lg-2">
+      <div id="bars">
+        <div id="product_rate" class="bar" data-percent="15">
+          <canvas class="bar-circle" width="75%" height="75%"></canvas>
+        </div>
+      </div>
+    </div>
+    
+    <div id="product_description"></div>
+  </div>
+  
+</div>
+  
+<div class="container">
+  <div class="row">
+    <h4>Rese&ntilde;as de este producto</h4>
+      <div id="product_comments" class="row">
+        <table class="table table-bordered">
+          <tr>
+            <th rowspan="4" width="10%" class="text-center">
+              <img src="/resources/imgs/user.png" alt="User logo" width="75%" height="75%" max-height="100px" max-width="100px" /><br />
+              <span>{USERNAME}</span>
+            </th>
+            <th>{TITLE}</th>
+          </tr>
+          <tr>
+            <td rowspan="9">{COMMENT}</td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td rowspan="4" class="text-center">
+              <div id="bars">
+                <div id="public_rate" class="bar" data-percent="{RATING}">
+                  <canvas class="bar-circle" width="75%" height="75%"></canvas>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td class="text-center">{DATE}</td>
+          </tr>
+          <tr>
+            <td ></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+</div>

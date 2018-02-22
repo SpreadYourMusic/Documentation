@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Mobile first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <!-- Font awesome minified CSS -->
+    <link rel="stylesheet" href="/resources/css/font-awesome.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/resources/css/main.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/resources/css/menu.css">
+
+    <script src="/resources/js/main.js"></script>
+    <script src="/resources/js/request.js"></script>
+
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+<div class="hidden-sm-down">
+    <nav id="top-menu" class="navbar navbar-default top-menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">{{ site.title }}</a>
+            </div>
+            <div class="collapse navbar-collapse" id="topMenu">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="/busqueda.html">B&uacute;squeda</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="busqueda.html" method="post">
+                    <div class="input-group">
+                        <div class="hidden-xs hidden-sm">
+                            <input class="form-control" size="50" type="search" name="keyword"
+                                   placeholder="Soy un cuadro de búsqueda">
+                        </div>
+                        <div class="hidden-lg hidden-xl hidden-md">
+                            <input class="form-control" size="25" type="search" name="keyword"
+                                   placeholder="Soy un cuadro de búsqueda">
+                        </div>
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesi&oacute;n</a>
+                    </li>
+                    <li><a href="/myprofile.html"><span class="glyphicon glyphicon-user"></span> Username</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<aside class="hidden-sm hidden-xs">
+    <nav class="navbar navbar-inverse sidebar" role="navigation">
+
+        <div class="nav-side-menu">
+            <div class="brand">{{ site.title }}</div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+            <div class="menu-list">
+
+                <ul id="menu-content" class="menu-content collapse out">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-dashboard fa-lg"></i> Dashboard <i class="fa fa-gift fa-lg btn pull-right"
+                                                                               style="margin-top:5px"></i>
+                        </a>
+                    </li>
+
+                    <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                        <a href="#"><i class="fa fa-gift fa-lg"></i> Ordenadores<span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse" id="products">
+                        <li class="active"><a href="#">Sobremesas</a></li>
+                        <li><a href="#">Port&aacute;tiles</a></li>
+                        <li data-toggle="collapse" data-target="#components" class="collapsed active">
+                            <a href="#"><i class="fa fa-gift fa-lg"></i> Componentes <span class="arrow"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="components">
+                            <li>Placa base</li>
+                            <li>Memoria RAM</li>
+                            <li>New Service 3</li>
+                        </ul>
+                    </ul>
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-globe fa-lg"></i> C&aacute;maras</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-globe fa-lg"></i> Teclados</a>
+                    </li>
+
+
+                    <li data-toggle="collapse" data-target="#new" class="collapsed">
+                        <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse" id="new">
+                        <li>New New 1</li>
+                        <li>New New 2</li>
+                        <li>New New 3</li>
+                    </ul>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user fa-lg"></i> Profile
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-users fa-lg"></i> Users
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</aside>
+
+<div class="container main-container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 col-lg-2">
+            <h3>Categor&iacute;as</h3>
+            <!-- Esto habría que externalizarlo en un JSON y generar el HTML con un JS para que sea más cómodo añadir nuevas categorías; las que hay aquí hay que copiarlas también al search.html donde se puede elegir categoría-->
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">Dummy category</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ordenadores
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/busqueda.html?type=desktop">Sobremesas</a></li>
+                        <li><a href="/busqueda.html?type=laptop">Portátiles</a></li>
+                    </ul>
+                </li>
+                <li><a href="/busqueda.html?type=camara">Cámaras</a></li>
+                <li><a href="/busqueda.html?type=teclado">Teclados</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-10 col-lg-10">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+<!--<nav class="navbar navbar-default navbar-fixed-bottom footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        Dummy 1
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        Dummy 2<br>
+        {{ site.description }}
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        Dummy 3
+      </div>
+    </div>
+  </div>
+</nav>-->
+</body>
+
+</html>

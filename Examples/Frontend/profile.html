@@ -1,0 +1,72 @@
+---
+layout: users
+title: Perfil de usuario
+---
+
+<script src="/resources/js/request.js"></script>
+<script src="/resources/js/product.js"></script>
+<script src="/resources/js/profile.js"></script>
+<script src="/resources/js/bars.js"></script>
+<script>
+window.onload = function() {
+    var user = getURLParameter("user");
+    if(user === null || user === undefined || user === ""){
+      redirectToPage("/404.html")
+    }
+    load_profile(user);
+};
+</script>
+
+<div class="container">
+
+  <div class="row">
+    <div id="username">DummyName</div>
+    <div id="bars">
+      <div id="public_rate" class="bar" data-percent="100">
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 col-xs-5 col-sm-5 col-lg-2">
+      <div id="mail_header"><h4>Email:</h4></div>
+    </div>
+    <div>
+      <div id="mail">random@random.com</div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 col-xs-5 col-sm-5 col-lg-2">
+      <div id="name_header"><h4>Nombre:</h4></div>
+    </div>
+    <div>
+      <div id="name">MyName</div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div>
+      <div id="desc_header"><h4>Descripci&oacute;n:</h4></div>
+    </div>
+    <div>
+      <blockquote id="description">SuperDescription</blockquote>
+    </div>
+  </div>
+  
+  <div class="row">
+    <h4>Rese&ntilde;as de productos</h4>
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+    <table id="product_table" class="table table-striped table-bordered table-hover">
+      <tr>
+        <td width="10%">Fecha</td>
+        <td width="20%">Producto</td>
+        <td width="10%">Puntuación</td>
+        <td>Descripci&oacute;n</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+
+</div>

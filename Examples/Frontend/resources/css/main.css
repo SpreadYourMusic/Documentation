@@ -1,0 +1,97 @@
+
+div.main-container {
+  padding-top: 50px;
+}
+
+nav.top-menu {
+  z-index: 10000;
+}
+
+div.footer-container {
+  color: #FFF;
+	background-color: #7c7c7c;
+  position: fixed;
+  height: 75px;
+  min-height:50px;
+  bottom: 0;
+  width: 100%;
+}
+
+nav.footer-container {
+  border-top: 5px #000 solid;
+  color: #7c7c7c !important;
+	background-color: #7c7c7c !important;
+}
+
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+
+.add-border {
+  border: 5px solid black;
+}
+
+.register-button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #4286f4;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.register-button:hover, .register-button:focus {
+  background: #214c91;
+}
+
+.register-button-block {
+  display: block;
+  width: 100%;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+div.blockquote-lvl1{
+    padding-left: 15px;
+}
+
+div.search-price{
+    font-size: 14pt;
+    color: #555555;
+}
+
+td.search-vendor {
+    font-variant: small-caps;
+    font-size: 16pt;
+}
+
+/* https://css-tricks.com/examples/hrs/ */
+hr.separator { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }

@@ -1,0 +1,41 @@
+{
+  "profile":{
+    "public_profile" : true,
+    "user": "user123",
+    "name": "Manolo Escobar",
+    "mail": "manolo@mail.m",
+    "mail_visible": false,
+    "public_rate": 8.5,
+    "description": "Lorem ipsum"
+  }
+}
+
+
+"user": "user123",
+"number": 3,
+"comments": [
+  {
+    "id": 12345,
+    "product": 6789,
+    "user": "ermenegildo",
+    "title": "Obra maestra de la ciencia",
+    "rate": 8.8,
+    "text": "Lorem ipsum ....."
+  },
+  {
+    "id": 12345,
+    "product": 6789,
+    "user": "ermenegildo",
+    "title": "Obra maestra de la ciencia",
+    "rate": 8.8,
+    "text": "Lorem ipsum ....."
+  },
+  {
+    "id": 12345,
+    "product": 6789,
+    "user": "ermenegildo",
+    "title": "Obra maestra de la ciencia",
+    "rate": 8.8,
+    "text": "Lorem ipsum ....."
+  }
+]
