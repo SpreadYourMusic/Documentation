@@ -1,0 +1,69 @@
+% Chapter Template
+
+\chapter{Plan de gestión del proyecto} % Main chapter title
+
+\label{Chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Procesos}
+
+Aquí se describe cómo se llevarán a cabo distintas tareas que hay que realizar en distintos momentos del proyecto.
+
+\subsection{Procesos de inicio de proyecto}
+
+\begin{itemize}
+	\item Cómo se van a identificar y asignar recursos (p.ej. conseguir servidores en cloud o teléfonos móviles para pruebas, pero también registrarse para acceder a API que se quieran integrar o a herramientas online que se quieran usar etc.).
+	\item Cómo se va a abordar la formación inicial de los miembros del equipo (revisar qué tecnologías se van a usar, qué componentes se van a integrar, con qué API hay que conectar y quiénes tienen que formarse, o auto-formarse, en todas esas cosas y de qué manera (hacer algún curso online, planificar algo de tiempo para auto-formación con tutoriales y documentación etc.).
+\end{itemize}
+
+\subsection{Procesos de ejecución y control del proyecto}
+\begin{itemize}
+	\item Cómo se llevarán a cabo las comunicaciones internas, el registro de las decisiones tomadas en reuniones, la redacción de las actas etc.
+	\item Cómo se van a determinar las tareas a realizar y el reparto de las mismas a integrantes del equipo en el día a día.
+	\item Cómo se abordarán los temas de gestión del equipo (moral, resolución de disputas...).
+	\item Qué se va a hacer respecto a medidas de progreso y monitorización del estado del proyecto (qué se mira/mide, cada cuánto tiempo, qué se hace si se detectan problemas de rendimiento o avance insuficiente o desviaciones respecto al plan inicial...).
+	\item Cómo se hará la entrega de resultados.
+\end{itemize}
+
+\subsection{Procesos técnicos}
+\begin{itemize}
+	\item Describir los métodos, herramientas y técnicas necesarios tanto para construir el software (p.ej. herramientas de desarrollo), desplegarlo, probarlo (todos los necesarios para dar soporte a los planes descritos en la sección 3.2).\\
+\end{itemize}
+
+\section{Planes}
+\subsection{Plan de gestión de configuraciones}
+\begin{itemize}
+	\item Convenciones de nombres (documentos) y estándares de código.
+	\item Responsable o responsables de las distintas actividades (puesta en marcha, apoyo al equipo, revisión de commits, copias de seguridad, control de las versiones entregadas a cliente...).
+	\item Recursos: repositorios de control de versiones (cuáles, cuántos, permisos de acceso a los mismos) y sistema de gestión de incidencias.
+	\item Procedimiento para realizar cambios al código fuente y los documentos técnicos: workflow de control de versiones utilizado, cuándo/cómo se permiten realizar commits al repositorio compartido, si tienen que ser aceptados por alguien previamente o no, qué hay que anotar en el sistema de gestión de incidencias, quién decide el estado de las incidencias, en qué estados puede estar una incidencia etc.
+\end{itemize}
+
+\subsection{Plan de construcción y despliegue del software}
+
+\begin{itemize}
+	\item Cómo se construye e integra el software: si hay scripts de construcción automatizada o no (en ese caso qué se usa, y cómo se garantiza que todos los participantes compilan igual y con las mismas dependencias), qué se incluye en la construcción (descarga y actualización de dependencias, compilación, ejecución de tests automáticos...) y cada cuánto se construye (compila, integra, prueba) el sistema completo, cómo se configuran los computadores de los desarrolladores.
+	\item Cómo se despliega el software más allá de las máquinas de desarrollo: contenedores, máquinas virtuales, servidor en cloud etc. y cómo se configuran esos entornos (rutas, usuarios y contraseñas, puertos y otros elementos).
+\end{itemize}
+
+\subsection{Plan de aseguramiento de la calidad}
+
+\begin{itemize}
+	\item Estándares de código y otros (se pueden definir guías para la documentación de diseño y otros documentos del proyecto).
+	\item Actividades de control de calidad del código que se realizarán: revisiones de código por pares, revisiones de requisitos o diagramas UML por pares, tipos de tests automáticos o manuales que se llevarán a cabo.
+\end{itemize}
+
+\subsection{Calendario del proyecto y división del trabajo}
+\begin{itemize}
+	\item Diagrama de Gantt que recoja las tareas a realizar. Tened en cuenta que trabajáis con dos iteraciones y por tanto que hay una entrega intermedia y una final, y reflejarlo en este diagrama. Tened en cuenta que es normal que lo tengáis que actualizar conforme avance el proyecto (cuándo y cómo establezcáis en la sección 3.1.2).
+	\begin{itemize}
+		\item Debe quedar claro qué requisitos van a estar completados en la primera iteración y cuáles en la segunda. Es posible que para la primera iteración no se planifique completar ningún requisito, pero en ese caso tiene que planificarse qué se hará y que faltará por hacer para cada requisito.
+	\end{itemize}
+	\item División del trabajo en partes (los módulos del software a desarrollar, pero también  la documentación, el diseño gráfico, instalaciones o despliegues, pruebas manuales etc.) y reparto de los mismos entre el equipo de desarrollo, al menos a alto nivel (el reparto de labores concretas en el día a día no se detalla aquí, pero hay que explicar bajo qué criterios y quién/cómo se hace en la sección 3.1.2). Debe haber una correspondencia con las tareas que aparecen en el diagrama de Gantt (que no necesariamente tiene que ser una relación 1 a 1).
+	\begin{itemize}
+		\item Verificar que esta división del trabajo cubre todos los requisitos.
+	\end{itemize}
+\end{itemize}
