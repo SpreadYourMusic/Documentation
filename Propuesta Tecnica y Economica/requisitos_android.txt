@@ -1,0 +1,24 @@
+Aplicación Android
+- El sistema permite un solo tipo de usuario, y es el usuario registrado (usuario que esté registrado en el sistema).
+- El sistema permite que los usuarios de identifiquen tanto con usuario y contraseña así como con una cuenta de Google.
+- El sistema permite que los usuarios suban canciones a la aplicación
+- El sistema permite que los usuarios se registren en la aplicación.
+- El sistema permite a los usuarios tener una lista de canciones favoritas, la cual será privada.
+- El sistema permite añadir a favorito una canción que se está escuchando.
+- El sistema permite desde cualquier pantalla escuchar canciones y ver los controles básicos de canciones (play, pause y pasar canción)
+- El sistema permite desde una pantalla específica acceder a más controles sobre las canciones.
+-- Desde la pantalla específica el sistema permite avanzar o retroceder en la canción a un momento exacto de esta.
+-- Desde la pantalla específica el sistema permite ver la letra de la canción dinámica (va al ritmo de la canción) en el caso que la posea.
+-- Desde la pantalla específica el sistema permite ver la onda de sonido de la canción.
+-- Desde la pantalla específica el sistema permite cambiar el orden de muestra de las canciones (aleatorio o lineal).
+
+- El sistema posee una pantalla principal en la que se mostrarán recomendaciones (canciones, listas de reproducción y usuarios), novedades sobre los usuarios y listas de reproducción seguidos y canciones más populares. 
+- El sistema posee una pantalla de usuario (otros usuarios) en la que se puede ver su información, canciones, listas de reproducción creadas, su número de seguidores, la opción de seguirlo así como un enlace a sus redes sociales.
+- El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducción creadas, así como añadir más canciones, listas de reproducción o eliminar alguna de las dos.
+
+- El sistema permite crear listas de reproducción formadas por canciones de las que puedes ser autor o no, las cuales serán publicas.
+- El sistema permite modificar los datos de usuario una vez creado.
+- El sistema posee una pantalla específica en la que se puede ver las canciones que posee una lista de reproducción así como seguirla.
+- El sistema permite buscar las canciones más populares de un género.
+- El sistema permite ver las canciones más populares en el país desde el que se conecta el dispositivo.
+- El sistema permite buscar canciones, artistas y listas de reproducción por su nombre mediante un buscador.
