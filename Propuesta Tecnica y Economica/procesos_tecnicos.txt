@@ -1,0 +1,3 @@
+Las herramientas utilizadas tanto para desarrollo del software (construcción, probarlo y despliegue) serán IntelliJ Idea y Android Studio debido a que ambas dan soporte para los lenguajes de programación Java y Kotlin además de su buena integración con git, herramienta que se utilizará ara el control de versiones.
+Para asegurar la calidad del software, al mismo tiempo que se vaya desarrollando se irán creando pruebas unitarias sobre el mismo con JUnit.
+Siguiendo una metodología de diseño incremental, cada dos semanas se tiene planificada la entrega interna de una versión nueva del software.  Estas versiones se basa en la versión anterior añadiéndole ciertas funcionalidades.
