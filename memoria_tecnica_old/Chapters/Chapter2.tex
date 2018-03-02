@@ -18,36 +18,125 @@ A continuación se detalla el total de los requisitos.
 \subsection{An\'alisis de requisitos preliminar}
 
 \begin{itemize}
-\item La aplicación permite reproducir canciones almacenadas en el repositorio.
-\item La aplicación tendrá una versión para Android y otra para Web.
-\item Existen 3 perfiles de usuario: registrados, no registrados y administrador.
-\item Los usuarios registrados pueden generar y consumir contenido (canciones).
-\item Los usuario no registrados solo pueden consumir contenido en la Web.
-\item El sistema permite gestionar listas de reproducción públicas y privadas.
-\item Se permite el login con la cuenta de usuario o con una cuenta Google mediante OAuth.
-\item Verificación de cuenta. Esto supone un indicador gráfico en el perfil de usuario que anteriormente a verificado su identidad. La finalidad es garantizar la verdadera identidad del usuario.
-\item En la versión movil, se permite almacenar la música en el dispositivo para poder acceder a esta sin conexión a internet.
-\item La reproducción actual de un usuario se sincroniza en todos los dispositivos.
-\item Integración con redes sociales, con la finalidad de compartir música, listas o perfiles en las RRSS.
-\item Permite al usuario registrado generar sus propias listas de reproducción.
+\item Requisitos funcionales
+\begin{enumerate}
+	\item Existen 3 perfiles de usuario: registrados, no registrados y administrador.
+	\item La aplicación permite a los usuarios registrados subir canciones.
+	\item La aplicación tiene un repositorio de canciones compuesto de las canciones de los usuarios.
+	\item La aplicación permite reproducir canciones almacenadas en el repositorio.
+	\item La aplicación permite gestionar listas de reproducción (se detalla posteriormente)
+	\item - El sistema genera listas de reproducción segun las siguientes categorias: Género, Éxitos, Situación/Mood, País.
+	\item - El sistema genera listas de reproduccion propias para cada usuario con recomendaciones según sus intereses.
+	\item - El sistema genera listas de reproduccion con recomendaciones según geolocalización.
+	\item - El sistema permite gestionar una lista privada de favoritos.
 
-\item Un usuario registrado puede seleccionar 'Me gusta' en una canción.
-\item Un usuario registrado puede suscribirse a otro usuario.
-\item El sistema genera listas de reproducción segun las siguientes categorias: Género, Éxitos, Situación/Mood, País.
-\item El sistema genera listas de reproduccion propias para cada usuario con recomendaciones según sus intereses.
-\item El sistema genera listas de reproduccion con recomendaciones según geolocalización.
-\item El sistema permite gestionar una lista privada de favoritos.
-\item El sistema permite la búsqueda de canciones, albumes, listas y artistas.
-\item El usuario administrador se utiliza para verificar, añadir o eliminar cuentas de usuarios.
+\end{enumerate}
 
-\item Existe un servidor para el almacenamiento de canciones.
-\item Los datos que se recogen en el formulario de registro son los siguientes: Nombre, Nick, Correo, Contraseña, Fecha de nacimiento, Biografía, Redes Sociales, Foto de perfil(opcional), País
-\item Las canciones contienen los siguientes metadatos: Título, Idioma (opcional), número de reproducciones, número de 'Me gusta'.
-\item La aplicación movil soportará Android 5.0
-\item El sistema soporta los ficheros MP3, WAV, OGG.
-\item La aplicación movil soporta la última versión de Firefox y Chrome.
-\item El acceso al servidor se realiza a través de una API REST.
+\item Requisitos no funcionales
+\begin{enumerate}
+	\item La aplicación tendrá una versión para Android y otra para Web.
+	\item El sistema soporta los ficheros MP3, WAV, OGG.
+	\item Existe un servidor para el almacenamiento de canciones.
+	\item Los datos que se recogen en el formulario de registro son los siguientes: Nombre, Nick, Correo, Contraseña, Fecha de nacimiento, Biografía, Redes Sociales, Foto de perfil(opcional), País
+	\item Las canciones contienen los siguientes metadatos: Título, Idioma (opcional), número de reproducciones, número de 'Me gusta'.
+	\item La aplicación movil soportará Android 5.0 y la Web la última versión de Firefox y Chrome.
+\end{enumerate}
+
 \end{itemize}
+
+Android 
+
+\begin{itemize}
+\item Requisitos funcionales
+\begin{enumerate}
+\item El sistema permite un solo tipo de usuario, y es el usuario registrado (usuario que esté registrado en el sistema).
+\item El sistema permite que los usuarios de identifiquen tanto con usuario y contraseña así como con una cuenta de Google.
+\item El sistema permite que los usuarios suban canciones a la aplicación
+\item El sistema permite que los usuarios se registren en la aplicación.
+\item El sistema permite a los usuarios tener una lista de canciones favoritas, la cual será privada.
+\item El sistema permite añadir a favorito una canción que se está escuchando.
+\item El sistema permite desde cualquier pantalla escuchar canciones y ver los controles básicos de canciones (play, pause y pasar canción)
+\item El sistema permite crear listas de reproducción formadas por canciones de las que puedes ser autor o no, las cuales serán publicas.
+\item El sistema permite modificar los datos de usuario una vez creado.
+\item El sistema posee una pantalla específica en la que se puede ver las canciones que posee una lista de reproducción así como seguirla.
+\item El sistema permite buscar las canciones más populares de un género.
+\item El sistema permite ver las canciones más populares en el país desde el que se conecta el dispositivo.
+\item El sistema permite buscar canciones, artistas y listas de reproducción por su nombre mediante un buscador.
+\item El sistema permite desde una pantalla específica acceder a más controles sobre las canciones.
+\item - Desde la pantalla específica el sistema permite avanzar o retroceder en la canción a un momento exacto de esta.
+\item - Desde la pantalla específica el sistema permite ver la letra de la canción dinámica (va al ritmo de la canción) en el caso que la posea.
+\item - Desde la pantalla específica el sistema permite ver la onda de sonido de la canción.
+\item - Desde la pantalla específica el sistema permite cambiar el orden de muestra de las canciones (aleatorio o lineal).
+\item Se permite almacenar la música en el dispositivo para poder acceder a esta sin conexión a internet.
+\end{enumerate}
+
+\item Requisitos no funcionales 
+
+\begin{enumerate}
+\item El sistema posee una pantalla principal en la que se mostrarán recomendaciones (canciones, listas de reproducción y usuarios), novedades sobre los usuarios y listas de reproducción seguidos y canciones más populares. 
+\item El sistema posee una pantalla de usuario (otros usuarios) en la que se puede ver su información, canciones, listas de reproducción creadas, su número de seguidores, la opción de seguirlo así como un enlace a sus redes sociales.
+\item El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducción creadas, así como añadir más canciones, listas de reproducción o eliminar alguna de las dos.
+\end{enumerate}
+\end{itemize}
+
+Web
+
+\begin{itemize}
+
+\item Requisitos no funcionales
+\begin{enumerate}
+\item El sistema tiene una pantalla principal donde se mostraran novedades de artiastas y canciones y canciones mas populares.
+\item El sistema tiene una pantalla de ususario pública para todo el mundo donde aparece su información, canciones, listas de reproducción públicas, número de seguidores y enlaces a sus redes sociales
+\item El sistema cuenta en todas las pantallas con un reproductor de audio que incluye información sobre la canción que se esta reproduciendo y las opciones de avanzar, retroceder a un momento de la canción; avanzar o retroceder a la siguiente o anterior canción si se esta reproduciendo una lista; parar la reproducción y cambiar el orden de reproducción a aleatorio.
+\item El sistema tiene en todas las pantallas un buscador para realizar una búsqueda de canciones, listas y usuarios.
+\item El sistema tiene una pantalla para cada canción donde se puede ver la  información de la canción, la onda de sonido y si tuviese las letras de \item forma dinámica si se estuviese reproduciendo.
+\item El sistema tiene una pantalla para identificarse/ registrarse.
+\end{enumerate}
+
+\item Requisitos funcionales 
+\begin{enumerate}
+\item El sistema permite registrarse mediante usuario o a través de Google.
+\item Verificación de cuenta. Esto supone un indicador gráfico en el perfil de usuario que anteriormente a verificado su identidad. La finalidad es garantizar la verdadera identidad del usuario.
+\item La reproducción actual de un usuario se sincroniza en todos los dispositivos.
+
+\item Existen 3 perfiles de usuarios: registrados, no registrados y administrador.
+    \begin{enumerate}
+	\item Registrados
+	    \begin{enumerate}
+	        \item Los usuarios no registrados pueden acceder a la página principal, páginas de los diferentes usuarios, páginas de canciones ademas de poder realizar búsquedas.
+	        \item Los usuarios no registrados pueden reproducir canciones de usuarios o de listas de reproducción públicas.
+	
+	    \end{enumerate}
+        \item Registrados
+	    \begin{enumerate}
+		\item Los usuarios registrados pueden realizar todas las funcionalidades de un usuario no registrado.
+	        \item El sistema permite a los usuarios registrados identificarse.
+	        \item El sistema permite a los usuarios registrados modificar su información personal.
+	        \item El sistema permite a los usuarios registrados subir canciones.
+	        \item El sistema permite administrar una lista de reproducción privada de favoritos.
+	        \item El sistema permite añadir cualquier canción a favoritos.
+	        \item El sistema permite crear listas de reproducción públicas
+	        \item El sistema permite añadir cualquier canción a una lista de reproducción previamente creada por el usuario.
+	        \item El sistema permite eliminar una canción de sus listas de reproducción o de la lista favoritos.	
+	        \item El sistema permite seguir/ dejar de seguir a un usuario.
+ 	        \item El sistema permite seguir/ dejar de seguir a una lista de reproducción.
+	        \item El sistema permite modificar sus enlaces a redes sociales.
+		\item (RNF) La pantalla principal de un usuario registrado contiene recomendaciones de artistas, listas o usuarios en base a sus gusto y novedades de sus artistas/listas seguidos.
+            \end{enumerate}
+	\item Administrador
+            \begin{enumerate}
+		\item El usuario administrador se identifica en la aplicación con un usuarios y contraseña predefinidos.
+	        \item El sistema permite al usuario administrador puede verificar la identidad de un usuario.
+	        \item El sistema permite al usuario administrador modificar la información de un usuario, canción o playlist.
+	        \item (RNF) La pantalla de administrador incluye un buscador para la búsqueda de un usuario, lista o canción y una lista con el resultado de la búsqueda.
+	        \item (RNF) Cada canción, lista o usuario tiene una pantalla de administrador desde donde el sistema permite al administrador la modificación.
+	
+	    \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\end{itemize}
+
 
 \subsection{Prototipo pantallas Android}
 % ______________________
