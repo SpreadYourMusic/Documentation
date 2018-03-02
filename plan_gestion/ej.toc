@@ -14,5 +14,6 @@
 \contentsline {subsubsection}{\numberline {3.2.4}Calendario del proyecto y divisi\'on del trabajo}{5}
 \contentsline {section}{\numberline {4}An\'alisis y dise\~no del sistema}{6}
 \contentsline {subsection}{\numberline {4.1}An\'alisis de requisitos}{6}
-\contentsline {subsubsection}{\numberline {4.1.1}Backend}{6}
-\contentsline {subsection}{\numberline {4.2}Dise\~no del sistema}{7}
+\contentsline {subsubsection}{\numberline {4.1.1}Android}{6}
+\contentsline {subsubsection}{\numberline {4.1.2}Backend}{7}
+\contentsline {subsection}{\numberline {4.2}Dise\~no del sistema}{8}
