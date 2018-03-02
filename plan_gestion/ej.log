@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.17)  2 MAR 2018 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.17)  3 MAR 2018 00:37
 entering extended mode
 **./ej.tex
 (ej.tex
@@ -656,17 +656,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
@@ -698,13 +692,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
  []
 
 [2]
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -725,196 +712,201 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 155.
-
- ("C:\programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Overfull \hbox (14.97542pt too wide) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Overfull \hbox (14.97542pt too wide) in paragraph at lines 170--171
 \OT1/ptm/m/n/12 fuente, se va a usar un flujo de tra-bajo en Git de-nom-i-nado 
 Git Flow (https://danielkummer.github.io/git-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 [4]
-Overfull \hbox (4.47404pt too wide) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 177.
+
+("C:\programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
+
+Overfull \hbox (4.47404pt too wide) in paragraph at lines 178--179
 []\OT1/ptm/m/n/12 C[]omo se de-spl-iega el soft-ware m[]as all[]a de las m[]aqu
 inas de de-sar-rollo: con-tene-dores, m[]aquinas
  []
 
-[5]
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ∫ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
- [6]
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
- [7]
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≥ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
+<Figures/android-class.png, id=20, 1709.38625pt x 897.3525pt>
+File: Figures/android-class.png Graphic file (type png)
+<use Figures/android-class.png>
+Package pdftex.def Info: Figures/android-class.png  used on input line 206. on 
+input line 206.
+Package pdftex.def Info: Requested size: 472.31595pt x 247.9434pt on input line
+ 206.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-[8]
+[5]
+<Figures/gantt-1.png, id=25, 971.12813pt x 323.70938pt>
+File: Figures/gantt-1.png Graphic file (type png)
+<use Figures/gantt-1.png>
+Package pdftex.def Info: Figures/gantt-1.png  used on input line 209. on input 
+line 209.
+Package pdftex.def Info: Requested size: 472.31595pt x 157.43846pt on input lin
+e 209.
+<Figures/gantt-2.png, id=27, 1305.87875pt x 511.9125pt>
+File: Figures/gantt-2.png Graphic file (type png)
+<use Figures/gantt-2.png>
+Package pdftex.def Info: Figures/gantt-2.png  used on input line 210. on input 
+line 210.
+Package pdftex.def Info: Requested size: 472.31595pt x 185.14758pt on input lin
+e 210.
+<Figures/gantt-3.png, id=28, 1312.905pt x 565.11125pt>
+File: Figures/gantt-3.png Graphic file (type png)
+<use Figures/gantt-3.png>
+Package pdftex.def Info: Figures/gantt-3.png  used on input line 211. on input 
+line 211.
+Package pdftex.def Info: Requested size: 472.31595pt x 203.30193pt on input lin
+e 211.
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--212
+
+ []
+
+[6 <./Figures/android-class.png (PNG copy)> <./Figures/gantt-1.png> <./Figures/
+gantt-2.png>]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Overfull \hbox (12.59877pt too wide) in paragraph at lines 223--234
+\OT1/ptm/m/n/12 usuar-ios) Im-ple-mentaci[]on re-pro-duc-tor b[]asico Im-ple-me
+ntaci[]on pan-talla de ver playlist Im-ple-mentaci[]on
+ []
+
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+[7 <./Figures/gantt-3.png>]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+ [8]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+[9]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+ [10]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+ [11]
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ø in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ø in font ptmr7t!
- [9] (ej.aux) ) 
+ [12] (ej.aux) ) 
 Here is how much of TeX's memory you used:
- 15398 strings out of 493312
- 303384 string characters out of 3141058
- 377162 words of memory out of 3000000
- 18624 multiletter control sequences out of 15000+200000
+ 15420 strings out of 493312
+ 303835 string characters out of 3141058
+ 376160 words of memory out of 3000000
+ 18640 multiletter control sequences out of 15000+200000
  24293 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,67p,912b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/programs/MiKTeX 2.9/f
-onts/type1/urw/times/utmb8a.pfb><C:/programs/MiKTeX 2.9/fonts/type1/urw/times/u
-tmr8a.pfb><C:/programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ej.pdf (9 pages, 78246 bytes).
+ 55i,6n,67p,914b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmb8a.pfb><C:/programs/MiKTeX 2.9/fonts/type1/urw/times/
+utmr8a.pfb><C:/programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ej.pdf (12 pages, 293375 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
