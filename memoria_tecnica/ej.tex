@@ -202,6 +202,58 @@ Como el sistema Git soporta la gesti\'on de incidencias, se va a aprovechar este
 \subsection{An\'alisis de requisitos}
 Completar y detallar los requisitos preliminares incluidos en la propuesta t\'ecnica y econ\'omica. Recordad que los requisitos deben ser completos, concretos, medibles cuando tenga sentido y lo menos ambiguos posible. Tambi\'en es importante que est\'en identificados para facilitar su trazabilidad.
 
+\subsubsection{Backend}
+\textbf{Requisitos funcionales}
+\begin{itemize}
+
+	\item El sistema se compone de Usuarios, Canciones y Listas de reproducci\'on.
+	\item El sistema permite 3 tipos de usuarios:
+	\begin{itemize}
+		\item Usuario registrado (usuario que esté registrado en el sistema)
+		\item Usuario no registrado (que es el cual el sistema no puede identificar con ninguna cuenta)
+		\item Usuario administrador (aquel que es como un usuario registrado pero unos privilegios especiales, como es verificar cuentas)
+	\end{itemize}
+	\item Una canci\'on se compone de un t\'itulo, un audio, la transcripci\'on de dicho audio, el pa\'is de la canci\'on, cu\'antos me gusta tiene y el n\'umero de reproducciones.
+	\item Una lista de reproducci\'on o categor\'ia es una lista de canciones generadas por el sistema agrupadas por g\'enero, \'exito, pa\'is, situaci\'on para la que es propicia o generada por el usuario.
+	\item Un usuario registrado se compone de un nombre, un nick \'unico (es decir, que dos usuarios no pueden tener el mismo nick), un correo electr\'onico, una contrase\~na para acceder a la aplicaci\'on, la fecha de nacimiento, una biograf\'ia, una foto de perfil, qu\'e canciones ha reproducido, cu\'antos me gusta han recibido las canciones que ha subido, cu\'antos me gusta ha dado, sus canciones, el pa\'is y las redes sociales que quiera a\~nadir de forma opcional (Twitter, Facebook e Instagram).
+	
+	\item El sistema permite obtener todos los datos de una canci\'on.
+	
+	
+	\item El sistema permite que los usuarios se registren en el sistema.
+	\item El sistema permite que los usuarios de identifiquen tanto con usuario y contraseña así como con una cuenta de Google.
+	\item El sistema permite que los usuarios registrado registren nuevas canciones en el sistema.
+	
+	\item El sistema permite que los usuarios registrados creen y borren listas de reproducci\'on formadas por canciones que pueden ser o no del propio usuario, las cuales ser\'an p\'ublicas.
+	\item El sistema permite que los usuarios registrados a\~nadan una canci\'on a una lista de reproducci\'on que haya creado \'el mismo.
+	\item El sistema permite obtener todas las canciones de una lista de reproducci\'on.
+
+	\item El sistema permite que los usuarios registrados tengan una lista de canciones favoritas, la cual será privada.
+	\item El sistema permite que los usuarios registrados añadan o eliminen canciones de favoritos.
+	\item El sistema permite que los usuarios registrados obtengan la lista de sus canciones favoritas.
+	\item El sistema permite obtener las letras de una canci\'on.
+	
+	\item El sistema permite obtener recomendaciones (canciones, listas de reproducción y usuarios), canciones más populares, novedades sobre los usuarios o listas de reproducción que un usuario sigue. 
+	
+	\item El sistema permite que los usuarios registrados modifiquen su nombre, su correo electr\'onico, su contrase\~na, su fecha de nacimiento, su biograf\'ia, su foto de perfil, su pa\'is y sus redes sociales.
+	\item El sistema permite que los usuarios registrados sigan a una lista de reproducci\'on.
+	\item El sistema permite buscar canciones mediante palabras clave (t\'itulo), g\'enero, pa\'is, me gusta, reproducciones o una combinaci\'on de varios.
+	\item El sistema permite ver las canciones más populares de un pa\'is.
+	\item El sistema permite ver las canciones más populares del pa\'is de un usuario.
+	
+	\item El sistema permite buscar artistas mediante palabras clave (nick, nombre y biograf\'ia), pa\'is o una combinaci\'on de varios.
+	\item El sistema permite buscar listas de reproducci\'on mediante palabras clave (t\'itulo), canciones de la lista, tipo de orden de la lista o una combinaci\'on de varios.
+	
+	\item Las b\'usquedas por palabr\'as clave deber\'an contener al menos una palabra y, si contiene s\'olo una palabra, que sea de longitud mayor o igual a 3 caracteres.
+
+\end{itemize}
+
+\textbf{Requisitos no funcionales}
+\begin{itemize}
+	\item El nick de un usuario estar\'a compuesto por entre 4 y 32 caracteres.\\
+	
+\end{itemize}
+
 \subsection{Dise\~no del sistema}
 \begin{itemize}
 	\item Diagramas arquitecturales (de m\'odulos, de componentes y conectores, de distribuci\'on), patrones de dise\~no y estilos arquitecturales que se aplicar\'an. Las interfaces (de m\'odulos y de componentes) son especialmente importantes. Tambi\'en lo son los protocolos de comunicaci\'on entre componentes.
