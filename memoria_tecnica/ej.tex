@@ -104,24 +104,30 @@
 
 \subsection{Resumen}
 
-Resumen del proyecto, prop\'osito, alcance, objetivos, entregables e hitos principales. Alrededor de una p\'agina es suficiente.
+La aplicaci\'on a desarrollar consistir\'a en un reproductor de m\'usica en \textit{streaming} inspirado en \textit{Soundcloud} y \textit{Spotify}.\\ 
 
-Incluir una breve descripci\'on de la estructura del resto del documento.
+Es una aplicaci\'on orientada a todo tipo de usuario, tanto a los m\'usicos que est\'an empezando su carrera en el mundo de la m\'usica como a cualquier persona aficionada a la m\'usica. Nuestra aplicaci\'on permitir\'a a los usuarios subir canciones, crear listas de reproducci\'on o escuchar canciones utilizando un reproductor propio entre otras funcionalidades. La versi\'on Android permitir\'a a los usuarios descargar las canciones para poder escucharlas sin necesidad de estar conectado a Internet. También incluir\'a caracter\'isticas sociales, permitiendo a los usuarios seguir a sus artistas favoritos para ver las novedades que publican o suscribirse a listas de reproducci\'on creadas por otros usuarios para enterarse de cambios en esta. El sistema también poseer\'a integraci\'on con redes sociales, as\'i como la posibilidad de autentificaci\'on mediante cuenta de Google.\\
 
-\subsection{Objetivos}
+El usuario tendr\'a recomendaciones personalizadas para el usuario tanto basadas en su historial de reproducci\'on como en geolocalizaci\'on y facilitar\'a al usuario encontrar canciones, pudiendo buscar canciones por categor\'ias, autor, nombre, as\'i como también mostrando canciones populares dentro de la aplicaci\'on.\\
+
+Nuestra aplicaci\'on tendr\'a soporte web (en navegadores Chrome y Firefox) y como aplicaci\'on Android, de manera que el usuario pueda usarla en web, en el m\'ovil o en ambas ya que incorpora un sistema de sincronizaci\'on de manera que el usuario puede seguir escuchando en cualquier dispositivo la misma canci\'on justa en el momento en el que la dej\'o. \\
+
 
 %% Section 2
 
 \section{Organizaci\'on del proyecto} % Main chapter title
 \subsection{Equipo}
 
-\begin{itemize}
-	\item Equipo del proyecto: integrantes del mismo, roles y responsabilidades. Qu\'e hace dentro del proyecto cada miembro del equipo. Aunque es normal que todo el mundo haga varias cosas, tambi\'en es importante que haya responsables definidos para las tareas importantes.
-	
-	\begin{itemize}
-		\item Es importante determinar un director o directora de proyecto.
-	\end{itemize}
-\end{itemize}
+El equipo est\'a formado por 7 estudiantes de Ingenier\'ia Inform\'atica: Jorge Aznar L\'opez, \'angel Ca\~nal Muniesa, Abel Chils Trabanco, Alicia Yasmina Albero Escudero, \'oscar Fraca Ferr\'andez, Alexandru Ioan Oarga Hategan y Jorge Pinilla L\'opez.\\
+
+De estos, cinco poseen conocimientos sobre programaci\'on Web (\textit{Frontend}) as\'i como pr\'actica en el desarrollo del \textit{Backend} de una aplicaci\'on Web. Por otro lado, todos tienen experiencia en el dise\~no de base de datos, as\'i como experiencia con la programaci\'on sobre la plataforma Android. Adem\'as, los integrantes del grupo ya poseen experiencia trabajando juntos, lo cual facilitar\'a la comunicaci\'on entre ellos. \\
+
+Para desarrollar esta aplicaci\'on se han creado 3 grupos y cada uno se centrar\'a en una parte del desarrollo. Un equipo se encargar\'a del
+\textit{Backend}, otro de la interfaz Web (o \textit{Frontend}) y por \'ultimo otro de la aplicaci\'on Android. La asignaci\'on de los integrantes del grupo a cada una de las partes se ha realizado en base a la experiencia que posea el integrante en cuesti\'on en dicha \'area.\\
+
+El equipo de \textit{Backend} est\'a formado por \'oscar, \'angel y Jorge Aznar. El equipo de la plataforma Android est\'a formado por Abel y Yasmina. Por \'ultimo, el equipo de \textit{Frontend} est\'a formado por Alexandru y Jorge Pinilla. \\
+
+Para gestionar el proyecto se ha designado un coordinador general y coordinadores específicos dentro de cada área. El coordinador general es Abel, el coordinador de \textit{Backend} es Ángel, el de Android es Abel y el de \textit{Frontend} es Jorge Pinilla
 
 %% Section 3
 
@@ -129,29 +135,20 @@ Incluir una breve descripci\'on de la estructura del resto del documento.
 
 \subsection{Procesos}
 
-Aqu\'i se describe c\'omo se llevar\'an a cabo distintas tareas que hay que realizar en distintos momentos del proyecto.
-
 \subsubsection{Procesos de inicio de proyecto}
 
-\begin{itemize}
-	\item C\'omo se van a identificar y asignar recursos (p.ej. conseguir servidores en cloud o tel\'efonos m\'oviles para pruebas, pero tambi\'en registrarse para acceder a API que se quieran integrar o a herramientas online que se quieran usar etc.).
-	\item C\'omo se va a abordar la formaci\'on inicial de los miembros del equipo (revisar qu\'e tecnolog\'ias se van a usar, qu\'e componentes se van a integrar, con qu\'e API hay que conectar y qui\'enes tienen que formarse, o auto-formarse, en todas esas cosas y de qu\'e manera (hacer alg\'un curso online, planificar algo de tiempo para auto-formaci\'on con tutoriales y documentaci\'on etc.).
-\end{itemize}
+La aplicaci\'on m\'ovil funcionar\'a en dispositivos con Android 5.0, la aplicaci\'on web funcionar\'a en los navegadores Firefox y Chrome. Para realizar las pruebas de la aplicaci\'on m\'ovil se requerir\'a de un dispositivo con Android 5.0. Por otro lado, para las pruebas de la versi\'on web ser\'a necesario un ordenador con el navegador instalado (Chrome o Firefox). El sistema se funcionar\'a sobre un cl\'uster, que contar\'a con un almacenamiento bruto de 20GB. Se ha estimado este tama\~no para el cl\'uster teniendo en cuenta la arquitectura del sistema. 
+
 
 \subsubsection{Procesos de ejecuci\'on y control del proyecto}
-\begin{itemize}
-	\item C\'omo se llevar\'an a cabo las comunicaciones internas, el registro de las decisiones tomadas en reuniones, la redacci\'on de las actas etc.
-	\item C\'omo se van a determinar las tareas a realizar y el reparto de las mismas a integrantes del equipo en el d\'ia a d\'ia.
-	\item C\'omo se abordar\'an los temas de gesti\'on del equipo (moral, resoluci\'on de disputas...).
-	\item Qu\'e se va a hacer respecto a medidas de progreso y monitorizaci\'on del estado del proyecto (qu\'e se mira/mide, cada cu\'anto tiempo, qu\'e se hace si se detectan problemas de rendimiento o avance insuficiente o desviaciones respecto al plan inicial...).
-	\item C\'omo se har\'a la entrega de resultados.
-\end{itemize}
 
-Com. internas: Mensajer\'ia instant\'anea y Issues de GitHub
-Registro: Se tomar\'an actas y se subir\'an a un repo Git (cada acta incluye al menos fecha, hora, duraci\'on, miembros presentes, temas tratados.).
-Las actas las redactar\'a un miembro del equipo y se tratar\'an como las actas de las reuniones del equipo.
+Las comunicaciones del grupo se van a realizar mediante un grupo en la aplicaci\'on de mensajer\'ia instant\'anea \textit{WhatsApp} para tratar temas y comunicaciones poco importantes y eventuales. Sin embargo, para temas que deban ser permanentes y/o deba quedar constancia de esta comunicaci\'on, se usar\'an las \textit{Issues} de la plataforma de alojamiento de los proyectos \textit{GitHub}. En esta plataforma de alojamiento se almacenar\'a el c\'odigo fuente del sistema desarrollado y todos los documentos generados durante el desarrollo. Entre estos documentos se encuentra, por ejemplo, las actas de las reuniones con los clientes, que ser\'an redactadas por al menos un miembro del equipo durante dicha reuni\'on. De forma similar se registrar\'an las reuniones del equipo, los contenidos y las decisiones que puedan tomarse en esas reuniones.\\
 
-Las tareas las determinar\'a el responsable del subproyecto y las asignar\'a a cada miembro
+En todas las actas, tanto de reuniones del equipo como reuniones con los clientes se incluir\'a al menos la fecha y hora de la reuni\'on, la duraci\'on de la reuni\'on, los miembros presentes en la reuni\'on y los temas y decisiones que se tomen en la reuni\'on.\\
+
+Todas las semanas tienen un conjunto de tareas asociadas. Al final de cada semana, el responsable de cada proyecto revisar\'a las tareas que se han realizado esa semana y, si hay tareas que no se han cumplido, se asignar\'an autom\'aticamente para la siguiente semana, siendo estas tareas las primeras que se deber\'an hacer. Adem\'as, cada semana el responsable del subproyecto revisar\'a cuantas tareas se han realizado para la siguiente iteraci\'on  como m\'etrica de monitorizaci\'on de la desviaci\'on seg\'un el plan original. Tras esta revisi\'on el responsable del subproyecto asignar\'a las tareas de la semana a todos los miembros del equipo que puedan trabajar esa semana. \\
+
+Durante el desarrollo del proyecto puede haber problemas y disputas entre los miembros del equipo. Para tratar de resolverlos el responsable del subproyecto ser\'a el primero en mediar entre los miembros en disputa y, si hay alguna raz\'on que haga imposible esta mediaci\'on ser\'a el resto del equipo quien deber\'a mediar. \\
 
 \subsubsection{Procesos t\'ecnicos}
 \begin{itemize}
@@ -167,17 +164,19 @@ Las tareas las determinar\'a el responsable del subproyecto y las asignar\'a a c
 	\item Procedimiento para realizar cambios al c\'odigo fuente y los documentos t\'ecnicos: workflow de control de versiones utilizado, cu\'ando/c\'omo se permiten realizar commits al repositorio compartido, si tienen que ser aceptados por alguien previamente o no, qu\'e hay que anotar en el sistema de gesti\'on de incidencias, qui\'en decide el estado de las incidencias, en qu\'e estados puede estar una incidencia etc.
 \end{itemize}
 
+
+
 \subsubsection{Plan de construcci\'on y despliegue del software}
 
 \begin{itemize}
 	\item C\'omo se construye e integra el software: si hay scripts de construcci\'on automatizada o no (en ese caso qu\'e se usa, y c\'omo se garantiza que todos los participantes compilan igual y con las mismas dependencias), qu\'e se incluye en la construcci\'on (descarga y actualizaci\'on de dependencias, compilaci\'on, ejecuci\'on de tests autom\'aticos...) y cada cu\'anto se construye (compila, integra, prueba) el sistema completo, c\'omo se configuran los computadores de los desarrolladores.
-	\item C\'omo se despliega el software m\'as all\'a de las m\'aquinas de desarrollo: contenedores, m\'aquinas virtuales, servidor en cloud etc. y c\'omo se configuran esos entornos (rutas, usuarios y contraseñas, puertos y otros elementos).
+	\item C\'omo se despliega el software m\'as all\'a de las m\'aquinas de desarrollo: contenedores, m\'aquinas virtuales, servidor en cloud etc. y c\'omo se configuran esos entornos (rutas, usuarios y contrase\~nas, puertos y otros elementos).
 \end{itemize}
 
 \subsubsection{Plan de aseguramiento de la calidad}
 
 \begin{itemize}
-	\item Est\'andares de c\'odigo y otros (se pueden definir gu\'ias para la documentaci\'on de diseño y otros documentos del proyecto).
+	\item Est\'andares de c\'odigo y otros (se pueden definir gu\'ias para la documentaci\'on de dise\~no y otros documentos del proyecto).
 	\item Actividades de control de calidad del c\'odigo que se realizar\'an: revisiones de c\'odigo por pares, revisiones de requisitos o diagramas UML por pares, tipos de tests autom\'aticos o manuales que se llevar\'an a cabo.
 \end{itemize}
 
@@ -187,7 +186,7 @@ Las tareas las determinar\'a el responsable del subproyecto y las asignar\'a a c
 	\begin{itemize}
 		\item Debe quedar claro qu\'e requisitos van a estar completados en la primera iteraci\'on y cu\'ales en la segunda. Es posible que para la primera iteraci\'on no se planifique completar ning\'un requisito, pero en ese caso tiene que planificarse qu\'e se har\'a y que faltar\'a por hacer para cada requisito.
 	\end{itemize}
-	\item Divisi\'on del trabajo en partes (los m\'odulos del software a desarrollar, pero tambi\'en  la documentaci\'on, el diseño gr\'afico, instalaciones o despliegues, pruebas manuales etc.) y reparto de los mismos entre el equipo de desarrollo, al menos a alto nivel (el reparto de labores concretas en el d\'ia a d\'ia no se detalla aqu\'i, pero hay que explicar bajo qu\'e criterios y qui\'en/c\'omo se hace en la secci\'on 3.1.2). Debe haber una correspondencia con las tareas que aparecen en el diagrama de Gantt (que no necesariamente tiene que ser una relaci\'on 1 a 1).
+	\item Divisi\'on del trabajo en partes (los m\'odulos del software a desarrollar, pero tambi\'en  la documentaci\'on, el dise\~no gr\'afico, instalaciones o despliegues, pruebas manuales etc.) y reparto de los mismos entre el equipo de desarrollo, al menos a alto nivel (el reparto de labores concretas en el d\'ia a d\'ia no se detalla aqu\'i, pero hay que explicar bajo qu\'e criterios y qui\'en/c\'omo se hace en la secci\'on 3.1.2). Debe haber una correspondencia con las tareas que aparecen en el diagrama de Gantt (que no necesariamente tiene que ser una relaci\'on 1 a 1).
 	\begin{itemize}
 		\item Verificar que esta divisi\'on del trabajo cubre todos los requisitos.
 	\end{itemize}
@@ -196,58 +195,58 @@ Las tareas las determinar\'a el responsable del subproyecto y las asignar\'a a c
 
 %% Section 4
 
-\section{An\'alisis y diseño del sistema} % Main chapter title
+\section{An\'alisis y dise\~no del sistema} % Main chapter title
 
 \subsection{An\'alisis de requisitos}
 Completar y detallar los requisitos preliminares incluidos en la propuesta t\'ecnica y econ\'omica. Recordad que los requisitos deben ser completos, concretos, medibles cuando tenga sentido y lo menos ambiguos posible. Tambi\'en es importante que est\'en identificados para facilitar su trazabilidad.
 
-\subsection{Diseño del sistema}
+\subsection{Dise\~no del sistema}
 \begin{itemize}
-	\item Diagramas arquitecturales (de m\'odulos, de componentes y conectores, de distribuci\'on), patrones de diseño y estilos arquitecturales que se aplicar\'an. Las interfaces (de m\'odulos y de componentes) son especialmente importantes. Tambi\'en lo son los protocolos de comunicaci\'on entre componentes.
+	\item Diagramas arquitecturales (de m\'odulos, de componentes y conectores, de distribuci\'on), patrones de dise\~no y estilos arquitecturales que se aplicar\'an. Las interfaces (de m\'odulos y de componentes) son especialmente importantes. Tambi\'en lo son los protocolos de comunicaci\'on entre componentes.
 	\item Tecnolog\'ias elegidas (lenguajes de programaci\'on, componentes que se integrar\'an, API web externas con las que se conectar\'a etc.).
 	\item Otros aspectos t\'ecnicos de inter\'es (p.ej. si hay base de datos si va a ser SQL o NoSQL, si hay una API Web va a ser RESTful o no, si algunas de las operaciones van a ser as\'incronas o no, si va a ser una aplicaci\'on m\'ovil o de escritorio ser\'a nativa o se van a usar tecnolog\'ias web, c\'omo se van a considerar los requisitos de seguridad o de prestaciones, c\'omo y d\'onde se har\'an las instalaciones y despliegues etc.)
 \end{itemize}
 
-Hay que justificar todas las decisiones de diseño. Esto exige contestar a dos preguntas sobre cada decisi\'on: ¿qu\'e alternativas se barajaron? y ¿por qu\'e se eligi\'o una y no las otras?
+Hay que justificar todas las decisiones de dise\~no. Esto exige contestar a dos preguntas sobre cada decisi\'on: ¿qu\'e alternativas se barajaron? y ¿por qu\'e se eligi\'o una y no las otras?
 
 
 %% Section 5
 
-\section{Memoria del proyecto} % Main chapter title
-
-\label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
-
-
-ESTE CAP\'iTULO NO SE RELLENA EN LA PRIMERA ENTREGA
-En este cap\'itulo se describir\'a c\'omo se ha llevado a cabo el proyecto, qu\'e cambios se han hecho respecto a la versi\'on inicial, imprevistos surgidos, etc.
-\subsection{Inicio del proyecto}
-Describir c\'omo transcurri\'o esta fase del proyecto, especialmente los resultados de llevar a cabo los procesos descritos en la secci\'on Procesos de inicio del proyecto.
-\subsection{Ejecuci\'on y control del proyecto}
-Describir c\'omo transcurri\'o esta fase del proyecto, especialmente los resultados de llevar a cabo los procesos descritos en la secci\'on Procesos de ejecuci\'on y control del proyecto y en la secci\'on Procesos t\'ecnicos. No olvidar:
-\begin{itemize}
-	\item C\'omo se ha realizado el reparto de trabajo entre miembros del equipo. C\'omo ha transcurrido la comunicaci\'on interna.
-	\item C\'omo se ha medido el progreso del proyecto. C\'omo se sab\'ia el trabajo realizado, el trabajo pendiente y lo que estaba haciendo cada persona.
-	\item Los ajustes realizados cuando se detectaron divergencias frente al calendario inicial (ajustes en el trabajo y/o ajustes en el calendario). Si se han identificado las causas de estas divergencias, explicarlas.
-	\item Adecuaci\'on de las herramientas y tecnolog\'ias empleadas. Si ha habido que cambiar alguna decisi\'on de diseño o de tecnolog\'ia, y por qu\'e.
-	\item Funcionamiento de los procesos de control de versiones del c\'odigo, construcci\'on y despliegue. ¿Ha habido problemas con las integraciones? ¿Problemas con los despliegues? ¿Se han perdido cosas por errores humanos? ¿C\'omo se han abordado estas tareas?
-	\item Pruebas del software. ¿Se han podido cumplir las ideas que se ten\'ian al respecto?
-\end{itemize}
-
-\subsection{Cierre del proyecto}
-Al menos:
-\begin{itemize}
-	\item Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales, analizar los resultados y tratar de expresar algunas lecciones aprendidas.
-	\item Lecciones aprendidas sobre herramientas y tecnolog\'ias.
-	\item Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
-\end{itemize}
+%\section{Memoria del proyecto} % Main chapter title
+%
+%\label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+%
+%
+%ESTE CAP\'iTULO NO SE RELLENA EN LA PRIMERA ENTREGA
+%En este cap\'itulo se describir\'a c\'omo se ha llevado a cabo el proyecto, qu\'e cambios se han hecho respecto a la versi\'on inicial, imprevistos surgidos, etc.
+%\subsection{Inicio del proyecto}
+%Describir c\'omo transcurri\'o esta fase del proyecto, especialmente los resultados de llevar a cabo los procesos descritos en la secci\'on Procesos de inicio del proyecto.
+%\subsection{Ejecuci\'on y control del proyecto}
+%Describir c\'omo transcurri\'o esta fase del proyecto, especialmente los resultados de llevar a cabo los procesos descritos en la secci\'on Procesos de ejecuci\'on y control del proyecto y en la secci\'on Procesos t\'ecnicos. No olvidar:
+%\begin{itemize}
+%	\item C\'omo se ha realizado el reparto de trabajo entre miembros del equipo. C\'omo ha transcurrido la comunicaci\'on interna.
+%	\item C\'omo se ha medido el progreso del proyecto. C\'omo se sab\'ia el trabajo realizado, el trabajo pendiente y lo que estaba haciendo cada persona.
+%	\item Los ajustes realizados cuando se detectaron divergencias frente al calendario inicial (ajustes en el trabajo y/o ajustes en el calendario). Si se han identificado las causas de estas divergencias, explicarlas.
+%	\item Adecuaci\'on de las herramientas y tecnolog\'ias empleadas. Si ha habido que cambiar alguna decisi\'on de dise\~no o de tecnolog\'ia, y por qu\'e.
+%	\item Funcionamiento de los procesos de control de versiones del c\'odigo, construcci\'on y despliegue. ¿Ha habido problemas con las integraciones? ¿Problemas con los despliegues? ¿Se han perdido cosas por errores humanos? ¿C\'omo se han abordado estas tareas?
+%	\item Pruebas del software. ¿Se han podido cumplir las ideas que se ten\'ian al respecto?
+%\end{itemize}
+%
+%\subsection{Cierre del proyecto}
+%Al menos:
+%\begin{itemize}
+%	\item Comparar las estimaciones iniciales (tama\~no, esfuerzos, costes) con los resultados finales, analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+%	\item Lecciones aprendidas sobre herramientas y tecnolog\'ias.
+%	\item Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
+%\end{itemize}
 
 %% Section 6
 
-\section{Conclusiones} % Main chapter title
-
-
-ESTE CAP\'iTULO SOLO SE RELLENA EN LA ENTREGA FINAL
-Adem\'as de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado, es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que iniciar un nuevo proyecto inmediatamente usando una metodolog\'ia de gesti\'on basada en procesos, ¿qu\'e cambios har\'iais respecto a los procesos que hab\'eis seguido durante este proyecto?  ¿Qu\'e cosas est\'a claro que har\'iais de otra forma? ¿Qu\'e cosas seguir\'iais haciendo m\'as o menos igual?
+%\section{Conclusiones} % Main chapter title
+%
+%
+%ESTE CAP\'iTULO SOLO SE RELLENA EN LA ENTREGA FINAL
+%Adem\'as de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado, es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que iniciar un nuevo proyecto inmediatamente usando una metodolog\'ia de gesti\'on basada en procesos, ¿qu\'e cambios har\'iais respecto a los procesos que hab\'eis seguido durante este proyecto?  ¿Qu\'e cosas est\'a claro que har\'iais de otra forma? ¿Qu\'e cosas seguir\'iais haciendo m\'as o menos igual?
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  28 FEB 2018 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  2 MAR 2018 19:46
 entering extended mode
 **./ej.tex
 (ej.tex
@@ -676,20 +676,58 @@ Missing character: There is no ± in font ptmr7t!
 \tf@toc=\write5
 \openout5 = `ej.toc'.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 117.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -697,14 +735,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 
-Overfull \hbox (4.47404pt too wide) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 157.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+
+Overfull \hbox (4.47404pt too wide) in paragraph at lines 173--174
 []\OT1/ptm/m/n/12 C[]omo se de-spl-iega el soft-ware m[]as all[]a de las m[]aqu
 inas de de-sar-rollo: con-tene-dores, m[]aquinas
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
-[3]
+[4]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Ã in font ptmb7t!
@@ -719,47 +792,23 @@ Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ¿ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ¿ in font ptmr7t!
- [4]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no ¿ in font ptmr7t!
- [5] [6] (ej.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [5] (ej.aux) ) 
 Here is how much of TeX's memory you used:
- 15332 strings out of 493312
- 304127 string characters out of 3138896
+ 15335 strings out of 493312
+ 304154 string characters out of 3138896
  375162 words of memory out of 3000000
- 18561 multiletter control sequences out of 15000+200000
- 21024 words of font info for 56 fonts, out of 3000000 for 9000
+ 18562 multiletter control sequences out of 15000+200000
+ 22708 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,67p,605b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb>
-Output written on ej.pdf (6 pages, 55189 bytes).
+ 55i,6n,67p,912b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on ej.pdf (5 pages, 67255 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
