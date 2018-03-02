@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introducci\'on}{1}
+\contentsline {subsection}{\numberline {1.1}Resumen}{1}
+\contentsline {subsection}{\numberline {1.2}Objetivos}{2}
+\contentsline {section}{\numberline {2}Organizaci\'on del proyecto}{2}
+\contentsline {subsection}{\numberline {2.1}Equipo}{2}
+\contentsline {section}{\numberline {3}Plan de gesti\'on del proyecto}{2}
+\contentsline {subsection}{\numberline {3.1}Procesos}{2}
+\contentsline {subsubsection}{\numberline {3.1.1}Procesos de inicio de proyecto}{2}
+\contentsline {subsubsection}{\numberline {3.1.2}Procesos de ejecuci\'on y control del proyecto}{2}
+\contentsline {subsubsection}{\numberline {3.1.3}Procesos t\'ecnicos}{3}
+\contentsline {subsection}{\numberline {3.2}Planes}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Plan de gesti\'on de configuraciones}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Plan de construcci\'on y despliegue del software}{3}
+\contentsline {subsubsection}{\numberline {3.2.3}Plan de aseguramiento de la calidad}{3}
+\contentsline {subsubsection}{\numberline {3.2.4}Calendario del proyecto y divisi\'on del trabajo}{4}
+\contentsline {section}{\numberline {4}An\'alisis y diseño del sistema}{4}
+\contentsline {subsection}{\numberline {4.1}An\'alisis de requisitos}{4}
+\contentsline {subsection}{\numberline {4.2}Diseño del sistema}{4}
+\contentsline {section}{\numberline {5}Memoria del proyecto}{5}
+\contentsline {subsection}{\numberline {5.1}Inicio del proyecto}{5}
+\contentsline {subsection}{\numberline {5.2}Ejecuci\'on y control del proyecto}{5}
+\contentsline {subsection}{\numberline {5.3}Cierre del proyecto}{5}
+\contentsline {section}{\numberline {6}Conclusiones}{6}

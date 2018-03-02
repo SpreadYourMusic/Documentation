@@ -1,0 +1,7 @@
+Equipo técnico encargado del proyecto
+El equipo está formado por 7 estudiantes de Ingeniería Informática. Estos poseen conocimientos sobre programación del frontend y backend de una aplicación Web. También se tiene experiencia en el diseño de base de datos  así como con la programación sobre la plataforma Android.
+Se han desarrollado varias aplicaciones Android entre las que destacan una aplicación para la gestión de notas y otra enfocada al sector veterinario. También se han desarrollado diversos sistemas de información web como son un portal de venta de libros. Por otro lado también posee experiencia en la programación 3d con la creación de varias modificaciones sobre videojuegos.
+Por último el equipo ha participado en concursos como Google HashCode y uCode.
+Por otro lado los integrantes del grupo ya poseen experiencia trabajando juntos.
+Para desarrollar esta aplicación se han creado 3 grupos dentro del equipo según la experiencia de los integrantes en las áreas de backend, interfaz Web(frontend) y desarrollo de la aplicación Android.
+Para gestionar el proyecto se ha designado un coordinador general así como coordinadores específicos dentro de cada área.
