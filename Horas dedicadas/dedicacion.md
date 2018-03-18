@@ -17,3 +17,8 @@
 | Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
+| Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
+| Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
+| Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
+| Alex               | 02/02/2018 | 1      | Requisitos e inserción en Latex |
+| Alex               | 18/02/2018 | 5      | Implementación pantalla playlist, home, reproductor |
