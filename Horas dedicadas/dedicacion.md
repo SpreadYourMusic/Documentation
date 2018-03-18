@@ -16,3 +16,4 @@
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
+| Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
