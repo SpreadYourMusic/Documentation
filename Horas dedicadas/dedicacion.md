@@ -11,3 +11,8 @@
 | Abel               | 08/03/2018	| 1,5    | Diseño e implementación pantalla home y pantalla reproductor |
 | Abel               | 12/03/2018	| 1,5    | Implementación del reproductor |
 | Abel               | 13/03/2018	| 1,5    | Implementación del reproductor |
+| Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
+| Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
+| Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
+| Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
+| Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
