@@ -29,3 +29,6 @@
 | &Aacute;ngel | 14/03/2018 | 2 | Setup de la base de datos  |
 | &Aacute;ngel | 18/03/2018 | 0.5 | Creaci&oacute;n de las tarjetas e issues para la gesti&oacute;n del proyecto.  |
 | &Aacute;ngel | 18/03/2018 | 1 | Creaci&oacute;n de las tablas Postgre. |
+| Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
+| Yasmina | 02/03/2018 | 2 | Documentación |
+
