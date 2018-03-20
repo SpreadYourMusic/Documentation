@@ -34,4 +34,9 @@
 | &Aacute;ngel | 18/03/2018 | 1 | Creaci&oacute;n de las tablas Postgre. |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
+| Abel               | 15/03/2018 | 1,25 | Investigación sobre las bibliotecas de control de audio en Android  y primeras pruebas con ellas |
+| Abel               | 17/03/2018 | 1,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 18/03/2018 | 4,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 19/03/2018 | 3 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 20/03/2018 | 3,25 | Corrección de errores en la implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
 
