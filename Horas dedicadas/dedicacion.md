@@ -40,4 +40,4 @@
 | Abel               | 19/03/2018 | 3 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
 | Abel               | 20/03/2018 | 3,25 | Corrección de errores en la implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
 | Abel               | 21/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
-
+| Alex               | 22/03/2018 | 1,5    | Página de búsqueda general |
