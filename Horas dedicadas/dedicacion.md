@@ -20,8 +20,8 @@
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
-| Alex               | 02/02/2018 | 1      | Requisitos e inserción en Latex |
-| Alex               | 18/02/2018 | 5      | Implementación pantalla playlist, home, reproductor |
+| Alex               | 02/03/2018 | 1      | Requisitos e inserción en Latex |
+| Alex               | 18/03/2018 | 5      | Implementación pantalla playlist, home, reproductor |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
@@ -49,3 +49,4 @@
 | Alex               | 24/03/2018 | 1,5    | Página de búsqueda general y búsquedas completas |
 | Abel               | 22/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
 | Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
+| Alex               | 25/03/2018 | 1    | Página canción individual: estructura y esprectro de onda. |
