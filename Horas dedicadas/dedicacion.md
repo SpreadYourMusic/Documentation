@@ -42,3 +42,5 @@
 | Abel               | 21/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
 | Alex               | 22/03/2018 | 1,5    | Página de búsqueda general |
 | Alex               | 24/03/2018 | 1,5    | Página de búsqueda general y búsquedas completas |
+| Abel               | 22/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
+| Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
