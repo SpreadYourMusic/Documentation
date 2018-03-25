@@ -32,6 +32,9 @@
 | &Aacute;ngel | 14/03/2018 | 2 | Setup de la base de datos  |
 | &Aacute;ngel | 18/03/2018 | 0.5 | Creaci&oacute;n de las tarjetas e issues para la gesti&oacute;n del proyecto.  |
 | &Aacute;ngel | 18/03/2018 | 1 | Creaci&oacute;n de las tablas Postgre. |
+| &Aacute;ngel | 22/03/2018 | 0.5 | Descripci&oacute;n de la arquitectura del Backend |
+| &Aacute;ngel | 23/03/2018 | 2 | B&uacute;squeda de herramientas para dibujo de Diagramas de Gantt |
+| &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Abel               | 15/03/2018 | 1,25 | Investigación sobre las bibliotecas de control de audio en Android  y primeras pruebas con ellas |
