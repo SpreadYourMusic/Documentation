@@ -25,6 +25,8 @@
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
+| Jorge P            | 24/03/2018 | 5      | Arquitectura y servicio de almacenamiento |
+| Jorge P            | 25/03/2018 | 5      | Configuración del servicio de almacenamiento |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
