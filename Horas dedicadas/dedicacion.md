@@ -51,3 +51,4 @@
 | Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
 | Alex               | 25/03/2018 | 1    | Página canción individual: estructura y esprectro de onda. |
 | Yasmina | 20/03/2018 | 1 | Estudio y parte de implementacion de las pantallas Android |
+| Abel               | 28/03/2018 | 4 | Implementación pantalla de novedades, pantalla de populares, mejora en diseño de navigation drawer, creacion de listas verticales (para posteriormente usar en perfil de artistas y playlist) y correccion de errores|
