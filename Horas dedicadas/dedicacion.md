@@ -11,6 +11,15 @@
 | Abel               | 08/03/2018	| 1,5    | Diseño e implementación pantalla home y pantalla reproductor |
 | Abel               | 12/03/2018	| 1,5    | Implementación del reproductor |
 | Abel               | 13/03/2018	| 1,5    | Implementación del reproductor |
+| Abel               | 15/03/2018 | 1,25 | Investigación sobre las bibliotecas de control de audio en Android  y primeras pruebas con ellas |
+| Abel               | 17/03/2018 | 1,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 18/03/2018 | 4,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 19/03/2018 | 3 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 20/03/2018 | 3,25 | Corrección de errores en la implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
+| Abel               | 21/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
+| Abel               | 22/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
+| Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
+| Abel               | 28/03/2018 | 4 | Implementación pantalla de novedades, pantalla de populares, mejora en diseño de navigation drawer, creacion de listas verticales (para posteriormente usar en perfil de artistas y playlist) y correccion de errores|
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
@@ -22,6 +31,9 @@
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
 | Alex               | 02/03/2018 | 1      | Requisitos e inserción en Latex |
 | Alex               | 18/03/2018 | 5      | Implementación pantalla playlist, home, reproductor |
+| Alex               | 22/03/2018 | 1,5    | Página de búsqueda general |
+| Alex               | 24/03/2018 | 1,5    | Página de búsqueda general y búsquedas completas |
+| Alex               | 25/03/2018 | 1    | Página canción individual: estructura y esprectro de onda. |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
@@ -39,16 +51,4 @@
 | &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
-| Abel               | 15/03/2018 | 1,25 | Investigación sobre las bibliotecas de control de audio en Android  y primeras pruebas con ellas |
-| Abel               | 17/03/2018 | 1,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
-| Abel               | 18/03/2018 | 4,5 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
-| Abel               | 19/03/2018 | 3 | Investigación sobre las bibliotecas de control de audio en Android  e implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
-| Abel               | 20/03/2018 | 3,25 | Corrección de errores en la implementación del reproductor (reproductor global de la aplicación, pantalla de reproducción y notificación que ha de mostrarse cuando el usuario deja la app con el reproductor abierto) |
-| Abel               | 21/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
-| Alex               | 22/03/2018 | 1,5    | Página de búsqueda general |
-| Alex               | 24/03/2018 | 1,5    | Página de búsqueda general y búsquedas completas |
-| Abel               | 22/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
-| Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
-| Alex               | 25/03/2018 | 1    | Página canción individual: estructura y esprectro de onda. |
 | Yasmina | 20/03/2018 | 1 | Estudio y parte de implementacion de las pantallas Android |
-| Abel               | 28/03/2018 | 4 | Implementación pantalla de novedades, pantalla de populares, mejora en diseño de navigation drawer, creacion de listas verticales (para posteriormente usar en perfil de artistas y playlist) y correccion de errores|
