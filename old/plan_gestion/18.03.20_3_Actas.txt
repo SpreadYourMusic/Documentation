@@ -1,0 +1,68 @@
+Fecha: 20/03/2018
+Asistentes: Angel, Jorge Aznar, Abel, Oscar
+Duración: 45m
+
+Diagrama de Gantt
+
+	-No aporta nada, pues taréas simultáneas son imposibles,
+	falta asignar una taréa por persona en un espacio de tiempo
+	
+	-Especificar mas detalladamente los periodos
+	
+	-No separar el diseño de la implementación en la aplicación Android
+	
+	-Faltan implementaciones en la aplicación Android
+	
+Realizar una nueva taréa no es tener una nueva versión de algo,
+se necesita un nuevo despliegue verificado como funcional
+
+Plan de gestión, análisis y diseño
+
+	-Corregir los errores en LaTex, faltan los carácteres especiales ('Ñ'),
+	utilizar librería especial que permita UTF-8, no ASCII
+	
+	-El coordinador general no existe, existe el director de proyecto (detalle técnico)
+	
+	-Realizar documentos precisos con información no genérica y/o ambigua
+	
+	-Estudiar la toma de decisiones en común previamente a las reuniones,	
+	no puede ser que una persona no sepa lo que los demás están realizando
+	
+	-Detallar por que se elige una conveción a nivel de lenguaje y no a nivel de proyecto
+	
+	-Añadir el plan de despliegue
+	
+	-Definir criterios de aceptación de código en base a guías, estándares o pruebas unitarias
+	
+	-Explicar el uso de Git-Flow (solucionado)
+
+	-Añadir las horas al Doodle
+	
+	-Diagramas de la aplicación Web y Backend (Gantt)
+	
+	-Control semanal de taréas realizadas
+	
+Requisitos no funcionales
+	
+	-Algunos requisitos son funcionales, saber bien a que se refiere con 'funcional'
+	
+	-Corregir las secciones mal puestas
+	
+	-La parte de arquitectura no es diseño
+	
+Nota: Llevar laptop a las reuniones, cogerlas antes, cogerlas cuando todos podamos,
+o cuando exista al menos un representante de cada división del proyecto.
+
+
+
+                        
+
+
+
+
+
+
+
+    
+    
+    
