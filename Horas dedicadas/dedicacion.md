@@ -60,4 +60,6 @@
 | &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
-| Yasmina | 20/03/2018 | 1 | Estudio y parte de implementacion de las pantallas Android |
+| Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
+| Yasmina | 27/03/2018 | 0.5 | Estudio y parte de implementacion de las pantallas Android |
+| Yasmina | 01/04/2018 | 0.5 | Implementacion de las pantallas Android |
