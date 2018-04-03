@@ -23,7 +23,7 @@
 | Abel               | 29/03/2018 | 2 | Adaptar circular progressbar a las necesidades de la aplicacion (se modifique la biblioteca para obtener mas rendimiento) |
 | Abel               | 30/03/2018 | 2 | Adaptar circular progressbar a las necesidades de la aplicacion (se modifique la biblioteca para obtener mas rendimiento) y retoques reproductor |
 | Abel               | 31/03/2018 | 3 | Arreglar errores y mejoras usabilidad y reorganización repositorio documentación |
-| Abel               | 2/03/2018 | 3 | Creacion pantalla de registro e implementación de oauth(lado android) |
+| Abel               | 2/04/2018 | 3 | Creación pantalla de registro e implementación de oauth(lado android) |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
