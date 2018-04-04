@@ -58,6 +58,15 @@
 | &Aacute;ngel | 22/03/2018 | 0.5 | Descripci&oacute;n de la arquitectura del Backend |
 | &Aacute;ngel | 23/03/2018 | 2 | B&uacute;squeda de herramientas para dibujo de Diagramas de Gantt |
 | &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
+| &Aacute;ngel | 29/03/2018 | 4 | Registro de usuarios y uso de Hibernate para carga de datos |
+| &Aacute;ngel | 31/03/2018 | 5.5 | Login de usuarios y solución de errores. |
+| &Aacute;ngel | 01/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
+| &Aacute;ngel | 01/04/2018 | 1 | Obtención de datos del usuario |
+| &Aacute;ngel | 02/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
+| &Aacute;ngel | 02/04/2018 | 0.75 | Verificación de cuentas |
+| &Aacute;ngel | 04/04/2018 | 2 | Verificación de cuentas |
+| &Aacute;ngel | 04/04/2018 | 2 | Actualizar datos usuario |
+| &Aacute;ngel | 04/04/2018 | 2 | Obtener datos de canción y preparación despliegue |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
