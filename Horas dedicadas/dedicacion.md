@@ -31,7 +31,12 @@
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
+| Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
+| Jorge              | 07/04/2018	| 4      | Desarrollo memoria técnica, recopilación y sintesis de la información |
+| Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
+| Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
+| Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
@@ -74,5 +79,3 @@
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
 | Yasmina | 27/03/2018 | 0.5 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 01/04/2018 | 0.5 | Implementacion de las pantallas Android |
-| Óscar | 01-03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion
-| Óscar | 08/04/2018  | 2 | Memoria en Plan de Gestion
