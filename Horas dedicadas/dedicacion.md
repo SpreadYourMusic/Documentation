@@ -75,3 +75,4 @@
 | Yasmina | 27/03/2018 | 0.5 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 01/04/2018 | 0.5 | Implementacion de las pantallas Android |
 | Óscar | 01-03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion
+| Óscar | 08/04/2018  | 2 | Memoria en Plan de Gestion
