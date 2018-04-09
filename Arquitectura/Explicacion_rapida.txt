@@ -1,0 +1,32 @@
+Construcción del software
+Para la compilación del backend utilizamos Maven que facilita las dependencias entre los paquetes y garantiza que todos compilen con las mismas dependencias
+Para la compilación de Android se utiliza Grandle de una manera similar a Maven
+Para la compilación de la Web se realiza una compilación manual de Jekyll
+
+Para realizar los test, se realizan de manera manual, primero en los ordenadores personales de cada integrante y luego integrandolo con el servidor de producción.
+Los modulos son independientes entre ellos y se comunican principalmente mediante peticiones HTTP, esto permite simular las peticiones antes de probarlo con el entorno real de producción.
+
+No existe una construcción automática del software sino que se realiza una construcción cuando se ha terminado alguna feature. Se van realizando compilaciones locales y unicamente cuando hay una release se realiza una compilación en el servidor.
+
+Despliegue de software.
+Debido a presupuesto hemos simulado todo el entorno de pruebas en un solo servidor mediante máquinas virtuales y virtualización anidada.
+El servidor host unicamente es el encargado de redirigir las peticiones mediante un HAProxy a modo de router.
+Se utilizan 4 maquinas virtuales:
+3 maquinas virtuales constituyen el servicio de almacenamiento, encargado de servir los datos, almacenar la información y garantizar la consistencia y seguridad de los datos.
+Se utiliza ceph(https://ceph.com/) como sistema de almacenamiento distribuido definido por software sobre debian como sistema operativo, para desplegarlo se utiliza la herramienta semiautomatica de ceph-deploy
+Se utiliza RadosGateway(http://docs.ceph.com/docs/master/radosgw/) como interfaz para exportar los datos mediante HTTP, de una manera similar a Amazon S3, las canciones se almacenan en Buckets y disponen de un URL único.
+
+El cuarto servidor contiene Proxmox(https://www.proxmox.com/en/) y kvm. Se encarga de virtualizar tanto la base de datos como el backend y su integración con ceph permite una gestion unificada del servicio de almacenamiento.
+La idea de utilizar maquinas virtuales es la gran escalabilidad que permite y la posibilidad de configurar resistencia a fallos automática.
+
+La separación entre backend y el servicio de almacenamiento permite redirigir las peticiones sin sobrecargar ninguno de los dos servicios, un solo servidor de backend atenderá a pequeñas peticiones de consultas mientras que los 3 servidores de almacenamiento atienden a las peticiones de datos de canciones
+
+
+Puertos:
+
+ceph01 	192.168.200.10 	2000 	RGW(HTTP) 7480
+ceph02 	192.168.200.11 	2001 	RGW(HTTP)  7480
+ceph03 	192.168.200.12 	2002 	RGW(HTTP)  7480
+proxmox 	192.168.200.20 	2005 	WEB 8006
+backend 	192.168.200.16 	2006 	HTTP 7800 HTTPS 7880
+postgres 	192.168.200.17 	2007 	POSTGRES 7850
