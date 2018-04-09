@@ -33,6 +33,7 @@
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 07/04/2018	| 4      | Desarrollo memoria técnica, recopilación y sintesis de la información |
 | Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
+| Jorge              | 08/04/2018	| 1.5      | Desarrollo memoria técnica y redacción planes despliegue junto con Jorge P. |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
