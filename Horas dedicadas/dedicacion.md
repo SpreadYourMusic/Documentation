@@ -31,7 +31,6 @@
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
-| Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 07/04/2018	| 4      | Desarrollo memoria técnica, recopilación y sintesis de la información |
 | Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
