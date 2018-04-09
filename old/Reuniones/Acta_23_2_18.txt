@@ -1,0 +1,75 @@
+Fecha: 23/02/2018
+Asistentes: Angel, Jasmina, Abel, Jorge Pinilla
+Duración: 1h
+
+Funcionalidad corta
+    Algo más importante
+    
+Cambiarlo como una empresa no como un proyecto
+Quitar capitulos
+Resumen ejecutivo:
+    No repetir información
+    Mas narrativo
+    basadas en geolocalización (comentar en los analisis de requisitos)
+    Precios: redondear
+
+Requisitos:
+    incompletos
+    desordenados
+    funcionales/no funcionales
+    -permite reproducir aplicaciones en el repositorio (explicar lo que es un repositorio)
+    -versiones de android y web --> android(5) y chrome y firefox
+    -geolocalización
+    ordenar por bloques de funcionalidad
+    Cosas no funcionales
+        Responsive
+        Intefaz grafica agradable
+    ++
+    desde cualquier pantalla se puede reproducir musica, no solo desde la del reproductor
+Diseño android      
+    Como borrar playlist
+    En todas las pantallas se pueden añadir a favoritos y a la playlist
+    Imagenes para avanzar
+    Mayor control de la reproducción
+    Cambiar la barra de reproducción
+    Cambiar la canción al desplazar a los lados
+    No añadir un + para añadir
+    Menú
+    Perfil de usuario y perfil de artista
+Web
+    Muchas opciones no especificadas en el texto
+    Ordenaciones visualizaciones
+    Filtrar por artistas
+    
+Ventana de administrador
+    Describir y detallar
+    virtualizado-virtualizado
+Descripción técnica:
+    Sobre hierro
+    Diagrama de despliegue
+Equipo técnico
+    Experiencia en productos finales
+    Venderse como empresa
+Presupuesto aun mas simplificado
+    1 o 2 opciones solo
+    Redondeado a cifra
+    IVA
+Coste
+    Demasiado detallado
+    Como es un documento interno no es tan grave
+Plan de gestion del proyecto
+    Gestionar la baja
+    Reuniones
+    Planificación de todo el proyecto desde el principio
+
+                        
+
+
+
+
+
+
+
+    
+    
+    

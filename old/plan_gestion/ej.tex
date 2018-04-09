@@ -106,7 +106,7 @@
 
 La aplicaci\'on a desarrollar consistir\'a en un reproductor de m\'usica en \textit{streaming} inspirado en \textit{Soundcloud} y \textit{Spotify}.\\ 
 
-Es una aplicaci\'on orientada a todo tipo de usuario, tanto a los m\'usicos que est\'an empezando su carrera en el mundo de la m\'usica como a cualquier persona aficionada a la m\'usica. Nuestra aplicaci\'on permitir\'a a los usuarios subir canciones, crear listas de reproducci\'on o escuchar canciones utilizando un reproductor propio entre otras funcionalidades. La versi\'on Android permitir\'a a los usuarios descargar las canciones para poder escucharlas sin necesidad de estar conectado a Internet. Tambi\'en incluir\'a caracter\'isticas sociales, permitiendo a los usuarios seguir a sus artistas favoritos para ver las novedades que publican o suscribirse a listas de reproducci\'on creadas por otros usuarios para enterarse de cambios en esta. El sistema tambi\'en poseer\'a integraci\'on con redes sociales, as\'i como la posibilidad de autentificaci\'on mediante cuenta de Google.\\
+Es una aplicaci\'on orientada a todo tipo de usuario, tanto a los m\'usicos que est\'an empezando su carrera en el mundo de la m\'usica como a cualquier persona aficionada a ella. Nuestra aplicaci\'on permitir\'a a los usuarios subir canciones, crear listas de reproducci\'on o escuchar canciones utilizando un reproductor propio entre otras funcionalidades. La versi\'on Android permitir\'a a los usuarios descargar las canciones para poder escucharlas sin necesidad de estar conectado a Internet. Tambi\'en incluir\'a caracter\'isticas sociales, permitiendo a los usuarios seguir a sus artistas favoritos para ver las novedades que publican o subscribirse a listas de reproducci\'on creadas por otros usuarios para enterarse de cambios en esta. El sistema tambi\'en poseer\'a integraci\'on con redes sociales, as\'i como la posibilidad de autentificaci\'on mediante cuenta de Google.\\
 
 El usuario tendr\'a recomendaciones personalizadas para el usuario tanto basadas en su historial de reproducci\'on como en geolocalizaci\'on y facilitar\'a al usuario encontrar canciones, pudiendo buscar canciones por categor\'ias, autor, nombre, as\'i como tambi\'en mostrando canciones populares dentro de la aplicaci\'on.\\
 
@@ -118,16 +118,16 @@ Nuestra aplicaci\'on tendr\'a soporte web (en navegadores Chrome y Firefox) y co
 \section{Organizaci\'on del proyecto} % Main chapter title
 \subsection{Equipo}
 
-El equipo est\'a formado por 7 estudiantes de Ingenier\'ia Inform\'atica: Jorge Aznar L\'opez, \'angel Ca\~nal Muniesa, Abel Chils Trabanco, Alicia Yasmina Albero Escudero, \'oscar Fraca Ferr\'andez, Alexandru Ioan Oarga Hategan y Jorge Pinilla L\'opez.\\
+El equipo est\'a formado por 7 estudiantes de Ingenier\'ia Inform\'atica: Jorge Aznar L\'opez, \'Angel Ca\~nal Muniesa, Abel Chils Trabanco, Alicia Yasmina Albero Escudero, \'Oscar Fraca Ferr\'andez, Alexandru Ioan Oarga Hategan y Jorge Pinilla L\'opez.\\
 
 De estos, cinco poseen conocimientos sobre programaci\'on Web (\textit{Frontend}) as\'i como pr\'actica en el desarrollo del \textit{Backend} de una aplicaci\'on Web. Por otro lado, todos tienen experiencia en el dise\~no de base de datos, as\'i como experiencia con la programaci\'on sobre la plataforma Android. Adem\'as, los integrantes del grupo ya poseen experiencia trabajando juntos, lo cual facilitar\'a la comunicaci\'on entre ellos. \\
 
 Para desarrollar esta aplicaci\'on se han creado 3 grupos y cada uno se centrar\'a en una parte del desarrollo. Un equipo se encargar\'a del
 \textit{Backend}, otro de la interfaz Web (o \textit{Frontend}) y por \'ultimo otro de la aplicaci\'on Android. La asignaci\'on de los integrantes del grupo a cada una de las partes se ha realizado en base a la experiencia que posea el integrante en cuesti\'on en dicha \'area.\\
 
-El equipo de \textit{Backend} est\'a formado por \'oscar, \'angel y Jorge Aznar. El equipo de la plataforma Android est\'a formado por Abel y Yasmina. Por \'ultimo, el equipo de \textit{Frontend} est\'a formado por Alexandru y Jorge Pinilla. \\
+El equipo de \textit{Backend} est\'a formado por \'Oscar, \'Angel y Jorge Aznar. El equipo de la plataforma Android est\'a formado por Abel y Yasmina. Por \'ultimo, el equipo de \textit{Frontend} est\'a formado por Alexandru y Jorge Pinilla. \\
 
-Para gestionar el proyecto se ha designado un coordinador general y coordinadores espec\'ificos dentro de cada \'area. El coordinador general es Abel, el coordinador de \textit{Backend} es \'angel, el de Android es Abel y el de \textit{Frontend} es Jorge Pinilla
+Para gestionar el proyecto se ha designado un director de proyecto y coordinadores espec\'ificos dentro de cada \'area. El director es Abel, el coordinador de \textit{Backend} es \'Angel, el de Android es Abel y el de \textit{Frontend} es Jorge Pinilla
 
 %% Section 3
 
@@ -137,7 +137,7 @@ Para gestionar el proyecto se ha designado un coordinador general y coordinadore
 
 \subsubsection{Procesos de inicio de proyecto}
 
-La aplicaci\'on m\'ovil funcionar\'a en dispositivos con Android 5.0, la aplicaci\'on web funcionar\'a en los navegadores Firefox y Chrome. Para realizar las pruebas de la aplicaci\'on m\'ovil se requerir\'a de un dispositivo con Android 5.0. Por otro lado, para las pruebas de la versi\'on web ser\'a necesario un ordenador con el navegador instalado (Chrome o Firefox). El sistema se funcionar\'a sobre un cl\'uster, que contar\'a con un almacenamiento bruto de 20GB. Se ha estimado este tama\~no para el cl\'uster teniendo en cuenta la arquitectura del sistema. 
+La aplicaci\'on m\'ovil funcionar\'a en dispositivos con Android 5.0 como m\'inimo, la aplicaci\'on web funcionar\'a en los navegadores Firefox y Chrome en su \'ultima versi\'on disponible para Windows y Mac. Para realizar las pruebas de la aplicaci\'on m\'ovil se va a usar un dispositivo f\'isico con Android 5.0. Por otro lado, para las pruebas de la versi\'on web se va a usar un ordenador con el navegador instalado y actualizado (Chrome y Firefox). El sistema inicialmente funcionar\'a sobre un cl\'uster, que contar\'a con un almacenamiento bruto de 20GB. Se ha estimado este tama\~no para el cl\'uster ya que presenta un espacio aceptable para almacenar canciones de prueba en esta arquitectura. Este espacio se usara como base en las pruebas iniciales ya que cuando el software se entregue al cliente este podr\'a poner el tama\~no que desee en su cl\'uster puesto que el sistema es f\'acilmente escalable. 
 
 
 \subsubsection{Procesos de ejecuci\'on y control del proyecto}
@@ -155,7 +155,7 @@ Las herramientas utilizadas tanto para desarrollo del software (construcci\'on, 
 
 Para asegurar la calidad del software, al mismo tiempo que se vaya desarrollando se ir\'an creando pruebas unitarias sobre el mismo con JUnit.\\
 
-Siguiendo una metodolog\'ia de diseño incremental, cada dos semanas se tiene planificada la entrega interna de una versi\'on nueva del software.  Estas versiones se basa en la versi\'on anterior añadi\'endole ciertas funcionalidades.\\
+Siguiendo una metodolog\'ia de dise\~no incremental, cada dos semanas se tiene planificada la entrega interna de una versi\'on nueva del software.  Estas versiones se basa en la versi\'on anterior a\~nadi\'endole ciertas funcionalidades y no ser\'an lanzadas al p\'ublico.\\
 
 
 \subsection{Planes}
@@ -209,58 +209,59 @@ En la primera de estas se encuentran las apis con servicios externos (backend, g
 \includegraphics[width=\linewidth]{Figures/gantt-1.png}\\
 \includegraphics[width=\linewidth]{Figures/gantt-2.png}\\
 \includegraphics[width=\linewidth]{Figures/gantt-3.png}\\
+%% Añadir/sustituir graficos
 
 \textbf{Versiones de la aplicaci\'on Android}
 
 Versi\'on 0.1 (3 marzo)
-Diseño pantalla de login
-Diseño reproductor b\'asico
-Diseño perfil usuarios(otros usuarios)
-Diseño pantalla de ver playlist
-Diseño pantalla principal (Aparecer\'an recomendaciones, novedades de artistas o playlists a las que se est\'e suscrito y canciones,playlists o artistas populares).
-Diseño arquitectura aplicaci\'on
+Dise\~no pantalla de login,
+Dise\~no reproductor b\'asico,
+Dise\~no perfil usuarios(otros usuarios),
+Dise\~no pantalla de ver playlist,
+Dise\~no pantalla principal (Aparecer\'an recomendaciones, novedades de artistas o playlists a las que se est\'e suscrito y canciones,playlists o artistas populares),
+Dise\~no arquitectura aplicaci\'on.
 
 Versi\'on 0.2 (17 marzo)
-Implementaci\'on pantalla de login
-Implementaci\'on perfil usuarios(otros usuarios)
-Implementaci\'on reproductor b\'asico
-Implementaci\'on pantalla de ver playlist
-Implementaci\'on pantalla principal (Aparecer\'an recomendaciones, novedades de artistas o playlists a las que se est\'e suscrito y canciones,playlists o artistas populares).
-Diseño del fragmento del reproductor que aparecer\'a cuando se est\'a escuchando m\'usica en una pantalla que no es la pantalla de reproductor.
-Diseño pantalla explorar (pantalla en la que aparecen todos los generos, artistas del momento y recomendaciones basadas en la ubicaci\'on).
-Diseño pantalla recomendados
-Diseño pantalla novedades
-Diseño buscador
+Implementaci\'on pantalla de login,
+Implementaci\'on perfil usuarios(otros usuarios),
+Implementaci\'on reproductor b\'asico,
+Implementaci\'on pantalla de ver playlist,
+Implementaci\'on pantalla principal (Aparecer\'an recomendaciones, novedades de artistas o playlists a las que se est\'e suscrito y canciones,playlists o artistas populares),
+Dise\~no del fragmento del reproductor que aparecer\'a cuando se est\'a escuchando m\'usica en una pantalla que no es la pantalla de reproductor,
+Dise\~no pantalla explorar (pantalla en la que aparecen todos los generos, artistas del momento y recomendaciones basadas en la ubicaci\'on),
+Dise\~no pantalla recomendados,
+Dise\~no pantalla novedades,
+Dise\~no buscador.
 
 Versi\'on 0.3 (31 marzo)
-Implementaci\'on pantalla explorar (pantalla en la que aparecen todos los generos, artistas del momento y recomendaciones basadas en la ubicaci\'on).
-Implementaci\'on pantalla recomendados
-Implementaci\'on pantalla novedades
-Implementaci\'on buscador
-Diseño pantalla de registro
-Implementaci\'on pantalla de registro
-Diseño pantalla de usuario (usuario propio)
-Implementaci\'on pantalla de usuario (usuario propio)
-Diseño pantalla de canciones favoritas
-Implementaci\'on pantalla de canciones favoritas
+Implementaci\'on pantalla explorar (pantalla en la que aparecen todos los generos, artistas del momento y recomendaciones basadas en la ubicaci\'on),
+Implementaci\'on pantalla recomendados,
+Implementaci\'on pantalla novedades,
+Implementaci\'on buscador,
+Dise\~no pantalla de registro,
+Implementaci\'on pantalla de registro,
+Dise\~no pantalla de usuario (usuario propio),
+Implementaci\'on pantalla de usuario (usuario propio),
+Dise\~no pantalla de canciones favoritas,
+Implementaci\'on pantalla de canciones favoritas.
 
 Versi\'on 0.4 (14 abril)
-Diseño pantalla de "usuarios a los que sigo"
-Implementaci\'on pantalla de "usuarios a los que sigo"
-Diseño pantalla de "playlists a las que sigo"
-Implementaci\'on pantalla de "playlists a las que sigo"
-Diseño pantalla de subir cancion(perfil de usuario)
-Implementaci\'on pantalla de subir cancion(perfil de usuario)
+Dise\~no pantalla de "usuarios a los que sigo",
+Implementaci\'on pantalla de "usuarios a los que sigo",
+Dise\~no pantalla de "playlists a las que sigo",
+Implementaci\'on pantalla de "playlists a las que sigo",
+Dise\~no pantalla de subir cancion(perfil de usuario),
+Implementaci\'on pantalla de subir cancion(perfil de usuario).
 
 Versi\'on 0.5 (28 abril)
-Diseño pantalla de mis playlists(perfil usuario)
-Implementaci\'on pantalla de mis playlists(perfil usuario)
-Diseño pantalla de mis canciones(perfil usuario)
-Implementaci\'on pantalla de mis canciones(perfil usuario)
+Dise\~no pantalla de mis playlists(perfil usuario),
+Implementaci\'on pantalla de mis playlists(perfil usuario),
+Dise\~no pantalla de mis canciones(perfil usuario),
+Implementaci\'on pantalla de mis canciones(perfil usuario).
 
 Versi\'on 0.6 (\'ultima) (12 mayo)
-Integraci\'on del reproductor en todas las pantallas
-Reproductor avanzado(ecualizador + letras)
+Integraci\'on del reproductor en todas las pantallas,
+Reproductor avanzado(ecualizador + letras).
 
 
 %% Section 4
@@ -268,6 +269,8 @@ Reproductor avanzado(ecualizador + letras)
 \section{An\'alisis y dise\~no del sistema} % Main chapter title
 
 \subsection{An\'alisis de requisitos}
+%% Un requisito funcional define una función del sistema de software o sus componentes.
+%% Un requisito no funcional especifica criterios que pueden usarse para juzgar la operación de un sistema, se refieren a todos los requisitos que no describen información a guardar, ni funciones a realizar, sino características de funcionamiento; son las restricciones o condiciones que impone el cliente.
 \subsubsection{Sistema}
 \textbf{Requisitos no funcionales}
 \begin{enumerate}
@@ -298,7 +301,7 @@ Reproductor avanzado(ecualizador + letras)
 	
 	
 	\item El sistema permite que los usuarios se registren en el sistema.
-	\item El sistema permite que los usuarios de identifiquen tanto con usuario y contraseña as\'i como con una cuenta de Google.
+	\item El sistema permite que los usuarios de identifiquen tanto con usuario y contrase\~na as\'i como con una cuenta de Google.
 	\item El sistema permite que los usuarios registrado registren nuevas canciones en el sistema.
 	
 	\item El sistema permite que los usuarios registrados creen y borren listas de reproducci\'on formadas por canciones que pueden ser o no del propio usuario, las cuales ser\'an p\'ublicas.
@@ -306,7 +309,7 @@ Reproductor avanzado(ecualizador + letras)
 	\item El sistema permite obtener todas las canciones de una lista de reproducci\'on.
 
 	\item El sistema permite que los usuarios registrados tengan una lista de canciones favoritas, la cual ser\'a privada.
-	\item El sistema permite que los usuarios registrados añadan o eliminen canciones de favoritos.
+	\item El sistema permite que los usuarios registrados a\~nadan o eliminen canciones de favoritos.
 	\item El sistema permite que los usuarios registrados obtengan la lista de sus canciones favoritas.
 	\item El sistema permite obtener las letras de una canci\'on.
 	
@@ -336,11 +339,11 @@ Reproductor avanzado(ecualizador + letras)
 \textbf{Requisitos funcionales}
 \begin{enumerate}
 	\item El sistema permite un solo tipo de usuario, y es el usuario registrado (usuario que est\'e registrado en el sistema).
-	\item El sistema permite que los usuarios de identifiquen tanto con usuario y contraseña as\'i como con una cuenta de Google.
+	\item El sistema permite que los usuarios de identifiquen tanto con usuario y contrase\~na as\'i como con una cuenta de Google.
 	\item  El sistema permite que los usuarios suban canciones a la aplicaci\'on
 	\item  El sistema permite que los usuarios se registren en la aplicaci\'on.
 	\item  El sistema permite a los usuarios tener una lista de canciones favoritas, la cual ser\'a privada.
-	\item  El sistema permite añadir a favorito una canci\'on que se est\'a escuchando.
+	\item  El sistema permite a\~nadir a favorito una canci\'on que se est\'a escuchando.
 	\item  El sistema permite desde cualquier pantalla escuchar canciones y ver los controles b\'asicos de canciones (play, pause y pasar canci\'on)
 	\item  El sistema permite desde una pantalla espec\'ifica acceder a m\'as controles sobre las canciones.
 	\begin{itemize}
@@ -352,7 +355,7 @@ Reproductor avanzado(ecualizador + letras)
 	
 	\item  El sistema posee una pantalla principal en la que se mostrar\'an recomendaciones (canciones, listas de reproducci\'on y usuarios), novedades sobre los usuarios y listas de reproducci\'on seguidos y canciones m\'as populares. 
 	\item  El sistema posee una pantalla de usuario (otros usuarios) en la que se puede ver su informaci\'on, canciones, listas de reproducci\'on creadas, su n\'umero de seguidores, la opci\'on de seguirlo as\'i como un enlace a sus redes sociales.
-	\item  El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducci\'on creadas, as\'i como añadir m\'as canciones, listas de reproducci\'on o eliminar alguna de las dos.
+	\item  El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducci\'on creadas, as\'i como a\~nadir m\'as canciones, listas de reproducci\'on o eliminar alguna de las dos.
 	
 	\item  El sistema permite crear listas de reproducci\'on formadas por canciones de las que puedes ser autor o no, las cuales ser\'an publicas.
 	\item  El sistema permite modificar los datos de usuario una vez creado.
@@ -366,7 +369,7 @@ Reproductor avanzado(ecualizador + letras)
 \begin{enumerate}
 	\item El sistema posee una pantalla principal en la que se mostrar\'an recomendaciones (canciones, listas de reproducci\'on y usuarios), novedades sobre los usuarios y listas de reproducci\'on seguidos y canciones m\'as populares. 
 	\item El sistema posee una pantalla de usuario (otros usuarios) en la que se puede ver su informaci\'on, canciones, listas de reproducci\'on creadas, su n\'umero de seguidores, la opci\'on de seguirlo as\'i como un enlace a sus redes sociales.
-	\item El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducci\'on creadas, as\'i como añadir m\'as canciones, listas de reproducci\'on o eliminar alguna de las dos.
+	\item El sistema posee una pantalla de usuario (usuario propio) en la que se puede ver las canciones del propio usuario y sus listas de reproducci\'on creadas, as\'i como a\~nadir m\'as canciones, listas de reproducci\'on o eliminar alguna de las dos.
 \end{enumerate}
 
 \subsubsection{Web}
@@ -392,9 +395,9 @@ Reproductor avanzado(ecualizador + letras)
 			\item El sistema permite a los usuarios registrados modificar su informaci\'on personal.
 			\item El sistema permite a los usuarios registrados subir canciones.
 			\item El sistema permite administrar una lista de reproducci\'on privada de favoritos.
-			\item El sistema permite añadir cualquier canci\'on a favoritos.
+			\item El sistema permite a\~nadir cualquier canci\'on a favoritos.
 			\item El sistema permite crear listas de reproducci\'on p\'ublicas
-			\item El sistema permite añadir cualquier canci\'on a una lista de reproducci\'on previamente creada por el usuario.
+			\item El sistema permite a\~nadir cualquier canci\'on a una lista de reproducci\'on previamente creada por el usuario.
 			\item El sistema permite eliminar una canci\'on de sus listas de reproducci\'on o de la lista favoritos.	
 			\item El sistema permite seguir/ dejar de seguir a un usuario.
 			\item El sistema permite seguir/ dejar de seguir a una lista de reproducci\'on.
@@ -403,7 +406,7 @@ Reproductor avanzado(ecualizador + letras)
 		\end{enumerate}
 		\item Administrador
 		\begin{enumerate}
-			\item El usuario administrador se identifica en la aplicaci\'on con un usuarios y contraseña predefinidos.
+			\item El usuario administrador se identifica en la aplicaci\'on con un usuarios y contrase\~na predefinidos.
 			\item El sistema permite al usuario administrador puede verificar la identidad de un usuario.
 			\item El sistema permite al usuario administrador modificar la informaci\'on de un usuario, canci\'on o playlist.
 			\item (RNF) La pantalla de administrador incluye un buscador para la b\'usqueda de un usuario, lista o canci\'on y una lista con el resultado de la b\'usqueda.

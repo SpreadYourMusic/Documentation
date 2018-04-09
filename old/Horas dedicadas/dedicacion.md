@@ -20,22 +20,12 @@
 | Abel               | 22/03/2018 | 3 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
 | Abel               | 23/03/2018 | 3,5 | Corrección de errores en la implementación del reproductor y mejora en la arquitectura de este|
 | Abel               | 28/03/2018 | 4 | Implementación pantalla de novedades, pantalla de populares, mejora en diseño de navigation drawer, creacion de listas verticales (para posteriormente usar en perfil de artistas y playlist) y correccion de errores|
-| Abel               | 29/03/2018 | 2 | Adaptar circular progressbar a las necesidades de la aplicacion (se modifique la biblioteca para obtener mas rendimiento) |
-| Abel               | 30/03/2018 | 2 | Adaptar circular progressbar a las necesidades de la aplicacion (se modifique la biblioteca para obtener mas rendimiento) y retoques reproductor |
-| Abel               | 31/03/2018 | 3 | Arreglar errores y mejoras usabilidad y reorganización repositorio documentación |
-| Abel               | 2/04/2018 | 3 | Creación pantalla de registro e implementación de oauth(lado android) |
-| Abel               | 4/04/2018 | 4,5 | Documentacion(Arquitectura Android y diagrama de Gantt), pantall generos y mejora en el codigo y inicio artist activity |
-| Abel               | 5/04/2018 | 6,5 | Correcciones reproductor, creacion de : artist activity y playlist activity, pantalla de usuario propio , pantalla de favoritos, pantalla de usuarios seguidos y pantalla playlist seguidas |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
 | Jorge              | 09/03/2018	| 1      | Búsqueda y ejemplificación de cartas de servicio para la aplicación |
 | Jorge              | 10/03/2018	| 1      | Investigación sobre tecnologías de tokens/cookies y su uso |
-| Jorge              | 07/04/2018	| 4      | Desarrollo memoria técnica, recopilación y sintesis de la información |
-| Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
-| Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
-| Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
@@ -45,8 +35,6 @@
 | Alex               | 24/03/2018 | 1,5    | Página de búsqueda general y búsquedas completas |
 | Alex               | 25/03/2018 | 1    | Página canción individual: estructura y esprectro de onda. |
 | Alex               | 30/03/2018 | 2    | Página canción individual, sincronización reproductor |
-| Alex               | 31/03/2018 | 3.5    | Página canción individual, pantalla perfil |
-| Alex               | 01/04/2018 | 2.5    | Pantalla perfil, pantallas editar perfil |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
@@ -64,17 +52,6 @@
 | &Aacute;ngel | 22/03/2018 | 0.5 | Descripci&oacute;n de la arquitectura del Backend |
 | &Aacute;ngel | 23/03/2018 | 2 | B&uacute;squeda de herramientas para dibujo de Diagramas de Gantt |
 | &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
-| &Aacute;ngel | 29/03/2018 | 4 | Registro de usuarios y uso de Hibernate para carga de datos |
-| &Aacute;ngel | 31/03/2018 | 5.5 | Login de usuarios y solución de errores. |
-| &Aacute;ngel | 01/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
-| &Aacute;ngel | 01/04/2018 | 1 | Obtención de datos del usuario |
-| &Aacute;ngel | 02/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
-| &Aacute;ngel | 02/04/2018 | 0.75 | Verificación de cuentas |
-| &Aacute;ngel | 04/04/2018 | 2 | Verificación de cuentas |
-| &Aacute;ngel | 04/04/2018 | 2 | Actualizar datos usuario |
-| &Aacute;ngel | 04/04/2018 | 2 | Obtener datos de canción y preparación despliegue |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
-| Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
-| Yasmina | 27/03/2018 | 0.5 | Estudio y parte de implementacion de las pantallas Android |
-| Yasmina | 01/04/2018 | 0.5 | Implementacion de las pantallas Android |
+| Yasmina | 20/03/2018 | 1 | Estudio y parte de implementacion de las pantallas Android |
