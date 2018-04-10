@@ -26,7 +26,7 @@
 | Abel               | 2/04/2018 | 3 | Creación pantalla de registro e implementación de oauth(lado android) |
 | Abel               | 4/04/2018 | 4,5 | Documentacion(Arquitectura Android y diagrama de Gantt), pantall generos y mejora en el codigo y inicio artist activity |
 | Abel               | 5/04/2018 | 6,5 | Correcciones reproductor, creacion de : artist activity y playlist activity, pantalla de usuario propio , pantalla de favoritos, pantalla de usuarios seguidos y pantalla playlist seguidas |
-| Abel               | 9/04/2018 | 3 | Documentación entrega primera iteración |
+| Abel               | 9/04/2018 | 3.5 | Documentación entrega primera iteración |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
@@ -35,7 +35,7 @@
 | Jorge              | 07/04/2018	| 4      | Desarrollo memoria técnica, recopilación y sintesis de la información |
 | Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
 | Jorge              | 08/04/2018	| 1.5      | Desarrollo memoria técnica y redacción planes despliegue junto con Jorge P. |
-| Jorge               | 9/04/2018 | 3 | Documentación entrega primera iteración |
+| Jorge               | 9/04/2018 | 3.5 | Documentación entrega primera iteración |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
