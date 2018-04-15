@@ -50,6 +50,7 @@
 | Alex               | 30/03/2018 | 2    | Página canción individual, sincronización reproductor |
 | Alex               | 31/03/2018 | 3.5    | Página canción individual, pantalla perfil |
 | Alex               | 01/04/2018 | 2.5    | Pantalla perfil, pantallas editar perfil |
+| Alex               | 15/05/2018 | 1    | Pantalla subir album |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
