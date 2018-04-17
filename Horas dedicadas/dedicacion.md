@@ -27,6 +27,7 @@
 | Abel               | 4/04/2018 | 4,5 | Documentacion(Arquitectura Android y diagrama de Gantt), pantall generos y mejora en el codigo y inicio artist activity |
 | Abel               | 5/04/2018 | 6,5 | Correcciones reproductor, creacion de : artist activity y playlist activity, pantalla de usuario propio , pantalla de favoritos, pantalla de usuarios seguidos y pantalla playlist seguidas |
 | Abel               | 9/04/2018 | 3.5 | Documentación entrega primera iteración |
+| Abel               | 18/04/2018 | 2.5 | Conexion con pantallas nuevas (upload song y create playlist), añadida funcionalidades a los botones share(user, playlist y canción) y user account (link a cuenta de twitter, instagram y facebook). Realización de pruebas manuales y solución a los errores encontrados |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
