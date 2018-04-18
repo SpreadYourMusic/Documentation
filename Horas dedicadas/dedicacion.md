@@ -53,6 +53,7 @@
 | Alex               | 01/04/2018 | 2.5    | Pantalla perfil, pantallas editar perfil |
 | Alex               | 15/04/2018 | 1    | Pantalla subir album |
 | Alex               | 16/04/2018 | 2    | Correciones. Modificaciones pantalla home |
+| Alex               | 17/04/2018 | 1    | Modificaciones pantalla home |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
