@@ -32,6 +32,7 @@
 | Abel               | 20/04/2018 | 5 | Persistencia de datos de la aplicación android, creación de api para comunicación con back end, creación de clase de pruebas para simular el back end, reestructuración de la app para hacer uso de esta api, añadida funcionalidad a determinados botones en los que faltaba y correción de errores |
 | Abel               | 21/04/2018 | 4 | Persistencia de datos de la aplicación android, creación de api para comunicación con back end, creación de clase de pruebas para simular el back end, reestructuración de la app para hacer uso de esta api y correción de errores |
 | Abel               | 22/04/2018 | 4 | Persistencia de datos de la aplicación android |
+| Abel               | 22/04/2018 | 2 | Especificación api back end |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
