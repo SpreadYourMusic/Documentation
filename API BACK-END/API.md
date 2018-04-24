@@ -190,6 +190,7 @@ Accepts the following parameters in an HTTP POST encoded request (application/x-
   - instagram_account (Optional) => Instagram account of the new user.
   - birth => Birth date of this user as specified by the epoch standard. It means, the number of *milliseconds* passed since 1st January 1970 (negative number means the date is before).
   - bio (Optional) => Biography of this user.
+  - device_type => Tipo de dispositivo desde el que se accede
 
 RestAPI will answer with this JSON response:
 ```json
@@ -217,12 +218,14 @@ Types:
 | :---: |:---|
 | *"token"* | String |
 | *"error"* | String |
+| *"device_type"* | { MOBILE, WEB} |
 
 #### POST /users/{nick}/login
-This requests creates a new session for a user with the nick {nick}.
+This requests creates a new session for a user with the nick {nick}. It delete (close) all sessions from the same device type opened by  this user.
 
 Accepts the following parameters in an HTTP POST encoded request (application/x-www-form-urlencoded):
   - pass => Password of this user.
+  - device_type => Tipo de dispositivo desde el que se accede
 
 RestAPI will answer with this JSON response:
 ```json
@@ -339,6 +342,7 @@ RestAPI will answer with this JSON response:
       "duration": "{DURATION}",
       "song_source": "{SONG_SOURCE}",
       "lyrics_source": "{LYRICS_SOURCE}",
+      "genre": "{GENRE}",
       "country": "{COUNTRY}",
       "upload_time" : "{UPLOAD_TIME}",
     },
@@ -366,6 +370,7 @@ Types:
 | *"duration"* | Long |
 | *"song_source"* | String |
 | *"lyrics_source"* | String |
+| *"genre"* | String |
 | *"country"* | String |
 | *"upload_time"* | Long |
 | *"error"* | String |
@@ -399,8 +404,13 @@ Types:
   - art_source (Optional) => Location of the art of the album (Optional).
   - release_date => Release date of the album
 
+## Formato género
+| Parameter | Type |
+| :---: |:---|
+| *"nombre"* | String |
+
 ## Upload, delete, get
-Upload delete y get de canciones playlist y album
+Upload delete y get de canciones playlist y álbum
 ## Is server online
 Devuelve true si se puede acceder al servidor, false en caso contrario
 
@@ -409,6 +419,9 @@ Se le pasa como parámetro el nick de un usuario, devuelve una lista con los id 
 
 ## Obtain playlists from user
 Se le pasa como parámetro el nick de un usuario, devuelve una lista con los id de todas las playlists de ese usuario, así como el tamaño de la lista
+
+## Obtain albums from user
+Se le pasa como parámetro el nick de un usuario, devuelve una lista con los id de todos los álbumes de ese usuario, así como el tamaño de la lista
 
 ## Get followed users
 Se le pasa como parámetro el nick de un usuario y devuelve una lista con todos los usuarios a los que sigue, así como el tamaño de la lista
@@ -464,16 +477,20 @@ Se le pasa como parámetro el nick de un usuario, el token del usuario y devuelv
 ## Obtain recommendations
 Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las canciones recomendadas para ese usuario, así como el tamaño de la lista
 
-## Obtain popular songs
-Se le pasa como parámetro la cantidad de resultados, un periodo (puede tomar dos valores: MES y SEMANA), y un lugar (GLOBAL, PAIS) y devuelve una lista con los ids de las canciones populares en el periodo, en el lugar indicaso, así como el tamaño de la lista
+## Obtain trend songs
+Se le pasa como parámetro la cantidad de resultados, un periodo (puede tomar dos valores: MES (populares en el último mes) y SEMANA (populares en la última semana)), un lugar (puede tomar como parámetros GLOBAL (populares a nivel mundial), PAIS (populares mismo pais)), y un género (opcional) (populares de el género especificado, si no se introduce genero no se hce filtrado por género) y devuelve una lista con los ids de las canciones populares en el periodo, en el lugar indicaso, así como el tamaño de la lista
 
 ## Obtain recommendations
-Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de todas las canciones recomendadas para ese usuario, así como el tamaño de la lista
+Se le pasa como parámetro el nick de un usuario, el token del usuario, la cantidad de resultados, y un tipo de resultado (CANCION, PLAYLIST, USUARIO) y devuelve una lista con los ids de las canciones, playlist o usuarios(según el tipo de resultado àsado pasado) recomendados para ese usuario, así como el tamaño de la lista.
 
 ## Obtain new songs from followed artist
+Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las últimas canciones publicadas por los artistas seguidos. (Ayuda: Seleccionar todas las canciones de los artistas a los que se siguen, ordenar por fecha de subida, seleccionar el número de resultados requerido)
 
 ## Obtain updated followed playlists
+Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las últimas playlist seguidas que se han modificado. (Ayuda: Seleccionar todas las playlists seguidas, ordenar por fecha de modificación, seleccionar el número de resultados requerido).
 
 ## Obtain result from query
+Se le pasa como parámetro una query (cadena de texto buscada por un usuario), un tipo de resultado (CANCIÓN, PLAYLIST, USUARIO)  y la cantidad de resultados, y devuelve una lista con las canciones, playlists o usuarios que responden a la query.
 
-## Obtain pupular by genere
+## Obtain generes
+Devuelve una lista con los generos disponibles en el sistema
