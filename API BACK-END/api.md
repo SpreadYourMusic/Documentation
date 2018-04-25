@@ -246,7 +246,7 @@ Other error codes are specified as follows:
 | :---: |:---|
 | invalidArgs | Provided pass is null or empty. |
 | passError | Given pass is not valid for this user. |
-| userNotExists | There is no user with that nick in the Database. |
+| unknownUser | No user with that nick exists in the Database. |
 
 Types:
 
@@ -375,7 +375,7 @@ Types:
 | *"upload_time"* | Long |
 | *"error"* | String |
 
-# Llamadas por especificar formalmente:	---------------------------------------------------------
+# Llamadas por especificar formalmente:
 ## Formato playlist:
 | Parameter | Type |
 | :---: |:---|
@@ -409,7 +409,7 @@ Types:
 | :---: |:---|
 | *"nombre"* | String |
 
-## Upload, delete, get	--
+## Upload, delete, get	//pendiente
 Upload delete y get de canciones playlist y álbum
 
 ## Is server online
@@ -565,9 +565,9 @@ Types:
 | *"error"* | String |
 
 ## Is followed by user
-This request receive two user's nicks and check if first user given is following the second user given.
+This request receive two user's nicks and checks if first user given is following the second user given.
 
-Accepts the following parameter:
+Accepts the following parameters:
   - nick1 => Nick from user who follows
   - nick2 => Nick from the user being followed
 
@@ -603,67 +603,810 @@ Types:
 | *"error"* | String |
 
 ## Get followers of user
-Se le pasa como parámetro el nick de un usuario y devuelve una lista con todos los usuarios que le siguen, así como el tamaño de la lista
+This request returns the id from all users who are followed by the user given and the number of users returned.
+
+Accepts the following parameter:
+  - nick => User's nick
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{USER_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Add follower to user
-Se le pasa como parámetros el nick de dos usuarios (a y b), y el token de a, y añade al usuario a como seguidor del usuario b
+This request receive two user's nicks and first user's token, and adds first user as a follower of the second user given.
+
+Accepts the following parameters:
+  - nick1 => Nick from user who follows
+  - nick2 => Nick from the user being followed
+  - token => Token from user who follows
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | First user now follows second user.|
+| invalidArgs1 | First user's nick is null or empty.|
+| invalidArgs2 | Second user's nick is null or empty.|
+| unknownUser1 | No user with first nick exists in the Database. |
+| unknownUser2 | No user with second nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick1}'s token.|
+| alreadyFollowed | First user already follows the second.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick1"* | String |
+| *"nick2"* | String |
+| *"token"* | String |
+| *"error"* | String |
 
 ## Delete follower to user
-Se le pasa como parámetros el nick de dos usuarios (a y b), y el token de a, y elimina al usuario a como seguidor del usuario b
+This request receive two user's nicks and first user's token, and removes second user from first user's users followings.
+
+Accepts the following parameters:
+  - nick1 => Nick from user who unfollows
+  - nick2 => Nick from the user being unfollowed
+  - token => Token from user who unfollows
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | First user now unfollows second user.|
+| invalidArgs1 | First user's nick is null or empty.|
+| invalidArgs2 | Second user's nick is null or empty.|
+| unknownUser1 | No user with first nick exists in the Database. |
+| unknownUser2 | No user with second nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick1}'s token.|
+| notFollowed | First user is not following the second.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick1"* | String |
+| *"nick2"* | String |
+| *"token"* | String |
+| *"error"* | String |
 
 ## Get followed playlists
-Se le pasa como parámetro el nick de un usuario y devuelve una lista con todas las playlists a los que sigue, así como el tamaño de la lista
+This request returns the id from all playlists that are followed by the user given and the number of playlists returned.
+
+Accepts the following parameter:
+  - nick => User's nick
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{PLAYLIST_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Is followed by user
-Se le pasa como parámetro el nick de un usuario el id de una playlist y devuelve true si el usuario sigue la playlist, false en caso contrario
+This request receive a user's nick and a playlist id, and checks if the user given is following the playlist given.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - pID => Playlist's ID
+
+It will return this JSON response:
+```json
+  {
+      "profile" : {
+        "result": "true/false",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If user follows the playlist *"result"* will be *"true"*, *"false"* otherwise.
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | No errors given.|
+| invalidUser | User's nick is null or empty.|
+| invalidPlaylist | Playlist's ID is null, empty or negative.|
+| unknownUser | No user with that nick exists in the Database.|
+| unknownPlaylist | No playlist with that ID exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"pID"* | Long |
+| *"result"* | boolean |
+| *"error"* | String |
 
 ## Get followers of playlist
-Se le pasa como parámetro el id de una playlist y devuelve una lista con todos los usuarios que la siguen, así como el tamaño de la lista
+This request returns the id from all users that are following the playlist given and the number of users returned.
+
+Accepts the following parameter:
+  - pID => Playlist's ID
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{USER_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | Playlist's ID is null, empty or negative.|
+| unknownPlaylist | No playlist with that ID exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"pID"* | Long |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Add follower to playlist
-Se le pasa como parámetros el nick de un usuario, el id de una playlist y el token del usuario, y añade al usuario como seguidor de la playlist
+This request receive a user's nick, user's token and a playlist id, and adds the playlist to user's playlist followings.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - ID => Playlist's ID
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | User now follows playlist.|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| alreadyFollowed | User is already following the playlist.|
+| unknownPlaylist | Playlist's ID do not exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"ID"* | Long |
+| *"error"* | String |
 
 ## Delete follower to playlist
-Se le pasa como parámetros el nick de un usuario, el id de una playlist y el token del usuario, y elimina al usuario como seguidor de la playlist
+This request receive a user's nick, user's token and a playlist id, and removes the playlist from user's playlist followings.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - ID => Playlist's ID
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | User now unfollows playlist.|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| notFollowed | User is not following the playlist.|
+| unknownPlaylist | Playlist's ID do not exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"ID"* | Long |
+| *"error"* | String |
 
 ## Add reproduction to song
-Se le pasa como parámetros el nick de un usuario, el token del usuario y el id de una canción, y añade una reproducción a la canción, además de almacenar esa como la última canción escuchada por el usuario
+This request receive a user's nick, user's token and a song id, it increments the song's reproductions and store the song as user's last song listened.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - ID => Song's ID
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | No errors given.|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownSong | Song's ID do not exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"ID"* | Long |
+| *"error"* | String |
 
 ## Obtain last song listened
-Se le pasa como parametros el nick de un usuario, el token del usuario y devuelve la última canción escuchada por este usuario
+This request receive a user's nick, user's token and returns user's last song listened.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+
+It will return this JSON response:
+```json
+  {
+   	"profile" : {
+		"id" : "{SONG_ID}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| noSong | User do not have a last song listened stored.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"id"* | Long |
+| *"error"* | String |
 
 ## Is another session open
-Se le pasa como parametros el nick de un usuario, el token del usuario y devuelve true se hay alguna otra sesión abierta de ese usuario
+This request receive a user's nick, user's token and checks if user have another session open.
 
-## Set song favoutire
-Se le pasa como parámetros el nick de un usuario, el token del usuario y el id de una canción, y añade esa canción a la lista de favoritas del usuario
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
 
-## Delete song favoutire
-Se le pasa como parámetros el nick de un usuario, el token del usuario y el id de una canción, y elimina esa canción de la lista de favoritas del usuario
+It will return this JSON response:
+```json
+  {
+   	"profile" : {
+		"result" : "true/false",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If user have another session open result will be True, False otherwise.
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
 
-## Is song favoutire
-Se le pasa como parámetros el nick de un usuario, el token del usuario y el id de una canción, devuelve true si la canción está en la lista de favoritas del usuario, false en caso contrario
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownError | An unknown error happened when trying to get user data.|
 
-## Get favoutire songs
-Se le pasa como parámetro el nick de un usuario, el token del usuario y devuelve una lista con los ids de todas las canciones que están en su lista de favoritos, así como el tamaño de la lista
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"result"* | Boolean |
+| *"error"* | String |
+
+## Set song favourite
+This request receive a user's nick, user's token and a song id, it adds the song to user's favourite songs list.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - ID => Song's ID
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | Song added to user's favourite songs list.|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownSong | Song's ID do not exists in the Database.|
+| alreadyFav | Song is already in user's favourite songs list.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"ID"* | Long |
+| *"error"* | String |
+
+## Delete song favourite
+This request receive a user's nick, user's token and a song id, it removes the song from user's favourite songs list.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - ID => Song's ID
+
+It will return this JSON response:
+```json
+  {
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | Song removed from user's favourite songs list.|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownSong | Song's ID do not exists in the Database.|
+| noFav | Song is not in user's favourite songs list.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"ID"* | Long |
+| *"error"* | String |
+
+## Is song favourite
+This request receive a user's nick, user's token and a song's ID, it checks if the song is in user's favourite songs list.
+
+Accepts the following parameters:
+  - nick => User's nick
+  - token => User's token
+  - id => Song's ID
+
+It will return this JSON response:
+```json
+  {
+   	"profile" : {
+		"result" : "true/false",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If user have the song in user's favourite songs list result will be True, False otherwise.
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownSong | Song's ID do not exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"id"* | Long |
+| *"result"* | Boolean |
+| *"error"* | String |
+
+## Get favourite songs
+This request receive a user's nick and user's token, it returns the id from all songs that are in user's favourite songs list and the number of songs returned.
+
+Accepts the following parameter:
+  - nick => User's nick
+  - token => User's token
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs |  User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Obtain recommendations
-Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las canciones recomendadas para ese usuario, así como el tamaño de la lista
+This request receive a user's nick, user's token and a limit, it returns the id from all songs that are recommended to given user and the number of songs returned.
+
+Accepts the following parameter:
+  - nick => User's nick
+  - token => User's token
+  - limit => max number of songs to return
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs |  User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| invalidLimit | Limit is null, empty or negative.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"limit"* | Int |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Obtain trend songs
-Se le pasa como parámetro la cantidad de resultados, un periodo (puede tomar dos valores: MES (populares en el último mes) y SEMANA (populares en la última semana)), un lugar (puede tomar como parámetros GLOBAL (populares a nivel mundial), PAIS (populares mismo pais)), y un género (opcional) (populares de el género especificado, si no se introduce genero no se hce filtrado por género) y devuelve una lista con los ids de las canciones populares en el periodo, en el lugar indicaso, así como el tamaño de la lista
+This request returns the trending songs based on a genre, period of time, amplitude and quantity given, and the number of songs returned.
+Period of time meaning trending songs in last month/week; amplitude meaning trending songs globally or in user's country; genre being optional will not filter songs by if not provided.
+
+Accepts the following parameters:
+  - quantity => max number of results to show
+  - timePeriod => precision of period of time to search *{monthly/weekly}*
+  - scope => amplitude of regions to search *{global/national}*
+  - genre => genre of music to show (if applicable) **This parameter is optional**
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidQuantity | Quantity is null, empty or negative.|
+| invalidTimePeriod | TimePeriod is not *"monthly"* nor *"weekly"*.|
+| invalidScope | Scope is not *"global"* nor *"national"*.|
+| unknownGenre | **ONLY if *"genre"* is provided.** Genre provided do not exists in the Database.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"quantity"* | Int |
+| *"timePeriod"* | {monthly/weekly} |
+| *"scope"* | {global/national} |
+| *"genre"* | String |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Obtain recommendations
-Se le pasa como parámetro el nick de un usuario, el token del usuario, la cantidad de resultados, y un tipo de resultado (CANCION, PLAYLIST, USUARIO) y devuelve una lista con los ids de las canciones, playlist o usuarios(según el tipo de resultado àsado pasado) recomendados para ese usuario, así como el tamaño de la lista.
+This request receive a user's nick, user's token, a type of item and a limit, it returns the id from all items that are recommended to given user and the number of songs returned.
+
+Accepts the following parameter:
+  - nick => User's nick
+  - token => User's token
+  - type => item to search for *{song/playlist/user}*
+  - limit => max number of songs to return
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG/PLAYLIST/USER_ID_LIST}",
+        "size": "{SIZE}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| invalidLimit | Limit is null, empty or negative.|
+| invalidType | Type is not *song* nor *playlist* nor *user*.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"type"* | {song/playlist/user} |
+| *"limit"* | Int |
+| *"id"* | List<Long> |
+| *"size"* | Long |
+| *"error"* | String |
 
 ## Obtain new songs from followed artist
-Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las últimas canciones publicadas por los artistas seguidos. (Ayuda: Seleccionar todas las canciones de los artistas a los que se siguen, ordenar por fecha de subida, seleccionar el número de resultados requerido)
+This request receive a user's nick, user's token and a limit, it returns the id from last songs published by followed users.
+
+Accepts the following parameter:
+  - nick => User's nick
+  - token => User's token
+  - limit => max number of songs to return
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG_ID_LIST}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| invalidLimit | Limit is null, empty or negative.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"limit"* | Int |
+| *"id"* | List<Long> |
+| *"error"* | String |
 
 ## Obtain updated followed playlists
-Se le pasa como parámetro el nick de un usuario, el token del usuario, y la cantidad de resultados y devuelve una lista con los ids de las últimas playlist seguidas que se han modificado. (Ayuda: Seleccionar todas las playlists seguidas, ordenar por fecha de modificación, seleccionar el número de resultados requerido).
+This request receive a user's nick, user's token and a limit, it returns the id from last playlists modified.
+
+Accepts the following parameter:
+  - nick => User's nick
+  - token => User's token
+  - limit => max number of songs to return
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{PLAYLIST_ID_LIST}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidArgs | User's nick is null or empty.|
+| unknownUser | No user with that nick exists in the Database. |
+| invalidToken | Given {TOKEN} doesn't match {nick}'s token.|
+| invalidLimit | Limit is null, empty or negative.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"nick"* | String |
+| *"token"* | String |
+| *"limit"* | Int |
+| *"id"* | List<Long> |
+| *"error"* | String |
 
 ## Obtain result from query
-Se le pasa como parámetro una query (cadena de texto buscada por un usuario), un tipo de resultado (CANCIÓN, PLAYLIST, USUARIO)  y la cantidad de resultados, y devuelve una lista con las canciones, playlists o usuarios que responden a la query.
+This request receive a query and a type of search and returns a number of items related to the query equal to the limit given.
+Type meaning an item between song, playlist and user.
+
+Accepts the following parameters:
+  - quantity => max number of results to show
+  - query => query to search
+  - type => item to search for *{song/playlist/user}*
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"id": "{SONG/PLAYLIST/USER_ID_LIST}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+If *"error"* is not "ok", the JSON will be empty, this means, all fields will be defined **but** its value is unspecified.
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| invalidQuantity | Quantity is null, empty or negative.|
+| invalidQuery | Query is null or empty.|
+| invalidType | Type is not *"song"* nor *"playlist"* nor *"user"*.|
+| notFound | No items matching the query were available.|
+| unknownError | An unknown error happened when trying to get user data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"quantity"* | Int |
+| *"query"* | String |
+| *"type"* | {song/playlist/user} |
+| *"id"* | List<Long> |
+| *"error"* | String |
 
 ## Obtain generes
-Devuelve una lista con los generos disponibles en el sistema
+This request do not have parameters, it returns all music genres available in the system.
+
+It will return this JSON response:
+```json
+  {
+    "profile" : {
+    	"genre": "{GENRE_LIST}",
+    },
+    "error" : "{ERROR_CODE}"
+  }
+```
+
+Error codes are specified as follows:
+
+| {ERROR_CODE} | Description |
+| :---: |:---|
+| ok | List of genres succesfully provided.|
+| unknownError | An unknown error happened when trying to get data.|
+
+Types:
+
+| Parameter | Type |
+| :---: |:---|
+| *"genre"* | String |
+| *"error"* | String |
