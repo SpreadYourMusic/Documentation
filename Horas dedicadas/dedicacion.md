@@ -43,6 +43,9 @@
 | Jorge              | 08/04/2018	| 6      | Desarrollo memoria técnica, correción errores Latex, requisitos, diseño, cierre proyecto |
 | Jorge              | 08/04/2018	| 1.5      | Desarrollo memoria técnica y redacción planes despliegue junto con Jorge P. |
 | Jorge               | 9/04/2018 | 3.5 | Documentación entrega primera iteración |
+| Jorge               | 22/04/2018 | 3 | Puesta al día del proyecto Android y reunion con director del proyecto para reasignacion a Android |
+| Jorge               | 23/04/2018 | 2 | Diseño  no definitivo de pantallas Subir Cancion y Crear Album |
+| Jorge               | 24/04/2018 | 1.5 | Investigación tecnologías Android para obtencion PATHs|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
