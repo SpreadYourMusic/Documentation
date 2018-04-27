@@ -46,6 +46,7 @@
 | Jorge               | 22/04/2018 | 3 | Puesta al día del proyecto Android y reunion con director del proyecto para reasignacion a Android |
 | Jorge               | 23/04/2018 | 2 | Diseño  no definitivo de pantallas Subir Cancion y Crear Album |
 | Jorge               | 24/04/2018 | 1.5 | Investigación tecnologías Android para obtencion PATHs|
+| Jorge               | 24/04/2018 | 2.5 | Implementacion sin BACKEND de las pantallas asignadas|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
