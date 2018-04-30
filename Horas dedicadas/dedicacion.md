@@ -36,6 +36,8 @@
 | Abel               | 23/04/2018 | 0.5 | Especificación api back end |
 | Abel               | 27/04/2018 | 6.5 | Reestructuración de music service para dar soporte a las letras en canciones, limpieza del código y corrección de errores en este módulo. Investigación sobre formatos de letras a soportar, elección del formato a soportar y busqueda de canción de ejemplo. Modificación de la pantalla del reproductor para permitir visualizar las letras de las canciones. Reunión con Jorge para explicar la arquitectura de la aplicación Android. Investigación sobre librerías que permitieran mostra la onda de sonido de un audio  |
 | Abel               | 28/04/2018 | 5 | Investigación sobre librerías que permitieran mostra la onda de sonido de un audio, reestructuración de music service para dar soporte a la onda de sonido de un audio. Modificación de librería que permite mostrar la onda de sonido de un audio para adaptarla a nuestras necesidades además de corregir errores que presentaba |
+| Abel               | 29/04/2018 | 2 | Eliminar canción y playlist, sesión simultanea en web y android |
+| Abel               | 30/04/2018 | 3,5 | Corrección errores (Ecualizador y  eliminar canción), habilitada la opción de obtener la duración de una canción directamente desde el fichero |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
