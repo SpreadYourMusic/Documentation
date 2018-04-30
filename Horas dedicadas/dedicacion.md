@@ -49,6 +49,9 @@
 | Jorge               | 23/04/2018 | 2 | Diseño  no definitivo de pantallas Subir Cancion y Crear Album |
 | Jorge               | 24/04/2018 | 1.5 | Investigación tecnologías Android para obtencion PATHs|
 | Jorge               | 26/04/2018 | 2.5 | Implementacion sin BACKEND de las pantallas asignadas|
+| Jorge               | 27/04/2018 | 2 | Implementacion sin BACKEND de las pantallas asignadas y reunion con director|
+| Jorge               | 28/04/2018 | 1 | Pruebas y debuggeo pantallas, sin finalizar, falta terminar |
+| Jorge               | 30/04/2018 | 3 | Correcion errores de las pantallas asignadas previos a iniciar linkado con Backend, pequeño error pantalla crear album|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
