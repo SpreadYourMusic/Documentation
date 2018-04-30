@@ -76,6 +76,7 @@
 | Alex               | 26/04/2018 | 2    | Documentación js, campos registro login, compilado kotlin  |
 | Alex               | 27/04/2018 | 2,5    | Linkado kotlin-js, logica login  |
 | Alex               | 29/04/2018 | 1,5    | Documentación js, js perfil  |
+| Alex               | 30/04/2018 | 3    | Modificaciones interfaz perfil, js perfil |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
