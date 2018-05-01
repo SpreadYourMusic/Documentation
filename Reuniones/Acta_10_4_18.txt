@@ -1,0 +1,39 @@
+Fecha: 10/04/2018
+Asistentes: Alex, Jorge P, Jorge A, Yasmina, Óscar, Abel
+Duración: 1h
+
+Temas Tratados:
+
+-Control de organizacion mejorado
+-App Android esta al dia (Gantt)
+-Posibles errores en Gantt:
+	+Horas no correladas
+	+Tareas alargadas sin explicacion
+-Interfaz Android casi terminada
+-Hacer diagramas nuevos
+-Servidores listos pero backend retrasado
+-Base de datos:
+	+Explicar mas en detalle
+	+Actualizar diagramas
+-Arquitectura y numero de capas
+-Tirar codigo para rehacerlo en mas alto nivel esta mal:
+	+indicativo de mal planteamiento de arquitectura
+	+si el codigo a tirar ya esta aceptado no tocarlo aunque se mejore
+	+se puede planificar para una nueva version indicando las posibles mejoras
+-Factores de Control de Proyecto:
+	+Tareas en fecha
+	+Horas de trabajo acordes a la fecha (tanto por defecto como exceso)
+
+Notas:
+
+-Se deberia controlar el conteo de horas dedicando una persona a coger las nuevas horas y subirlas a moodle
+	aun asi s cada uno las va a subir las suyas hacerlo cada semana
+-Explicar el porque de las tareas alargadas en Gantt
+-Gestionar bien los cambios de equipo (cuesta mas meter gente nueva porque no sabe que hay hecho y como)
+-No extender tareas ya hechas
+-Hacer diagramas de navegacion, los de clase no son tanto para el cliente sino para los desarrolladores
+-Cuando se creo la BBDD?, plasmar todos los atributos
+-Hablar de Hibernate y hacer un diagrama de las capas de backend
+-Cuanto mas componentes se parta una clase, mas facil puede entrar a trabajar una persona nueva
+-Apuntar los retrasos y actualizar los diagramas, replanificar si es necesario
+-Equilibrar horas
