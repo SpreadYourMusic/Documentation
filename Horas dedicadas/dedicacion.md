@@ -38,6 +38,8 @@
 | Abel               | 28/04/2018 | 5 | Investigación sobre librerías que permitieran mostra la onda de sonido de un audio, reestructuración de music service para dar soporte a la onda de sonido de un audio. Modificación de librería que permite mostrar la onda de sonido de un audio para adaptarla a nuestras necesidades además de corregir errores que presentaba |
 | Abel               | 29/04/2018 | 2 | Eliminar canción y playlist, sesión simultanea en web y android |
 | Abel               | 30/04/2018 | 3,5 | Corrección errores (Ecualizador y  eliminar canción), habilitada la opción de obtener la duración de una canción directamente desde el fichero |
+| Abel               | 1/05/2018 | 3 | Corregidos errores (diversos), mejoras interfaz ( lyrics ), ampliadas las funcionalidades del emulador de back end, añadida reproducción a canción, añadidos usuarios verificados |
+| Abel               | 2/05/2018 | 2 | Corrección errores (reproductor e interfaz), mejoras de la usamilidad y mejoras en la interfaz |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
