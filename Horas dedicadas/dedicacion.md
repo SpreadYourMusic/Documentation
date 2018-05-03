@@ -56,6 +56,8 @@
 | Jorge               | 27/04/2018 | 2 | Implementacion sin BACKEND de las pantallas asignadas y reunion con director|
 | Jorge               | 28/04/2018 | 1 | Pruebas y debuggeo pantallas, sin finalizar, falta terminar |
 | Jorge               | 30/04/2018 | 3 | Correcion errores de las pantallas asignadas previos a iniciar linkado con Backend, pequeño error pantalla crear album|
+| Jorge               | 02/03/2018 | 2,5 | Reunion y planificacion junto con director proyecto, subsanacion errores, inicio linkado Backend|
+| Jorge               | 03/03/2018 | 1,5 | Investigación servicio almacenamiento Amazon S3 usando una API para  el sitema CEPH |
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
