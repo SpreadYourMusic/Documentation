@@ -91,6 +91,10 @@
 | Jorge P            | 25/03/2018 | 5      | Configuración del servicio de almacenamiento |
 | Jorge P            | 26/03/2018 | 8      | Configuración de virtualización anidada, base de datos y backend |
 | Jorge P            | 29/03/2018 | 3      | Arreglo de fallos en la configuración de la arquitectura y documentación |
+| Jorge P            | 10/04/2018 | 4      | Preparación y ensayo del despligue del Backend |
+| Jorge P            | 21/04/2018 | 4      | Correciones e información sobre la web |
+| Jorge P            | 27/04/2018 | 3      | Correciones e información sobre la arquitectura del Backend |
+| Jorge P            | 03/05/2018 | 3      | Implementación de listas del Backend |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
