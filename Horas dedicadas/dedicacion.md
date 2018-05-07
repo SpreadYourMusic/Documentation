@@ -86,8 +86,8 @@
 | Alex               | 30/04/2018 | 3    | Modificaciones interfaz perfil, js perfil |
 | Alex               | 04/05/2018 | 1.5    | Interfaz seguidores, cookies login, perfil |
 | Alex               | 05/05/2018 | 4    | Interfaz seguidores, js seguidores, interfaz perfil modificacion, enlazado perfil, js playlist |
-| Alex               | 05/05/2018 | 5.25    | js playlist, js canción, modificaciones interfaces, correciones, enlazado. |
-| Alex               | 05/05/2018 | 2.75    | Interfaz home: chart, carousel. Problemas git |
+| Alex               | 06/05/2018 | 5.25    | js playlist, js canción, modificaciones interfaces, correciones, enlazado. |
+| Alex               | 07/05/2018 | 2.75    | Interfaz home: chart, carousel. Problemas git |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
