@@ -118,6 +118,12 @@
 | &Aacute;ngel | 04/04/2018 | 2 | Verificación de cuentas |
 | &Aacute;ngel | 04/04/2018 | 2 | Actualizar datos usuario |
 | &Aacute;ngel | 04/04/2018 | 2 | Obtener datos de canción y preparación despliegue |
+| &Aacute;ngel | 29/04/2018 | 1.25 | Lista de canciones y cache inicial
+| &Aacute;ngel | 04/05/2018 | 2 | Algoritmo de búsqueda de canciones en un índice invertido y petición REST para obtenerlo.
+| &Aacute;ngel | 04/05/2018 | 2 | Algoritmo de búsqueda de usuarios en un índice invertido y petición REST para obtenerlo.
+| &Aacute;ngel | 04/05/2018 | 1 | Asignación de tareas finales y planificación último mes del proyecto
+| &Aacute;ngel | 08/05/2018 | 1 | Implementación canciones más populares
+| &Aacute;ngel | 08/05/2018 | 1.5 | Obtención de las canciones más populares, más populares por país y por país de un usuario
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
