@@ -98,7 +98,9 @@
 | Jorge P            | 10/04/2018 | 4      | Preparación y ensayo del despligue del Backend |
 | Jorge P            | 21/04/2018 | 4      | Correciones e información sobre la web |
 | Jorge P            | 27/04/2018 | 3      | Correciones e información sobre la arquitectura del Backend |
-| Jorge P            | 03/05/2018 | 3      | Implementación de listas del Backend |
+| Jorge P            | 03/05/2018 | 3      | Compresión de la estructura de datos del Backend e Hibernate |
+| Jorge P            | 06/05/2018 | 6      | Implementación de listas del Backend |
+| Jorge P            | 09/05/2018 | 3      | Busqueda de información para enlazar android con AWS S3 |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
