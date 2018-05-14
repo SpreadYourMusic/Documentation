@@ -43,6 +43,7 @@
 | Abel               | 8/05/2018 | 3.5 | Crear álbum, subir canción y signup (correcciones de errores en la implementación de las pantallas) |
 | Abel               | 9/05/2018 | 4 | Crear álbum, subir canción, signup (correcciones de errores en la implementación de las pantallas) y creación playlist |
 | Abel               | 10/05/2018 | 4 | Actualizar usuario, corrección de errores, limpieza del código y preparación unión back end |
+| Abel               | 15/05/2018 | 2.5 | Investigación oauth, investigación e implementación subir canciones AmazonS3, creación de test e inicio ejemplo parseo JSON |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
