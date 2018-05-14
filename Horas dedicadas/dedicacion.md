@@ -94,6 +94,8 @@
 | Alex               | 07/05/2018 | 2.75    | Interfaz home: chart, carousel. Problemas git |
 | Alex               | 09/05/2018 | 3    | Reestructura home, enlace busquedas, js iconos reproductor |
 | Alex               | 10/05/2018 | 3    | Sustitución wavesurfer por canvas. Lyrics dinámicas |
+| Alex               | 12/05/2018 | 1.5    | Sesión, enlazados, correcciones. |
+| Alex               | 14/05/2018 | 3    | Interfaz dínamica subir canción, Oauth con Google, correcciones esteticas, correcciones funcionales. |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
