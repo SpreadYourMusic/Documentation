@@ -103,6 +103,7 @@
 | Alex               | 12/05/2018 | 1.5    | Sesión, enlazados, correcciones. |
 | Alex               | 14/05/2018 | 3    | Interfaz dínamica subir canción, Oauth con Google, correcciones esteticas, correcciones funcionales. |
 | Alex               | 15/05/2018 | 1    | Instalación herramienta gantt. Diagrama de gantt Frontend |
+| Alex               | 16/05/2018 | 2.75    | Correcciones. Sincronizacion lyrics. Js subir album. |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
