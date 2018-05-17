@@ -76,6 +76,7 @@
 | Óscar        | 30/04/2018  | 0.5  | Transcripcion acta abril |
 | Óscar        | 03/05/2018  | 1  | Actualizar Esquema BD y correcion de errores Album |
 | Óscar        | 07-08/05/2018  | 6  | Requests de likes, favs, lyrics y escuchas, modificar entidades y relaciones |
+| Óscar        | 16/05/2018  | 3  | Correccion tabla de costes, rehacer entera la oferta economica |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
