@@ -46,6 +46,8 @@
 | Abel               | 14/05/2018 | 2.5 | Investigación oauth, investigación e implementación subir canciones AmazonS3, creación de test e inicio ejemplo parseo JSON |
 | Abel               | 15/05/2018 | 2.5 | Implementación oauth, documentación Android |
 | Abel               | 16/05/2018 | 4 | Documentación Android |
+| Abel               | 18/05/2018 | 1.5 | Documentación Android |
+| Abel               | 20/05/2018 | 6 | Documentación Android |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
