@@ -146,6 +146,12 @@
 | &Aacute;ngel | 04/05/2018 | 1 | Asignación de tareas finales y planificación último mes del proyecto
 | &Aacute;ngel | 08/05/2018 | 1 | Implementación canciones más populares
 | &Aacute;ngel | 08/05/2018 | 1.5 | Obtención de las canciones más populares, más populares por país y por país de un usuario
+| &Aacute;ngel | 13/05/2018 | 1 | Revisión diagrama Gantt Backend |
+| &Aacute;ngel | 15/05/2018 | 1.5 | Test, documentación, revisión y solución de errores Lista de Reproducci&oacute;n |
+| &Aacute;ngel | 17/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 19/05/2018 | 3 | Implementaci&oacute;n feed de recomendaciones Kmeans |
+| &Aacute;ngel | 20/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 4 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
