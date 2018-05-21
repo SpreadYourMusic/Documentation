@@ -48,6 +48,7 @@
 | Abel               | 16/05/2018 | 4 | Documentación Android |
 | Abel               | 18/05/2018 | 1.5 | Documentación Android |
 | Abel               | 20/05/2018 | 6 | Documentación Android |
+| Abel               | 21/05/2018 | 2 | Documentación Android |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
