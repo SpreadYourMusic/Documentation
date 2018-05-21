@@ -110,6 +110,8 @@
 | Alex               | 16/05/2018 | 2.75    | Correcciones. Sincronizacion lyrics. Js subir album. |
 | Alex               | 17/05/2018 | 4.75    | Pantalla completa editar album. Pantalla completa admin. Sección generos |
 | Alex               | 18/05/2018 | 2.5    | Diseño/js recomendaciones |
+| Alex               | 20/05/2018 | 1    | Js generos, recomendaciones |
+| Alex               | 21/05/2018 | 3    | Pruebas, correcciones, revisión de codigo. |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
