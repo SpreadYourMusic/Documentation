@@ -161,6 +161,20 @@
 | &Aacute;ngel | 19/05/2018 | 3 | Implementaci&oacute;n feed de recomendaciones Kmeans |
 | &Aacute;ngel | 20/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
 | &Aacute;ngel | 20/05/2018 | 4 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 3 | Sistema de recomendación y soluci&oacute;n errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 3 | Sistema de recomendación y soluci&oacute;n errores &Aacute;lbumes |
+| &Aacute;ngel | 21/05/2018 | 3 | Revisar b&uacute;squedas |
+| &Aacute;ngel | 21/05/2018 | 2 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 22/05/2018 | 5.5 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 23/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
+| &Aacute;ngel | 25/05/2018 | 3 | Soluci&oacute;n errores caches (eliminar y usar Hibernate) |
+| &Aacute;ngel | 26/05/2018 | 1 | Soluci&oacute;n errores en tests |
+| &Aacute;ngel | 26/05/2018 | 2 | Realizaci&oacute;n de tests |
+| &Aacute;ngel | 26/05/2018 | 3 | Realizaci&oacute;n de tests y simplificaci&oacute;n del Backend |
+| &Aacute;ngel | 26/05/2018 | 2.75 | Realizaci&oacute;n de tests y &uacute;ltimas llamadas |
+| &Aacute;ngel | 27/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
+| &Aacute;ngel | 28/05/2018 | 3 | Realizaci&oacute;n de tests unitarios y reestructuraci&oacute;n completa del Backend |
+| &Aacute;ngel | 28/05/2018 | 3.25 | Soluci&oacute;n de errores |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
