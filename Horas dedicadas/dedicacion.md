@@ -71,6 +71,7 @@
 | Jorge               | 08/05/2018 | 1,5 | Implementación pantalla signout + xml |
 | Jorge               | 9/05/2018 | 1 | Revisión del acta de la segunda entrega para iniciar la correción de la memoria|
 | Jorge               | 12/05/2018 | 1 | Recopilación y condensación del trabajo restante en formato EXCEL |
+| Jorge               | 28/05/2018 | 7 | Reunión + linkado backend (server api)|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
