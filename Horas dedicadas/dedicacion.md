@@ -105,6 +105,9 @@
 | Jorge P            | 15/05/2018 | 4      | Implementación de OAuth |
 | Jorge P            | 16/05/2018 | 4      | Fixes de Listas de reproducción |
 | Jorge P            | 20/05/2018 | 3      | Fixes de conexión con base de datos y listas de reproducción |
+| Jorge P            | 26/05/2018 | 2      | Fix al backend |
+| Jorge P            | 27/05/2018 | 3      | Ampliación de llamadas |
+| Jorge P            | 28/05/2018 | 7      | Enlazado con backend |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
