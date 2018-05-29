@@ -74,8 +74,8 @@
 | Jorge               | 9/05/2018 | 1 | Revisión del acta de la segunda entrega para iniciar la correción de la memoria|
 | Jorge               | 12/05/2018 | 1 | Recopilación y condensación del trabajo restante en formato EXCEL |
 | Jorge               | 28/05/2018 | 7 | Reunión + linkado backend (server api)|
-| Jorge               | 29/05/2018 | 5 | linkado backend (server api)|
-| Jorge               | 29/05/2018 | 3,5 | linkado backend (server api)|
+| Jorge               | 29/05/2018 | 5 | linkado backend (server api), de madrugada 10:00 - 3:00|
+| Jorge               | 29/05/2018 | 8,5 | linkado backend (server api), mañana + tarde|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
