@@ -1,0 +1,43 @@
+Este documento ha sido creado con la finalidad de completar los apartados finales de la memoria,
+su cumplimentación es obligatoria, cualquier miembro que NO HAYA RELLENADO este documento deberá
+PROPORCIONAR EXPLICACIÓN AL PROFESOR.
+
+Modo de relleno: Cada persona dispone de un espacio para rellenar estos apartados, deberá numerarlos
+y quedar organizados según se expone aquí abajo, los miembros que redactan la memoria no se hacen
+responsables del mal uso de este documento. El apartado 1.3. deberá ser rellenado el ÚLTIMO DÍA.
+
+Apartado 1:
+
+1.1.Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
+analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
+
+1.3.Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
+
+Apartado 2:
+
+Además de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado,
+es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que
+iniciar un nuevo proyecto inmediatamente usando una metodología de gestión basada en procesos:
+
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+2.2.¿Qué cosas está claro que haríais de otra forma?
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
+
+RELLENAR:
+
+Jorge Aznar:
+
+Angel Cañal:
+
+Abel Chils:
+
+Oscar Fraca:
+
+Alex Oarga:
+
+Jorge Pinilla:
+
+
+
