@@ -40,6 +40,16 @@
 | Abel               | 30/04/2018 | 3,5 | Corrección errores (Ecualizador y  eliminar canción), habilitada la opción de obtener la duración de una canción directamente desde el fichero |
 | Abel               | 1/05/2018 | 3 | Corregidos errores (diversos), mejoras interfaz ( lyrics ), ampliadas las funcionalidades del emulador de back end, añadida reproducción a canción, añadidos usuarios verificados |
 | Abel               | 2/05/2018 | 2 | Corrección errores (reproductor e interfaz), mejoras de la usamilidad y mejoras en la interfaz |
+| Abel               | 8/05/2018 | 3.5 | Crear álbum, subir canción y signup (correcciones de errores en la implementación de las pantallas) |
+| Abel               | 9/05/2018 | 4 | Crear álbum, subir canción, signup (correcciones de errores en la implementación de las pantallas) y creación playlist |
+| Abel               | 10/05/2018 | 4 | Actualizar usuario, corrección de errores, limpieza del código y preparación unión back end |
+| Abel               | 14/05/2018 | 2.5 | Investigación oauth, investigación e implementación subir canciones AmazonS3, creación de test e inicio ejemplo parseo JSON |
+| Abel               | 15/05/2018 | 2.5 | Implementación oauth, documentación Android |
+| Abel               | 16/05/2018 | 4 | Documentación Android |
+| Abel               | 18/05/2018 | 1.5 | Documentación Android |
+| Abel               | 20/05/2018 | 6 | Documentación Android |
+| Abel               | 21/05/2018 | 2 | Documentación Android |
+| Abel               | 22/05/2018 | 3.5 | Preparar Utils para linkado back-end y creación de ejemplos GET y POST |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
@@ -56,8 +66,12 @@
 | Jorge               | 27/04/2018 | 2 | Implementacion sin BACKEND de las pantallas asignadas y reunion con director|
 | Jorge               | 28/04/2018 | 1 | Pruebas y debuggeo pantallas, sin finalizar, falta terminar |
 | Jorge               | 30/04/2018 | 3 | Correcion errores de las pantallas asignadas previos a iniciar linkado con Backend, pequeño error pantalla crear album|
-| Jorge               | 02/03/2018 | 2,5 | Reunion y planificacion junto con director proyecto, subsanacion errores, inicio linkado Backend|
-| Jorge               | 03/03/2018 | 1,5 | Investigación servicio almacenamiento Amazon S3 usando una API para  el sitema CEPH |
+| Jorge               | 02/05/2018 | 2,5 | Reunion y planificacion junto con director proyecto, subsanacion errores, inicio linkado Backend|
+| Jorge               | 03/05/2018 | 1,5 | Investigación servicio almacenamiento Amazon S3 usando una API para  el sitema CEPH |
+| Jorge               | 08/05/2018 | 1,5 | Implementación pantalla signout + xml |
+| Jorge               | 9/05/2018 | 1 | Revisión del acta de la segunda entrega para iniciar la correción de la memoria|
+| Jorge               | 12/05/2018 | 1 | Recopilación y condensación del trabajo restante en formato EXCEL |
+| Jorge               | 28/05/2018 | 7 | Reunión + linkado backend (server api)|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
@@ -66,6 +80,10 @@
 | Óscar        | 30/04/2018  | 0.5  | Correcciones P. economica |
 | Óscar        | 30/04/2018  | 0.5  | Transcripcion acta abril |
 | Óscar        | 03/05/2018  | 1  | Actualizar Esquema BD y correcion de errores Album |
+| Óscar        | 07-08/05/2018  | 6  | Requests de likes, favs, lyrics y escuchas, modificar entidades y relaciones |
+| Óscar        | 16/05/2018  | 3  | Correccion tabla de costes, rehacer entera la oferta economica |
+| Óscar        | 18/05/2018  | 3  | Varias funciones REST |
+| Óscar        | 26/05/2018  | 6  | Arreglados varios fallos de memoria, ampliación y reformateado |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
@@ -88,6 +106,17 @@
 | Alex               | 05/05/2018 | 4    | Interfaz seguidores, js seguidores, interfaz perfil modificacion, enlazado perfil, js playlist |
 | Alex               | 06/05/2018 | 5.25    | js playlist, js canción, modificaciones interfaces, correciones, enlazado. |
 | Alex               | 07/05/2018 | 2.75    | Interfaz home: chart, carousel. Problemas git |
+| Alex               | 09/05/2018 | 3    | Reestructura home, enlace busquedas, js iconos reproductor |
+| Alex               | 10/05/2018 | 3    | Sustitución wavesurfer por canvas. Lyrics dinámicas |
+| Alex               | 12/05/2018 | 1.5    | Sesión, enlazados, correcciones. |
+| Alex               | 14/05/2018 | 3    | Interfaz dínamica subir canción, Oauth con Google, correcciones esteticas, correcciones funcionales. |
+| Alex               | 15/05/2018 | 1    | Instalación herramienta gantt. Diagrama de gantt Frontend |
+| Alex               | 16/05/2018 | 2.75    | Correcciones. Sincronizacion lyrics. Js subir album. |
+| Alex               | 17/05/2018 | 4.75    | Pantalla completa editar album. Pantalla completa admin. Sección generos |
+| Alex               | 18/05/2018 | 2.5    | Diseño/js recomendaciones |
+| Alex               | 20/05/2018 | 1    | Js generos, recomendaciones |
+| Alex               | 21/05/2018 | 3    | Pruebas, correcciones, revisión de codigo. |
+| Alex               | 27/05/2018 | 4.5    | Conflictos, correcciones, estilos, capturas de pantalla, revisión requisitos.Recortar imagenes, revisar y redactar pantallas.|
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
@@ -133,6 +162,26 @@
 | &Aacute;ngel | 04/05/2018 | 1 | Asignación de tareas finales y planificación último mes del proyecto
 | &Aacute;ngel | 08/05/2018 | 1 | Implementación canciones más populares
 | &Aacute;ngel | 08/05/2018 | 1.5 | Obtención de las canciones más populares, más populares por país y por país de un usuario
+| &Aacute;ngel | 13/05/2018 | 1 | Revisión diagrama Gantt Backend |
+| &Aacute;ngel | 15/05/2018 | 1.5 | Test, documentación, revisión y solución de errores Lista de Reproducci&oacute;n |
+| &Aacute;ngel | 17/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 19/05/2018 | 3 | Implementaci&oacute;n feed de recomendaciones Kmeans |
+| &Aacute;ngel | 20/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 4 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 3 | Sistema de recomendación y soluci&oacute;n errores &Aacute;lbumes |
+| &Aacute;ngel | 20/05/2018 | 3 | Sistema de recomendación y soluci&oacute;n errores &Aacute;lbumes |
+| &Aacute;ngel | 21/05/2018 | 3 | Revisar b&uacute;squedas |
+| &Aacute;ngel | 21/05/2018 | 2 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 22/05/2018 | 5.5 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 23/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
+| &Aacute;ngel | 25/05/2018 | 3 | Soluci&oacute;n errores caches (eliminar y usar Hibernate) |
+| &Aacute;ngel | 26/05/2018 | 1 | Soluci&oacute;n errores en tests |
+| &Aacute;ngel | 26/05/2018 | 2 | Realizaci&oacute;n de tests |
+| &Aacute;ngel | 26/05/2018 | 3 | Realizaci&oacute;n de tests y simplificaci&oacute;n del Backend |
+| &Aacute;ngel | 26/05/2018 | 2.75 | Realizaci&oacute;n de tests y &uacute;ltimas llamadas |
+| &Aacute;ngel | 27/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
+| &Aacute;ngel | 28/05/2018 | 3 | Realizaci&oacute;n de tests unitarios y reestructuraci&oacute;n completa del Backend |
+| &Aacute;ngel | 28/05/2018 | 3.25 | Soluci&oacute;n de errores |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |

@@ -1,0 +1,17 @@
+Fecha: 04/05/2018
+Asistentes: Ángel, Jorge Aznar, Abel, Jorge Pinilla, Alex Oarga
+Duración: 45m
+
+Faltaría realizar un diagrama que representase la arquitectura del sistema y la relación entre sus diversos módulos/componentes
+
+Falta diagrama E/R en la memoria, se nos olvidó
+
+Diagrama Hibernate para representar su funcionamiento (mapeo)
+
+Falta conexión segura HTTPS para evitar filtrado de contraseñas
+
+Diagramas de navegacion web
+
+Pantallas finales
+
+Plan de pruebas para comprobar el correcto funcionamiento de la aplicación
