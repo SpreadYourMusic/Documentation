@@ -1,35 +1,67 @@
 Este documento ha sido creado con la finalidad de completar los apartados finales de la memoria,
-su cumplimentaci�n es obligatoria, cualquier miembro que NO HAYA RELLENADO este documento deber�
-PROPORCIONAR EXPLICACI�N AL PROFESOR.
+su cumplimentación es obligatoria, cualquier miembro que NO HAYA RELLENADO este documento deberá
+PROPORCIONAR EXPLICACIÓN AL PROFESOR.
 
-Modo de relleno: Cada persona dispone de un espacio para rellenar estos apartados, deber� numerarlos
-y quedar organizados seg�n se expone aqu� abajo, los miembros que redactan la memoria no se hacen
-responsables del mal uso de este documento. El apartado 1.3. deber� ser rellenado el �LTIMO D�A.
+Modo de relleno: Cada persona dispone de un espacio para rellenar estos apartados, deberá numerarlos
+y quedar organizados según se expone aquí abajo, los miembros que redactan la memoria no se hacen
+responsables del mal uso de este documento. El apartado 1.3. deberá ser rellenado el ÚLTIMO DÍA.
 
 Apartado 1:
 
-1.1.Comparar las estimaciones iniciales (tama�o, esfuerzos, costes) con los resultados finales,
+1.1.Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
 analizar los resultados y tratar de expresar algunas lecciones aprendidas.
 
-1.2.Lecciones aprendidas sobre herramientas y tecnolog�as.
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
 
 1.3.Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
 
 Apartado 2:
 
-Adem�s de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado,
+Además de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado,
 es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que
-iniciar un nuevo proyecto inmediatamente usando una metodolog�a de gesti�n basada en procesos:
+iniciar un nuevo proyecto inmediatamente usando una metodología de gestión basada en procesos:
 
-2.1.�qu� cambios har�ais respecto a los procesos que hab�is seguido durante este proyecto?
-2.2.�Qu� cosas est� claro que har�ais de otra forma?
-2.3.�Qu� cosas seguir�ais haciendo m�s o menos igual?
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+2.2.¿Qué cosas está claro que haríais de otra forma?
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
 
 RELLENAR:
 
 Jorge Aznar:
 
-Angel Ca�al:
+Angel Cañal:
+
+Apartado 1:
+
+1.1.Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
+analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+
+Al inicio del proyecto sobre todo, se subestimó bastante la cantidad de horas que se iba a tener que dedicar a aprender a manejar las herramientas usadas en Backend (Hibernate por ejemplo), y sin embargo, se sobreestimo las horas necesarias para Lucene por que ya se había usado en otra asignatura y se estimo una cantidad de esfuerzo similar, aunque no ha sido así.
+
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
+
+Se ha aprendido a trabajar con una herramienta ORM y se ha cambiado la mentalidad con la que se empezó en el proyecto. Al inicio se pensaba de forma más clásica (al estilo C, el programador hace todo), pero al usar estas herramientas se ha descubierto que no es necesario y se pueden delegar muchísimas operaciones (sobre todo las más tediosas y automatizables) a una biblioteca.
+
+1.3.Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
+(¿¿¿¿Esto es la hoja y ya no????)
+
+Apartado 2:
+
+Además de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado,
+es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que
+iniciar un nuevo proyecto inmediatamente usando una metodología de gestión basada en procesos:
+
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+
+El proceso de asignación de tareas no nos ha funcionado (culpa de todos los integrantes) por lo que replantearía ese modelo al que se ha seguido en la parte final del proyecto. Con deadlines pequeños y pocas tareas en cada, reuniones semanales para controlar cómo avanza el proyecto...
+
+2.2.¿Qué cosas está claro que haríais de otra forma?
+
+Pondría una manera de controlar que cada uno ha hecho su parte (e.g. reuniones semanales), para que al final nadie se encuentre con que no está hecho. Además, todo lo que necesitase un equipo se pondría en una issue del proyecto del que lo necesita, y no en un grupo de Telegram/WhatsApp/Slack en el que se pierde el mensaje.
+
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
+
+EL "workflow" y las tarjetas/issues de Git nos ha servido para poder llevar un control interno de qué estaba hecho y considero que, bien llevado, es una herramienta muy potente que sirve a los grupos para coordinarse.
 
 Abel Chils:
 
