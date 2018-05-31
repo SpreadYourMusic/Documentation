@@ -109,6 +109,26 @@ Oscar Fraca:
 
 Alex Oarga:
 
+1.1.Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
+analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+  /*TODO*/
+  
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
+      A continuación se detallan tecnologías con las que no estaba familiarizado y otras a destacar.
+Para la web se ha utilizado HTML5, CSS y Javascript además de algunos elementos de CSS3. En algunas ocasiones se ha utilizado también jQUery. Para elementos del diseño se ha utilizado Bootstrap. Se ha recurrido también a elementos de diseño como las animaciones con CSS o CSS Grid. Para la onda de sonido se utilizó en principio la libreria Wavesurfer aunque esta finalmente se desechó por su alta latencia y se sustituyó por una onda dibujada en un canvas de Javascript. Para incluir fragmentos de código en todas las páginas se ha utilizado Jekyll. Un aspecto importante a sido la conexión al Backend. Esta se ha realizado en código Kotlin compilado a Javascript a través de Intellij. Esto a forzado una toma de contacto con el lenguaje Kotlin a la hora de depurar. 
+      
+1.3.Recopilar los esfuerzos dedicados al proyecto por cada uno de los participantes: horas trabajadas y actividades realizadas por cada persona.
+
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+      Tener el diseño final mas claro antes de pasar a la implementación. Seguir un desarrollo mas estructurado. El desconocimiento de las tecnologías a llevado en ocasiones a errores o un mal planteamineto que se podrían haber evitado.
+      
+2.2.¿Qué cosas está claro que haríais de otra forma?
+      Llevar una organización mas documentada del proyecto. Procurar una mayor calidad y legibilidad del código y asegurarse de que la implementación es correcta. Esto último se debe a que al desconocer la tecnología algunos resultados obtenidos no son profesionales(en el caso de la web). Plantear mejor el reparto de tareas desde un primer momento,
+      
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
+      Mantener una comunicación abierta sobre el estado del proyecto, ya sea a través de reuniones o cara a cara (en nuestro caso en clase). Utilizar metodologías de desarrollo destinadas a proyectos como GitFlow, workflows o issues.
+      
+      
 Jorge Pinilla:
 
 
