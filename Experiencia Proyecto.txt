@@ -64,6 +64,46 @@ Pondría una manera de controlar que cada uno ha hecho su parte (e.g. reuniones 
 EL "workflow" y las tarjetas/issues de Git nos ha servido para poder llevar un control interno de qué estaba hecho y considero que, bien llevado, es una herramienta muy potente que sirve a los grupos para coordinarse.
 
 Abel Chils:
+Apartado 1
+1.1 Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
+analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+
+Análisis de la sección de Android
+El número de horas necesarias para el proyecto de Android  se subestimó inicialmente. Aunque el número de horas finales dedicadas a esa sección sea cercano a las 200 (inicialmente se estimó un número parecido de horas), esta sección se ideo para ser hecha por un programador con experiencia en Android y otro sin ella, el cual aprovecharía el proyecto para aprender a a programar para el sistema Android. 
+En cambio el programador con experiencia en Android tuvo que hacer la gran parte de esas horas debido a que de otra forma el proyecto no hubiera sido completado a tiempo. Una estimación a posteriori de horas necesitadas para el equipo que inicialmente se ideó sería de 270 horas, ya que alguien que se inicia tardaría la mitad del proyecto hasta tener un rendimiento adecuado.
+A nivel tecnológico, el coste tan alto de esta sección se debe a varios motivos, el primero consiste en el sistema de reproducción de música el cual se subestimó tanto su coste en número de horas como su complejidad. Esto se debió a que inicialmente se hicieron pruebas con el sonido en Android (reproducir canciones desde una pantalla) lo cual fue muy sencillo, esto llevó a la idea errónea de que crear el sistema al que nos habíamos comprometido sería igual de sencillo, que solamente deberíamos de re-aprovechar eso y añadirle unas pequeñas funcionalidades más, en cambio crear un sistema de sonido capaz de sobrevivir al cambiar de pantalla posee una complejidad mucho mayor, pasando de ser unas pocas líneas de código a ser una capa completa dentro de las 4 capas que posee la arquitectura de nuestra aplicación.
+En segundo lugar otro punto en el que se subestimó mucho el coste fue en la realización de pruebas y corrección de errores de la aplicación.
+Por otro lado también ha habido un gran coste debido a los retrasos en la sección del servidor Back-End. Al ser este el punto sobre el que se sustenta el sistema (el sistema Android es un cliente de esa aplicación) no disponer de los servicios que iba a ofrecer hasta muy avanzado el proyecto (API que ofrece el Back-End), implicó una reestructuración del proyecto para poder adaptarse una vez se tuvo esta.
+Por otro lado, la implementación de la capa de llamadas a esta sección, la cual se empezó a realizar al final del proyecto, se realizó en paralelo mientras el propio Back-End aún estaba en desarrollo lo que causó una gran pérdida de horas debido a errores que existían en él y a la falta de la especificación de las peticiones necesarias para hacer determinadas llamadas, ya que aunque se disponía de una API (la cual fue propuesta desde la sección de Android a mitad de proyecto), esta era más bien orientativa sobre que llamadas ofrecería, para tanto en Android como en Front-End poder estructurar nuestros proyectos en base a algo. La especificación final de las llamadas quedaba  en manos del Back-End.
+Por otro lado la sección Android también se vio afectada por la pérdida de un miembro en el grupo el cual perteneció a esta sección hasta la mitad del proyecto cuando fue movido a otro grupo al ver que no se adaptaba a la forma de programar para Android. Esto causó que el nuevo miembro que entró al proyecto tuviese que empezar desde cero, tanto a nivel de programación en Android como a nivel de proyecto.
+Las lecciones aprendidas son en primer lugar, que las secciones en las que se sustentan los sistemas son las primeras que se tienen que terminar. Posiblemente hubiera sido mejor idea empezar todos los miembros del equipo en la sección Back-End, y una vez terminada empezar con las otras, de esta forma ninguna sección hubiera tenido que esperar por ninguna.
+
+Análisis proyecto
+En los costes del proyecto en general también se puede ver que un gran número de horas se ha perdido por la comunicación dentro del grupo. Por un lado por la falta de respuesta ante peticiones ( tener que pedir las cosas de forma reiterada es algo que consume mucho tiempo). En otros casos por la falta de comunicación entre miembros del grupo. Y por último por el incumplimiento reiterado de los plazos marcados (que una entrega de la que se depende para avanzar con una tarea no se entrega a tiempo, implica que la segunda tendrá que esperar).
+Estos problemas de organización se podrían haber mejorado cambiando la jerarquía organizativa que marcamos al principio del proyecto. Nuestra jerarquía consistía en 3 lideres de sección y un coordinador entre estos 3. Inicialmente no se ideó la figura de jefe de proyecto aunque el coordinador del las 3 secciones tuvo que asumir este rol para intentar acotar el descontrol.
+A porteriori creo que inicialmente se debía de haber colocado un integrante del equipo como jefe de proyecto, el cual solamente hubiese tuviese la función de organizar el proyecto, asignar tareas y realizar las memorias. Esto hubiera mejorado notablemente la organización dentro del grupo y hubiera hecho que el proyecto se terminara en menos tiempo.
+
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
+Durante la realización del proyecto Android se usó Android Studio y el lenguaje de programación Kotlin y se aprendieron muchas funcionalidades de Android como la gestión del sonido y la utilización de servicios web, siendo esta parte bastante satisfactoria. Por otro lado hubieron herramientas que dificultaron el proyecto. Primero tendríamos git-flow, herramienta que empezamos a usar sin conocer adecuadamente, la cual mientras funciona ayuda y hace el trabajo con git más cómodo, cuando aparecen errores o cuando miembros que no saben usarlo entran al proyecto crea mucho descontrol y provoca mucha pérdida de tiempo.
+Por otro lado tendríamos la herramienta latex, la cual se empezó a usar para realizar las memorias sin saberla usar adecuadamente, lo que nos hizo perder muchas horas durante la realización las primeras, hasta ser sustituido por Microsoft Word.
+
+
+Apartado 2:
+
+Además de conclusiones personales (razonadas) sobre el transcurso del proyecto realizado,
+es importante plantear ideas para mejorar los procesos llevados a cabo: si hubiera que
+iniciar un nuevo proyecto inmediatamente usando una metodología de gestión basada en procesos:
+
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+Internamente en el equipo de Android el primer error que cometimos fue a la hora de planificar las tareas que se tenían, ya que para a partir de unos requisitos obtener que tareas hay que hacer, primero se necesita realizar un buen diseño del sistema final y para eso se necesita experiencia que no teníamos, lo que provocó que el diseño inicial no se pareciese nada al sistema final, este diseño después de replantearse se debió de volver a convertir en tareas con las nuevas tareas que debían de hacerse, aunque debido a los tantos cambios de tareas que hubo y que la sección la estaba haciendo una sola persona se dejo de invertir esfuerzo en eso.
+
+2.2.¿Qué cosas está claro que haríais de otra forma?
+El primer cambio que haría sería colocar la figura de director general del proyecto, el cual se encargaría de ir repartiendo las tareas y de llevar una visión global de como va todo. Otro tema que habría que cambiar sería en la mentalidad de los integrantes del grupo los cuales tendrían que empezar a asumir responsabilidades, el cumplimiento de los compromisos y los plazos así como el esfuerzo continuado desde el principio del proyecto, evitando la dejadez que han mostrado algunos miembros del grupo.
+
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
+A nivel de organización no seguiría haciendo nada igual, aunque al final del proyecto una idea que salio adelante y mejoró el final fue recopilar todas la tareas que quedaban para poder llevar un control de cuales se iban terminando y cuales no.
+Por otro lado otra idea con la que se experimentó a mitad de proyecto fue realizar reuniones semanales en las cuales los miembros mostraban sus progresos. Se hicieron varias reuniones de este estilo aunque se dejaron de hacer por dos motivos, el primero es que al vernos todos los días en clase, los problemas ya se comentaban ahí, la segunda es que debido a que entre semanas no habían progresos suficientes de todas las secciones, estas reuniones perdieron sentido ya que eran horas perdidas.
+Si todos los miembros hubieran llevado un trabajo regular durante todo el proyecto estas reuniones hubiesen tenido sentido y  hubieran sido aprovechadas.
 
 Oscar Fraca:
 
