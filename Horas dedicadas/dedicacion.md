@@ -96,7 +96,7 @@
 | Óscar        | 28/05/2018  | 2  | Revision de memoria, presentacion y preparacion presentacion |
 | Óscar        | 31/05/2018  | 1  | Realizacion de encuesta final |
 | Óscar        | 31/05/2018  | 6  | Arreglos varios a la propuesta tecnica (quedan los requisitos) |
-| Óscar        | 1/06/2018  | 3  | Cambiados requisitos en propuesta, añadidas pantallas y descripciones, reformateo |
+| Óscar        | 1/06/2018  | 10  | Cambiados requisitos en propuesta, añadidas pantallas y descripciones, reformateo (+cambios generales) |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
@@ -158,6 +158,7 @@
 | Jorge P            | 29/05/2018 | 5      | Enlazado y despliegue backend |
 | Jorge P            | 30/05/2018 | 8      | Terminar y probar llamadas  |
 | Jorge P            | 31/05/2018 | 6      | Enlazar web con servidor de almacenamiento |
+| Jorge P            | 01/06/2018 | 9      | Enlazar backend y memoria |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
