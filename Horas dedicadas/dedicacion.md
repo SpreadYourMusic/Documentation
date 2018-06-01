@@ -207,6 +207,7 @@
 | &Aacute;ngel | 29/05/2018 | 8,25 | Tests unitarios |
 | &Aacute;ngel | 31/05/2018 | 1 | Documentaci&oacute;n |
 | &Aacute;ngel | 01/06/2018 | 4,75 | Tests unitarios e implementación y arreglo llamadas backend |
+| &Aacute;ngel | 01/06/2018 | 3 | Documentación |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
