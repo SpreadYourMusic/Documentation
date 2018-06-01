@@ -84,6 +84,11 @@
 | Óscar        | 16/05/2018  | 3  | Correccion tabla de costes, rehacer entera la oferta economica |
 | Óscar        | 18/05/2018  | 3  | Varias funciones REST |
 | Óscar        | 26/05/2018  | 6  | Arreglados varios fallos de memoria, ampliación y reformateado |
+<<<<<<< HEAD
+=======
+| Óscar        | 28/05/2018  | 2  | Revision de memoria, presentacion y preparacion presentacion |
+| Óscar        | 31/05/2018  | 1  | Realizacion de encuesta final |
+>>>>>>> bce30425ddf049c28c3942d98f547e2b146e865c
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
