@@ -50,6 +50,10 @@
 | Abel               | 20/05/2018 | 6 | Documentación Android |
 | Abel               | 21/05/2018 | 2 | Documentación Android |
 | Abel               | 22/05/2018 | 3.5 | Preparar Utils para linkado back-end y creación de ejemplos GET y POST |
+| Abel | 28/05/2018 | 4.5 | Cambio imagenes por defecto, correción errores y linkado back-end |
+| Abel | 29/05/2018 | 9.5 | Linkado back-end |
+| Abel | 30/05/2018 | 8 | Linkado back-end |
+| Abel | 31/05/2018 | 4.5 | Linkado back-end y correción errores Android |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
@@ -72,6 +76,9 @@
 | Jorge               | 9/05/2018 | 1 | Revisión del acta de la segunda entrega para iniciar la correción de la memoria|
 | Jorge               | 12/05/2018 | 1 | Recopilación y condensación del trabajo restante en formato EXCEL |
 | Jorge               | 28/05/2018 | 7 | Reunión + linkado backend (server api)|
+| Jorge               | 29/05/2018 | 5 | linkado backend (server api), de madrugada 10:00 - 3:00|
+| Jorge               | 29/05/2018 | 8,5 | linkado backend (server api), mañana + tarde|
+| Jorge               | 31/05/2018 | 3 | Redaccion memoria insercion parte Android completa falta Backend y Frontend (a medias) mas redactarlos cambios en la gestion|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
