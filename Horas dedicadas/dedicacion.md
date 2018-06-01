@@ -54,6 +54,8 @@
 | Abel | 29/05/2018 | 9.5 | Linkado back-end |
 | Abel | 30/05/2018 | 8 | Linkado back-end |
 | Abel | 31/05/2018 | 4.5 | Linkado back-end y correción errores Android |
+| Abel | 31/05/2018 | 4 | Documentación, linkado back-end, creación de test y correción errores Android |
+| Abel | 1/06/2018 | 5 | Pruebas linkado back-end y correción errores Android |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
