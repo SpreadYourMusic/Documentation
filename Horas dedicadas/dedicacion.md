@@ -142,7 +142,7 @@
 | Jorge P            | 28/05/2018 | 7      | Enlazado con backend |
 | Jorge P            | 29/05/2018 | 5      | Enlazado y despliegue backend |
 | Jorge P            | 30/05/2018 | 8      | Terminar y probar llamadas  |
-| Jorge P            | 30/05/2018 | 6      | Enlazar web con servidor de almacenamiento |
+| Jorge P            | 31/05/2018 | 6      | Enlazar web con servidor de almacenamiento |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
