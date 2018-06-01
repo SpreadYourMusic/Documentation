@@ -50,10 +50,6 @@
 | Abel               | 20/05/2018 | 6 | Documentación Android |
 | Abel               | 21/05/2018 | 2 | Documentación Android |
 | Abel               | 22/05/2018 | 3.5 | Preparar Utils para linkado back-end y creación de ejemplos GET y POST |
-| Abel               | 28/05/2018 | 4.5 | Cambio imagenes por defecto, correción errores y linkado back-end |
-| Abel               | 29/05/2018 | 9.5 | Linkado back-end |
-| Abel               | 30/05/2018 | 8 | Linkado back-end |
-| Abel               | 31/05/2018 | 4.5 | Linkado back-end y correción errores Android |
 | Jorge              | 18/02/2018	| 2      | Boceto e implementación de pantalla preeliminares web |
 | Jorge              | 19/02/2018	| 4      | Boceto e implementación de pantalla preeliminares web y explicación sobre estas |
 | Jorge              | 08/03/2018	| 2      | Investigación sobre tecnologías de tokens/cookies y su uso |
@@ -76,8 +72,6 @@
 | Jorge               | 9/05/2018 | 1 | Revisión del acta de la segunda entrega para iniciar la correción de la memoria|
 | Jorge               | 12/05/2018 | 1 | Recopilación y condensación del trabajo restante en formato EXCEL |
 | Jorge               | 28/05/2018 | 7 | Reunión + linkado backend (server api)|
-| Jorge               | 29/05/2018 | 5 | linkado backend (server api), de madrugada 10:00 - 3:00|
-| Jorge               | 29/05/2018 | 8,5 | linkado backend (server api), mañana + tarde|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
@@ -90,7 +84,6 @@
 | Óscar        | 16/05/2018  | 3  | Correccion tabla de costes, rehacer entera la oferta economica |
 | Óscar        | 18/05/2018  | 3  | Varias funciones REST |
 | Óscar        | 26/05/2018  | 6  | Arreglados varios fallos de memoria, ampliación y reformateado |
-| Óscar        | 28/05/2018  | 2  | Revision de memoria, presentacion y preparacion presentacion |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
@@ -145,6 +138,9 @@
 | Jorge P            | 27/05/2018 | 3      | Ampliación de llamadas |
 | Jorge P            | 27/05/2018 | 1      | Presentación |
 | Jorge P            | 28/05/2018 | 7      | Enlazado con backend |
+| Jorge P            | 29/05/2018 | 5      | Enlazado y despliegue backend |
+| Jorge P            | 30/05/2018 | 8      | Terminar y probar llamadas  |
+| Jorge P            | 30/05/2018 | 6      | Enlazar web con servidor de almacenamiento |
 | &Aacute;ngel | 8/02/2018 | 1 | Creaci&oacute;n y gesti&oacute;n de los repositorios Git |
 | &Aacute;ngel | 19/02/2018 | 3 | Redacci&oacute;n propuesta t&eacute;cnica y econ&oacute;mica  |
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
