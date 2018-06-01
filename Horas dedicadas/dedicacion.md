@@ -81,6 +81,7 @@
 | Jorge               | 29/05/2018 | 5 | linkado backend (server api), de madrugada 10:00 - 3:00|
 | Jorge               | 29/05/2018 | 8,5 | linkado backend (server api), mañana + tarde|
 | Jorge               | 31/05/2018 | 3 | Redaccion memoria insercion parte Android completa falta Backend y Frontend (a medias) mas redactarlos cambios en la gestion|
+| Jorge               | 01/06/2018 | 6 | Redaccion memoria insercion parte Backend + finalización|
 | Óscar              | 11/03/2018 | 5      | Investigación y comprensión de uso de Jersey para aplicaciones RESTful |
 | Óscar 			 | 03/04/2018  | 5 | Correccion de errores, ambigüedades, explicaciones añadidas a Plan gestion |
 | Óscar 			 | 08/04/2018  | 2 | Memoria en Plan de Gestion |
