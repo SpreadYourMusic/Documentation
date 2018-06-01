@@ -157,28 +157,28 @@
 | &Aacute;ngel | 2/03/2018 | 3 | Redacci&oacute;n plan de gesti&oacute;n  |
 | &Aacute;ngel | 9/03/2018 | 1 | Diagrama E-R de la base de datos  |
 | &Aacute;ngel | 14/03/2018 | 2 | Setup de la base de datos  |
-| &Aacute;ngel | 18/03/2018 | 0.5 | Creaci&oacute;n de las tarjetas e issues para la gesti&oacute;n del proyecto.  |
+| &Aacute;ngel | 18/03/2018 | 0,5 | Creaci&oacute;n de las tarjetas e issues para la gesti&oacute;n del proyecto.  |
 | &Aacute;ngel | 18/03/2018 | 1 | Creaci&oacute;n de las tablas Postgre. |
-| &Aacute;ngel | 22/03/2018 | 0.5 | Descripci&oacute;n de la arquitectura del Backend |
+| &Aacute;ngel | 22/03/2018 | 0,5 | Descripci&oacute;n de la arquitectura del Backend |
 | &Aacute;ngel | 23/03/2018 | 2 | B&uacute;squeda de herramientas para dibujo de Diagramas de Gantt |
 | &Aacute;ngel | 23-24/03/2018 | 3 | Diagrama de Gantt del Backend |
 | &Aacute;ngel | 29/03/2018 | 4 | Registro de usuarios y uso de Hibernate para carga de datos |
-| &Aacute;ngel | 31/03/2018 | 5.5 | Login de usuarios y solución de errores. |
+| &Aacute;ngel | 31/03/2018 | 5,5 | Login de usuarios y solución de errores. |
 | &Aacute;ngel | 01/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
 | &Aacute;ngel | 01/04/2018 | 1 | Obtención de datos del usuario |
 | &Aacute;ngel | 02/04/2018 | 2 | Borrar usuario y eliminar sesion usuario (logout). |
-| &Aacute;ngel | 02/04/2018 | 0.75 | Verificación de cuentas |
+| &Aacute;ngel | 02/04/2018 | 0,75 | Verificación de cuentas |
 | &Aacute;ngel | 04/04/2018 | 2 | Verificación de cuentas |
 | &Aacute;ngel | 04/04/2018 | 2 | Actualizar datos usuario |
 | &Aacute;ngel | 04/04/2018 | 2 | Obtener datos de canción y preparación despliegue |
-| &Aacute;ngel | 29/04/2018 | 1.25 | Lista de canciones y cache inicial
+| &Aacute;ngel | 29/04/2018 | 1,25 | Lista de canciones y cache inicial
 | &Aacute;ngel | 04/05/2018 | 2 | Algoritmo de búsqueda de canciones en un índice invertido y petición REST para obtenerlo.
 | &Aacute;ngel | 04/05/2018 | 2 | Algoritmo de búsqueda de usuarios en un índice invertido y petición REST para obtenerlo.
 | &Aacute;ngel | 04/05/2018 | 1 | Asignación de tareas finales y planificación último mes del proyecto
 | &Aacute;ngel | 08/05/2018 | 1 | Implementación canciones más populares
-| &Aacute;ngel | 08/05/2018 | 1.5 | Obtención de las canciones más populares, más populares por país y por país de un usuario
+| &Aacute;ngel | 08/05/2018 | 1,5 | Obtención de las canciones más populares, más populares por país y por país de un usuario
 | &Aacute;ngel | 13/05/2018 | 1 | Revisión diagrama Gantt Backend |
-| &Aacute;ngel | 15/05/2018 | 1.5 | Test, documentación, revisión y solución de errores Lista de Reproducci&oacute;n |
+| &Aacute;ngel | 15/05/2018 | 1,5 | Test, documentación, revisión y solución de errores Lista de Reproducci&oacute;n |
 | &Aacute;ngel | 17/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
 | &Aacute;ngel | 19/05/2018 | 3 | Implementaci&oacute;n feed de recomendaciones Kmeans |
 | &Aacute;ngel | 20/05/2018 | 2 | Test, documentación, revisión y solución de errores &Aacute;lbumes |
@@ -187,16 +187,20 @@
 | &Aacute;ngel | 20/05/2018 | 3 | Sistema de recomendación y soluci&oacute;n errores &Aacute;lbumes |
 | &Aacute;ngel | 21/05/2018 | 3 | Revisar b&uacute;squedas |
 | &Aacute;ngel | 21/05/2018 | 2 | Soluci&oacute;n de errores |
-| &Aacute;ngel | 22/05/2018 | 5.5 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 22/05/2018 | 5,5 | Soluci&oacute;n de errores |
 | &Aacute;ngel | 23/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
 | &Aacute;ngel | 25/05/2018 | 3 | Soluci&oacute;n errores caches (eliminar y usar Hibernate) |
 | &Aacute;ngel | 26/05/2018 | 1 | Soluci&oacute;n errores en tests |
 | &Aacute;ngel | 26/05/2018 | 2 | Realizaci&oacute;n de tests |
 | &Aacute;ngel | 26/05/2018 | 3 | Realizaci&oacute;n de tests y simplificaci&oacute;n del Backend |
-| &Aacute;ngel | 26/05/2018 | 2.75 | Realizaci&oacute;n de tests y &uacute;ltimas llamadas |
+| &Aacute;ngel | 26/05/2018 | 2,75 | Realizaci&oacute;n de tests y &uacute;ltimas llamadas |
 | &Aacute;ngel | 27/05/2018 | 2 | Realizaci&oacute;n de tests unitarios |
 | &Aacute;ngel | 28/05/2018 | 3 | Realizaci&oacute;n de tests unitarios y reestructuraci&oacute;n completa del Backend |
-| &Aacute;ngel | 28/05/2018 | 3.25 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 28/05/2018 | 3,25 | Soluci&oacute;n de errores |
+| &Aacute;ngel | 29/05/2018 | 6,75 | Tests |
+| &Aacute;ngel | 29/05/2018 | 8,25 | Tests unitarios |
+| &Aacute;ngel | 31/05/2018 | 1 | Documentaci&oacute;n |
+| &Aacute;ngel | 01/06/2018 | 4,75 | Tests unitarios e implementación y arreglo llamadas backend |
 | Yasmina | 13/03/2018 | 2 | Estudio y parte de implementacion de las pantallas Android |
 | Yasmina | 02/03/2018 | 2 | Documentación |
 | Yasmina | 20/03/2018 | 1 | Estudio de las bibliotecas para las pantallas Android |
