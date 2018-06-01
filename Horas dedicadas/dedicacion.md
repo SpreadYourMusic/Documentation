@@ -130,6 +130,10 @@
 | Alex               | 20/05/2018 | 1    | Js generos, recomendaciones |
 | Alex               | 21/05/2018 | 3    | Pruebas, correcciones, revisión de codigo. |
 | Alex               | 27/05/2018 | 4.5    | Conflictos, correcciones, estilos, capturas de pantalla, revisión requisitos.Recortar imagenes, revisar y redactar pantallas.|
+| Alex               | 28/05/2018 | 2    | Preparar captura de pantalla. Generar emulación para presentación. Correcciones web. Detalles diseño |
+| Alex               | 29/05/2018 | 2    | Generar emulación para presentación. Correcciones web. |
+| Alex               | 31/05/2018 | 6    |  Enlazado y pruebas Frontend Kotlin. |
+| Alex               | 01/06/2018 | 4    |  Enlazado y pruebas Frontend Kotlin. |
 | Jorge P            | 02/02/2018 | 3      | Diseño arquitectural, diagrama de despliegue |
 | Jorge P            | 08/02/2018 | 2      | Revisión de la propuesta técnica |
 | Jorge P            | 16/03/2018 | 2      | Puesta en marcha de la base de datos |
