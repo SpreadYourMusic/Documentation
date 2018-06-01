@@ -94,6 +94,7 @@
 | Óscar        | 28/05/2018  | 2  | Revision de memoria, presentacion y preparacion presentacion |
 | Óscar        | 31/05/2018  | 1  | Realizacion de encuesta final |
 | Óscar        | 31/05/2018  | 6  | Arreglos varios a la propuesta tecnica (quedan los requisitos) |
+| Óscar        | 1/06/2018  | 3  | Cambiados requisitos en propuesta, añadidas pantallas y descripciones, reformateo |
 | Alex               | 19/02/2018 | 1,5    | Requisitos e inserción en Latex |
 | Alex               | 23/02/2018 | 5.5    | Instalación y aprendizaje; implementación pantalla home |
 | Alex               | 24/02/2018 | 2      | Implementación pantalla home, login |
