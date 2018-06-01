@@ -158,6 +158,23 @@ Para la web se ha utilizado HTML5, CSS y Javascript además de algunos elementos
       
       
 Jorge Pinilla:
+1.1.Comparar las estimaciones iniciales (tamaño, esfuerzos, costes) con los resultados finales,
+analizar los resultados y tratar de expresar algunas lecciones aprendidas.
+Las estimaciones realizadas para montar la infrastructura ha sido bastante acertada, en cambio, la estimación de desarrollar el backend ha sido mucho menor que el trabajo real
+  
+1.2.Lecciones aprendidas sobre herramientas y tecnologías.
+      He aprendido a utilizar:
+      Infrastructura: Ceph, KVM, HA-Proxy, Glassfish
+      Backend: Hibernate
+      Frontend: Amazon SDK, Kotlin     
 
+2.1.¿qué cambios haríais respecto a los procesos que habéis seguido durante este proyecto?
+      Tener a un lider organizador del proyecto y fijar mucho mejor las interfaces comunes, poder tener mas comunicación entre frontend y backend
+
+2.2.¿Qué cosas está claro que haríais de otra forma?
+     Proceso de dirección del proyecto, es necesario un lider coordinador que se ocupe tanto de definir las interfaces entre varios gropos como
+     de asegurarse de que se cumplen los plazos y realizar su seguimiento      
+2.3.¿Qué cosas seguiríais haciendo más o menos igual?
+      Actualmente seguiria usando las tecnologias que hemos empleados a pesar del esfuerzo que ha llevado aprenderlas son realmente utiles.
 
 
